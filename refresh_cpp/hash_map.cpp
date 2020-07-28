@@ -18,6 +18,13 @@ Operations to be done:
 8. Checking if a key exists in a hashmap
 */
 
+bool sort_by_value(const pair<char, int> &a, const pair<char, int> &b)
+{
+    return (a.second < b.second);
+}
+
+
+
 int main()
 {
     cout << "Hashmap Reference" << endl;
@@ -39,10 +46,28 @@ int main()
 
     // Sorting the hashmap by key
     // One of the easiest ways to put the unordered_map into a map
+    cout << "Sorting the hashmap by key \n";
     map<char, int> ordered(hmap.begin(), hmap.end());
     for(auto it = ordered.begin(); it != ordered.end(); ++it)
     {
         cout << "Key: " << it->first << " Value: " << it->second <<endl;
     }
 
+    // Sorting the hashmap by value
+    /* 1. There are 2 ways, one to use a vector - and add tuples of (key, value) into it, and sort
+       2. Second, use a multimap, and make key, value as value, key
+    */
+
+   cout<<"Sorting the hashmap by value \n";
+   vector<pair<char, int>> vec; 
+   for(auto& elem: ordered)
+   {
+       vec.push_back(make_pair(elem.first, elem.second));
+   }
+   sort(vec.begin(), vec.end(), sort_by_value);
+
+   for(int i = 0; i < vec.size(); i++)
+   {
+       cout <<"Key: " << vec[i].first << " Value: " << vec[i].second <<endl;
+   }
 }
