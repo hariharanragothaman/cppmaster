@@ -24,8 +24,10 @@ add_executable(cppmaster
         refresh_cpp/linkedlists.cpp
         refresh_cpp/lower_bound.cpp
         refresh_cpp/number_guessing_game.cpp
-        refresh_cpp/removing_element_from_vector.cpp
+        refresh_cpp/arrays/removing_element_from_vector.cpp
         refresh_cpp/sets.cpp
-        refresh_cpp/string.cpp)
+        refresh_cpp/strings/string.cpp)
 
 add_executable(fill_array refresh_cpp/arrays/fill_array.cpp)
+add_executable(find_where_the_element refresh_cpp/arrays/find_where_the_element.cpp)
+add_executable(vector_tricks refresh_cpp/arrays/vector_tricks.cpp)

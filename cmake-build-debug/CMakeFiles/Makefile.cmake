@@ -55,4 +55,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cppmaster.dir/DependInfo.cmake"
   "CMakeFiles/fill_array.dir/DependInfo.cmake"
+  "CMakeFiles/find_where_the_element.dir/DependInfo.cmake"
+  "CMakeFiles/vector_tricks.dir/DependInfo.cmake"
   )

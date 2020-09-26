@@ -121,6 +121,90 @@
 					<DistClean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="find_where_the_element">
+				<Option output="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/find_where_the_element.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 find_where_the_element"/>
+					<CompileFile command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="find_where_the_element/fast">
+				<Option output="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/find_where_the_element.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 find_where_the_element/fast"/>
+					<CompileFile command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector_tricks">
+				<Option output="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/vector_tricks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 vector_tricks"/>
+					<CompileFile command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector_tricks/fast">
+				<Option output="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/vector_tricks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 vector_tricks/fast"/>
+					<CompileFile command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cpp_questions/best_time_to_buy_sell_stock_1.cpp">
 			<Option target="cppmaster"/>
@@ -159,11 +243,20 @@
 		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/find_max_element.cpp">
 			<Option target="cppmaster"/>
 		</Unit>
+		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/find_where_the_element.cpp">
+			<Option target="find_where_the_element"/>
+		</Unit>
 		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/itertools_accumulate.cpp">
+			<Option target="cppmaster"/>
+		</Unit>
+		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/removing_element_from_vector.cpp">
 			<Option target="cppmaster"/>
 		</Unit>
 		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/vector_erase.cpp">
 			<Option target="cppmaster"/>
+		</Unit>
+		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/vector_tricks.cpp">
+			<Option target="vector_tricks"/>
 		</Unit>
 		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/general_hacks.cpp">
 			<Option target="cppmaster"/>
@@ -183,13 +276,10 @@
 		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/number_guessing_game.cpp">
 			<Option target="cppmaster"/>
 		</Unit>
-		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/removing_element_from_vector.cpp">
-			<Option target="cppmaster"/>
-		</Unit>
 		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/sets.cpp">
 			<Option target="cppmaster"/>
 		</Unit>
-		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/string.cpp">
+		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/strings/string.cpp">
 			<Option target="cppmaster"/>
 		</Unit>
 		<Unit filename="C:/cygwin64/home/harih/interview_templates_repos/cppmaster/CMakeLists.txt">

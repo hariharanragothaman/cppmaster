@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/fill_array.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/arrays/fill_array.cpp.obj"
   "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/find_max_element.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/arrays/find_max_element.cpp.obj"
   "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/itertools_accumulate.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/arrays/itertools_accumulate.cpp.obj"
+  "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/removing_element_from_vector.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.obj"
   "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/arrays/vector_erase.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/arrays/vector_erase.cpp.obj"
   "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/general_hacks.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.obj"
   "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/hashmaps/hash_map.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/hashmaps/hash_map.cpp.obj"
@@ -24,9 +25,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/linkedlists.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.obj"
   "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/lower_bound.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.obj"
   "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/number_guessing_game.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.obj"
-  "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/removing_element_from_vector.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.obj"
   "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/sets.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.obj"
-  "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/string.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.obj"
+  "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/strings/string.cpp" "C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

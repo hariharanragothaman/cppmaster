@@ -155,6 +155,32 @@ fill_array/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fill_array.dir\build.make CMakeFiles/fill_array.dir/build
 .PHONY : fill_array/fast
 
+#=============================================================================
+# Target rules for targets named find_where_the_element
+
+# Build rule for target.
+find_where_the_element: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 find_where_the_element
+.PHONY : find_where_the_element
+
+# fast build rule for target.
+find_where_the_element/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/build
+.PHONY : find_where_the_element/fast
+
+#=============================================================================
+# Target rules for targets named vector_tricks
+
+# Build rule for target.
+vector_tricks: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector_tricks
+.PHONY : vector_tricks
+
+# fast build rule for target.
+vector_tricks/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_tricks.dir\build.make CMakeFiles/vector_tricks.dir/build
+.PHONY : vector_tricks/fast
+
 cpp_questions/best_time_to_buy_sell_stock_1.obj: cpp_questions/best_time_to_buy_sell_stock_1.cpp.obj
 
 .PHONY : cpp_questions/best_time_to_buy_sell_stock_1.obj
@@ -482,6 +508,33 @@ refresh_cpp/arrays/find_max_element.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/find_max_element.cpp.s
 .PHONY : refresh_cpp/arrays/find_max_element.cpp.s
 
+refresh_cpp/arrays/find_where_the_element.obj: refresh_cpp/arrays/find_where_the_element.cpp.obj
+
+.PHONY : refresh_cpp/arrays/find_where_the_element.obj
+
+# target to build an object file
+refresh_cpp/arrays/find_where_the_element.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/refresh_cpp/arrays/find_where_the_element.cpp.obj
+.PHONY : refresh_cpp/arrays/find_where_the_element.cpp.obj
+
+refresh_cpp/arrays/find_where_the_element.i: refresh_cpp/arrays/find_where_the_element.cpp.i
+
+.PHONY : refresh_cpp/arrays/find_where_the_element.i
+
+# target to preprocess a source file
+refresh_cpp/arrays/find_where_the_element.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/refresh_cpp/arrays/find_where_the_element.cpp.i
+.PHONY : refresh_cpp/arrays/find_where_the_element.cpp.i
+
+refresh_cpp/arrays/find_where_the_element.s: refresh_cpp/arrays/find_where_the_element.cpp.s
+
+.PHONY : refresh_cpp/arrays/find_where_the_element.s
+
+# target to generate assembly for a file
+refresh_cpp/arrays/find_where_the_element.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/refresh_cpp/arrays/find_where_the_element.cpp.s
+.PHONY : refresh_cpp/arrays/find_where_the_element.cpp.s
+
 refresh_cpp/arrays/itertools_accumulate.obj: refresh_cpp/arrays/itertools_accumulate.cpp.obj
 
 .PHONY : refresh_cpp/arrays/itertools_accumulate.obj
@@ -509,6 +562,33 @@ refresh_cpp/arrays/itertools_accumulate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/itertools_accumulate.cpp.s
 .PHONY : refresh_cpp/arrays/itertools_accumulate.cpp.s
 
+refresh_cpp/arrays/removing_element_from_vector.obj: refresh_cpp/arrays/removing_element_from_vector.cpp.obj
+
+.PHONY : refresh_cpp/arrays/removing_element_from_vector.obj
+
+# target to build an object file
+refresh_cpp/arrays/removing_element_from_vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.obj
+.PHONY : refresh_cpp/arrays/removing_element_from_vector.cpp.obj
+
+refresh_cpp/arrays/removing_element_from_vector.i: refresh_cpp/arrays/removing_element_from_vector.cpp.i
+
+.PHONY : refresh_cpp/arrays/removing_element_from_vector.i
+
+# target to preprocess a source file
+refresh_cpp/arrays/removing_element_from_vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.i
+.PHONY : refresh_cpp/arrays/removing_element_from_vector.cpp.i
+
+refresh_cpp/arrays/removing_element_from_vector.s: refresh_cpp/arrays/removing_element_from_vector.cpp.s
+
+.PHONY : refresh_cpp/arrays/removing_element_from_vector.s
+
+# target to generate assembly for a file
+refresh_cpp/arrays/removing_element_from_vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.s
+.PHONY : refresh_cpp/arrays/removing_element_from_vector.cpp.s
+
 refresh_cpp/arrays/vector_erase.obj: refresh_cpp/arrays/vector_erase.cpp.obj
 
 .PHONY : refresh_cpp/arrays/vector_erase.obj
@@ -535,6 +615,33 @@ refresh_cpp/arrays/vector_erase.s: refresh_cpp/arrays/vector_erase.cpp.s
 refresh_cpp/arrays/vector_erase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/vector_erase.cpp.s
 .PHONY : refresh_cpp/arrays/vector_erase.cpp.s
+
+refresh_cpp/arrays/vector_tricks.obj: refresh_cpp/arrays/vector_tricks.cpp.obj
+
+.PHONY : refresh_cpp/arrays/vector_tricks.obj
+
+# target to build an object file
+refresh_cpp/arrays/vector_tricks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_tricks.dir\build.make CMakeFiles/vector_tricks.dir/refresh_cpp/arrays/vector_tricks.cpp.obj
+.PHONY : refresh_cpp/arrays/vector_tricks.cpp.obj
+
+refresh_cpp/arrays/vector_tricks.i: refresh_cpp/arrays/vector_tricks.cpp.i
+
+.PHONY : refresh_cpp/arrays/vector_tricks.i
+
+# target to preprocess a source file
+refresh_cpp/arrays/vector_tricks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_tricks.dir\build.make CMakeFiles/vector_tricks.dir/refresh_cpp/arrays/vector_tricks.cpp.i
+.PHONY : refresh_cpp/arrays/vector_tricks.cpp.i
+
+refresh_cpp/arrays/vector_tricks.s: refresh_cpp/arrays/vector_tricks.cpp.s
+
+.PHONY : refresh_cpp/arrays/vector_tricks.s
+
+# target to generate assembly for a file
+refresh_cpp/arrays/vector_tricks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_tricks.dir\build.make CMakeFiles/vector_tricks.dir/refresh_cpp/arrays/vector_tricks.cpp.s
+.PHONY : refresh_cpp/arrays/vector_tricks.cpp.s
 
 refresh_cpp/general_hacks.obj: refresh_cpp/general_hacks.cpp.obj
 
@@ -698,33 +805,6 @@ refresh_cpp/number_guessing_game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.s
 .PHONY : refresh_cpp/number_guessing_game.cpp.s
 
-refresh_cpp/removing_element_from_vector.obj: refresh_cpp/removing_element_from_vector.cpp.obj
-
-.PHONY : refresh_cpp/removing_element_from_vector.obj
-
-# target to build an object file
-refresh_cpp/removing_element_from_vector.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.obj
-.PHONY : refresh_cpp/removing_element_from_vector.cpp.obj
-
-refresh_cpp/removing_element_from_vector.i: refresh_cpp/removing_element_from_vector.cpp.i
-
-.PHONY : refresh_cpp/removing_element_from_vector.i
-
-# target to preprocess a source file
-refresh_cpp/removing_element_from_vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.i
-.PHONY : refresh_cpp/removing_element_from_vector.cpp.i
-
-refresh_cpp/removing_element_from_vector.s: refresh_cpp/removing_element_from_vector.cpp.s
-
-.PHONY : refresh_cpp/removing_element_from_vector.s
-
-# target to generate assembly for a file
-refresh_cpp/removing_element_from_vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.s
-.PHONY : refresh_cpp/removing_element_from_vector.cpp.s
-
 refresh_cpp/sets.obj: refresh_cpp/sets.cpp.obj
 
 .PHONY : refresh_cpp/sets.obj
@@ -752,32 +832,32 @@ refresh_cpp/sets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.s
 .PHONY : refresh_cpp/sets.cpp.s
 
-refresh_cpp/string.obj: refresh_cpp/string.cpp.obj
+refresh_cpp/strings/string.obj: refresh_cpp/strings/string.cpp.obj
 
-.PHONY : refresh_cpp/string.obj
+.PHONY : refresh_cpp/strings/string.obj
 
 # target to build an object file
-refresh_cpp/string.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.obj
-.PHONY : refresh_cpp/string.cpp.obj
+refresh_cpp/strings/string.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.obj
+.PHONY : refresh_cpp/strings/string.cpp.obj
 
-refresh_cpp/string.i: refresh_cpp/string.cpp.i
+refresh_cpp/strings/string.i: refresh_cpp/strings/string.cpp.i
 
-.PHONY : refresh_cpp/string.i
+.PHONY : refresh_cpp/strings/string.i
 
 # target to preprocess a source file
-refresh_cpp/string.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.i
-.PHONY : refresh_cpp/string.cpp.i
+refresh_cpp/strings/string.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.i
+.PHONY : refresh_cpp/strings/string.cpp.i
 
-refresh_cpp/string.s: refresh_cpp/string.cpp.s
+refresh_cpp/strings/string.s: refresh_cpp/strings/string.cpp.s
 
-.PHONY : refresh_cpp/string.s
+.PHONY : refresh_cpp/strings/string.s
 
 # target to generate assembly for a file
-refresh_cpp/string.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.s
-.PHONY : refresh_cpp/string.cpp.s
+refresh_cpp/strings/string.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.s
+.PHONY : refresh_cpp/strings/string.cpp.s
 
 # Help Target
 help:
@@ -789,6 +869,8 @@ help:
 	@echo ... rebuild_cache
 	@echo ... cppmaster
 	@echo ... fill_array
+	@echo ... find_where_the_element
+	@echo ... vector_tricks
 	@echo ... cpp_questions/best_time_to_buy_sell_stock_1.obj
 	@echo ... cpp_questions/best_time_to_buy_sell_stock_1.i
 	@echo ... cpp_questions/best_time_to_buy_sell_stock_1.s
@@ -825,12 +907,21 @@ help:
 	@echo ... refresh_cpp/arrays/find_max_element.obj
 	@echo ... refresh_cpp/arrays/find_max_element.i
 	@echo ... refresh_cpp/arrays/find_max_element.s
+	@echo ... refresh_cpp/arrays/find_where_the_element.obj
+	@echo ... refresh_cpp/arrays/find_where_the_element.i
+	@echo ... refresh_cpp/arrays/find_where_the_element.s
 	@echo ... refresh_cpp/arrays/itertools_accumulate.obj
 	@echo ... refresh_cpp/arrays/itertools_accumulate.i
 	@echo ... refresh_cpp/arrays/itertools_accumulate.s
+	@echo ... refresh_cpp/arrays/removing_element_from_vector.obj
+	@echo ... refresh_cpp/arrays/removing_element_from_vector.i
+	@echo ... refresh_cpp/arrays/removing_element_from_vector.s
 	@echo ... refresh_cpp/arrays/vector_erase.obj
 	@echo ... refresh_cpp/arrays/vector_erase.i
 	@echo ... refresh_cpp/arrays/vector_erase.s
+	@echo ... refresh_cpp/arrays/vector_tricks.obj
+	@echo ... refresh_cpp/arrays/vector_tricks.i
+	@echo ... refresh_cpp/arrays/vector_tricks.s
 	@echo ... refresh_cpp/general_hacks.obj
 	@echo ... refresh_cpp/general_hacks.i
 	@echo ... refresh_cpp/general_hacks.s
@@ -849,15 +940,12 @@ help:
 	@echo ... refresh_cpp/number_guessing_game.obj
 	@echo ... refresh_cpp/number_guessing_game.i
 	@echo ... refresh_cpp/number_guessing_game.s
-	@echo ... refresh_cpp/removing_element_from_vector.obj
-	@echo ... refresh_cpp/removing_element_from_vector.i
-	@echo ... refresh_cpp/removing_element_from_vector.s
 	@echo ... refresh_cpp/sets.obj
 	@echo ... refresh_cpp/sets.i
 	@echo ... refresh_cpp/sets.s
-	@echo ... refresh_cpp/string.obj
-	@echo ... refresh_cpp/string.i
-	@echo ... refresh_cpp/string.s
+	@echo ... refresh_cpp/strings/string.obj
+	@echo ... refresh_cpp/strings/string.i
+	@echo ... refresh_cpp/strings/string.s
 .PHONY : help
 
 

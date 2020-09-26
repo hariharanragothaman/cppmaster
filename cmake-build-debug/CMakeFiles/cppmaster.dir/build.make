@@ -336,18 +336,18 @@ CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.s"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\number_guessing_game.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\number_guessing_game.cpp.s
 
-CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
-CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.obj: ../refresh_cpp/removing_element_from_vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\removing_element_from_vector.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\removing_element_from_vector.cpp
+CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
+CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.obj: ../refresh_cpp/arrays/removing_element_from_vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\arrays\removing_element_from_vector.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\arrays\removing_element_from_vector.cpp
 
-CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\removing_element_from_vector.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\removing_element_from_vector.cpp.i
+CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\arrays\removing_element_from_vector.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\arrays\removing_element_from_vector.cpp.i
 
-CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\removing_element_from_vector.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\removing_element_from_vector.cpp.s
+CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\arrays\removing_element_from_vector.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\arrays\removing_element_from_vector.cpp.s
 
 CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
 CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.obj: ../refresh_cpp/sets.cpp
@@ -362,18 +362,18 @@ CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.s"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\sets.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\sets.cpp.s
 
-CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
-CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.obj: ../refresh_cpp/string.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\string.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\string.cpp
+CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
+CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.obj: ../refresh_cpp/strings/string.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\strings\string.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\strings\string.cpp
 
-CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\string.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\string.cpp.i
+CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\strings\string.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\strings\string.cpp.i
 
-CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\string.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\string.cpp.s
+CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\strings\string.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\strings\string.cpp.s
 
 # Object files for target cppmaster
 cppmaster_OBJECTS = \
@@ -397,9 +397,9 @@ cppmaster_OBJECTS = \
 "CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.obj" \
 "CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.obj" \
 "CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.obj" \
-"CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.obj" \
+"CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.obj" \
 "CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.obj" \
-"CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.obj"
+"CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.obj"
 
 # External object files for target cppmaster
 cppmaster_EXTERNAL_OBJECTS =
@@ -424,9 +424,9 @@ cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.ob
 cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.obj
 cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.obj
 cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.obj
-cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/removing_element_from_vector.cpp.obj
+cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.obj
 cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.obj
-cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/string.cpp.obj
+cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.obj
 cppmaster.exe: CMakeFiles/cppmaster.dir/build.make
 cppmaster.exe: CMakeFiles/cppmaster.dir/linklibs.rsp
 cppmaster.exe: CMakeFiles/cppmaster.dir/objects1.rsp
