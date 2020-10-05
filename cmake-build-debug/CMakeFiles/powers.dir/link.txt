@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\powers.dir/objects.a
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\powers.dir/objects.a @CMakeFiles\powers.dir\objects1.rsp
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\powers.dir/objects.a -Wl,--no-whole-archive  -o powers.exe -Wl,--out-implib,libpowers.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\powers.dir\linklibs.rsp

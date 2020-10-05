@@ -271,57 +271,57 @@ CMakeFiles/cppmaster.dir/refresh_cpp/hashmaps/hash_map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/hashmaps/hash_map.cpp.s"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\hashmaps\hash_map.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\hashmaps\hash_map.cpp.s
 
-CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
-CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.obj: ../refresh_cpp/general_hacks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\general_hacks.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\general_hacks.cpp
+CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
+CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.obj: ../refresh_cpp/general/general_hacks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\general\general_hacks.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\general\general_hacks.cpp
 
-CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\general_hacks.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\general_hacks.cpp.i
+CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\general\general_hacks.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\general\general_hacks.cpp.i
 
-CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\general_hacks.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\general_hacks.cpp.s
+CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\general\general_hacks.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\general\general_hacks.cpp.s
 
-CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
-CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.obj: ../refresh_cpp/learning_stringstream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\learning_stringstream.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\learning_stringstream.cpp
+CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
+CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.obj: ../refresh_cpp/strings/learning_stringstream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\strings\learning_stringstream.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\strings\learning_stringstream.cpp
 
-CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\learning_stringstream.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\learning_stringstream.cpp.i
+CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\strings\learning_stringstream.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\strings\learning_stringstream.cpp.i
 
-CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\learning_stringstream.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\learning_stringstream.cpp.s
+CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\strings\learning_stringstream.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\strings\learning_stringstream.cpp.s
 
-CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
-CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.obj: ../refresh_cpp/linkedlists.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\linkedlists.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\linkedlists.cpp
+CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
+CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.obj: ../refresh_cpp/linkedlist/linkedlists.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\linkedlist\linkedlists.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\linkedlist\linkedlists.cpp
 
-CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\linkedlists.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\linkedlists.cpp.i
+CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\linkedlist\linkedlists.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\linkedlist\linkedlists.cpp.i
 
-CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\linkedlists.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\linkedlists.cpp.s
+CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\linkedlist\linkedlists.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\linkedlist\linkedlists.cpp.s
 
-CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
-CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.obj: ../refresh_cpp/lower_bound.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\lower_bound.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\lower_bound.cpp
+CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
+CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.obj: ../refresh_cpp/general/lower_bound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cppmaster.dir\refresh_cpp\general\lower_bound.cpp.obj -c C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\general\lower_bound.cpp
 
-CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\lower_bound.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\lower_bound.cpp.i
+CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\general\lower_bound.cpp > CMakeFiles\cppmaster.dir\refresh_cpp\general\lower_bound.cpp.i
 
-CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\lower_bound.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\lower_bound.cpp.s
+CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cygwin64\home\harih\interview_templates_repos\cppmaster\refresh_cpp\general\lower_bound.cpp -o CMakeFiles\cppmaster.dir\refresh_cpp\general\lower_bound.cpp.s
 
 CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.obj: CMakeFiles/cppmaster.dir/flags.make
 CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.obj: ../refresh_cpp/number_guessing_game.cpp
@@ -392,10 +392,10 @@ cppmaster_OBJECTS = \
 "CMakeFiles/cppmaster.dir/refresh_cpp/arrays/itertools_accumulate.cpp.obj" \
 "CMakeFiles/cppmaster.dir/refresh_cpp/arrays/vector_erase.cpp.obj" \
 "CMakeFiles/cppmaster.dir/refresh_cpp/hashmaps/hash_map.cpp.obj" \
-"CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.obj" \
-"CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.obj" \
-"CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.obj" \
-"CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.obj" \
+"CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.obj" \
+"CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.obj" \
+"CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.obj" \
+"CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.obj" \
 "CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.obj" \
 "CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.obj" \
 "CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.obj" \
@@ -419,10 +419,10 @@ cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/arrays/find_max_element.cpp.
 cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/arrays/itertools_accumulate.cpp.obj
 cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/arrays/vector_erase.cpp.obj
 cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/hashmaps/hash_map.cpp.obj
-cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.obj
-cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.obj
-cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.obj
-cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.obj
+cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.obj
+cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.obj
+cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.obj
+cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.obj
 cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.obj
 cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.obj
 cppmaster.exe: CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.obj

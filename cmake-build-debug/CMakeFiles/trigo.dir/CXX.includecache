@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/cygwin64/home/harih/interview_templates_repos/cppmaster/refresh_cpp/math/trigo.cpp
+iostream
+-
+cmath
+-
+

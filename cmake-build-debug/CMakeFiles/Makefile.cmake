@@ -54,7 +54,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cppmaster.dir/DependInfo.cmake"
+  "CMakeFiles/about_double.dir/DependInfo.cmake"
   "CMakeFiles/fill_array.dir/DependInfo.cmake"
   "CMakeFiles/find_where_the_element.dir/DependInfo.cmake"
-  "CMakeFiles/vector_tricks.dir/DependInfo.cmake"
+  "CMakeFiles/about_float.dir/DependInfo.cmake"
+  "CMakeFiles/about_declr_initial.dir/DependInfo.cmake"
+  "CMakeFiles/about_taking_inputs2.dir/DependInfo.cmake"
+  "CMakeFiles/about_taking_inputs.dir/DependInfo.cmake"
+  "CMakeFiles/squareroot.dir/DependInfo.cmake"
+  "CMakeFiles/powers.dir/DependInfo.cmake"
+  "CMakeFiles/trigo.dir/DependInfo.cmake"
+  "CMakeFiles/about_quiz1.dir/DependInfo.cmake"
+  "CMakeFiles/about_ternary.dir/DependInfo.cmake"
   )

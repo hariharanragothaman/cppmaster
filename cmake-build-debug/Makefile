@@ -143,6 +143,19 @@ cppmaster/fast:
 .PHONY : cppmaster/fast
 
 #=============================================================================
+# Target rules for targets named about_double
+
+# Build rule for target.
+about_double: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_double
+.PHONY : about_double
+
+# fast build rule for target.
+about_double/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_double.dir\build.make CMakeFiles/about_double.dir/build
+.PHONY : about_double/fast
+
+#=============================================================================
 # Target rules for targets named fill_array
 
 # Build rule for target.
@@ -169,17 +182,121 @@ find_where_the_element/fast:
 .PHONY : find_where_the_element/fast
 
 #=============================================================================
-# Target rules for targets named vector_tricks
+# Target rules for targets named about_float
 
 # Build rule for target.
-vector_tricks: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector_tricks
-.PHONY : vector_tricks
+about_float: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_float
+.PHONY : about_float
 
 # fast build rule for target.
-vector_tricks/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_tricks.dir\build.make CMakeFiles/vector_tricks.dir/build
-.PHONY : vector_tricks/fast
+about_float/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_float.dir\build.make CMakeFiles/about_float.dir/build
+.PHONY : about_float/fast
+
+#=============================================================================
+# Target rules for targets named about_declr_initial
+
+# Build rule for target.
+about_declr_initial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_declr_initial
+.PHONY : about_declr_initial
+
+# fast build rule for target.
+about_declr_initial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_declr_initial.dir\build.make CMakeFiles/about_declr_initial.dir/build
+.PHONY : about_declr_initial/fast
+
+#=============================================================================
+# Target rules for targets named about_taking_inputs2
+
+# Build rule for target.
+about_taking_inputs2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_taking_inputs2
+.PHONY : about_taking_inputs2
+
+# fast build rule for target.
+about_taking_inputs2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_taking_inputs2.dir\build.make CMakeFiles/about_taking_inputs2.dir/build
+.PHONY : about_taking_inputs2/fast
+
+#=============================================================================
+# Target rules for targets named about_taking_inputs
+
+# Build rule for target.
+about_taking_inputs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_taking_inputs
+.PHONY : about_taking_inputs
+
+# fast build rule for target.
+about_taking_inputs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_taking_inputs.dir\build.make CMakeFiles/about_taking_inputs.dir/build
+.PHONY : about_taking_inputs/fast
+
+#=============================================================================
+# Target rules for targets named squareroot
+
+# Build rule for target.
+squareroot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 squareroot
+.PHONY : squareroot
+
+# fast build rule for target.
+squareroot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\squareroot.dir\build.make CMakeFiles/squareroot.dir/build
+.PHONY : squareroot/fast
+
+#=============================================================================
+# Target rules for targets named powers
+
+# Build rule for target.
+powers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 powers
+.PHONY : powers
+
+# fast build rule for target.
+powers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\powers.dir\build.make CMakeFiles/powers.dir/build
+.PHONY : powers/fast
+
+#=============================================================================
+# Target rules for targets named trigo
+
+# Build rule for target.
+trigo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 trigo
+.PHONY : trigo
+
+# fast build rule for target.
+trigo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trigo.dir\build.make CMakeFiles/trigo.dir/build
+.PHONY : trigo/fast
+
+#=============================================================================
+# Target rules for targets named about_quiz1
+
+# Build rule for target.
+about_quiz1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_quiz1
+.PHONY : about_quiz1
+
+# fast build rule for target.
+about_quiz1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_quiz1.dir\build.make CMakeFiles/about_quiz1.dir/build
+.PHONY : about_quiz1/fast
+
+#=============================================================================
+# Target rules for targets named about_ternary
+
+# Build rule for target.
+about_ternary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_ternary
+.PHONY : about_ternary
+
+# fast build rule for target.
+about_ternary/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_ternary.dir\build.make CMakeFiles/about_ternary.dir/build
+.PHONY : about_ternary/fast
 
 cpp_questions/best_time_to_buy_sell_stock_1.obj: cpp_questions/best_time_to_buy_sell_stock_1.cpp.obj
 
@@ -616,59 +733,248 @@ refresh_cpp/arrays/vector_erase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/vector_erase.cpp.s
 .PHONY : refresh_cpp/arrays/vector_erase.cpp.s
 
-refresh_cpp/arrays/vector_tricks.obj: refresh_cpp/arrays/vector_tricks.cpp.obj
+refresh_cpp/general/about_declr_initial.obj: refresh_cpp/general/about_declr_initial.cpp.obj
 
-.PHONY : refresh_cpp/arrays/vector_tricks.obj
-
-# target to build an object file
-refresh_cpp/arrays/vector_tricks.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_tricks.dir\build.make CMakeFiles/vector_tricks.dir/refresh_cpp/arrays/vector_tricks.cpp.obj
-.PHONY : refresh_cpp/arrays/vector_tricks.cpp.obj
-
-refresh_cpp/arrays/vector_tricks.i: refresh_cpp/arrays/vector_tricks.cpp.i
-
-.PHONY : refresh_cpp/arrays/vector_tricks.i
-
-# target to preprocess a source file
-refresh_cpp/arrays/vector_tricks.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_tricks.dir\build.make CMakeFiles/vector_tricks.dir/refresh_cpp/arrays/vector_tricks.cpp.i
-.PHONY : refresh_cpp/arrays/vector_tricks.cpp.i
-
-refresh_cpp/arrays/vector_tricks.s: refresh_cpp/arrays/vector_tricks.cpp.s
-
-.PHONY : refresh_cpp/arrays/vector_tricks.s
-
-# target to generate assembly for a file
-refresh_cpp/arrays/vector_tricks.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vector_tricks.dir\build.make CMakeFiles/vector_tricks.dir/refresh_cpp/arrays/vector_tricks.cpp.s
-.PHONY : refresh_cpp/arrays/vector_tricks.cpp.s
-
-refresh_cpp/general_hacks.obj: refresh_cpp/general_hacks.cpp.obj
-
-.PHONY : refresh_cpp/general_hacks.obj
+.PHONY : refresh_cpp/general/about_declr_initial.obj
 
 # target to build an object file
-refresh_cpp/general_hacks.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.obj
-.PHONY : refresh_cpp/general_hacks.cpp.obj
+refresh_cpp/general/about_declr_initial.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_declr_initial.dir\build.make CMakeFiles/about_declr_initial.dir/refresh_cpp/general/about_declr_initial.cpp.obj
+.PHONY : refresh_cpp/general/about_declr_initial.cpp.obj
 
-refresh_cpp/general_hacks.i: refresh_cpp/general_hacks.cpp.i
+refresh_cpp/general/about_declr_initial.i: refresh_cpp/general/about_declr_initial.cpp.i
 
-.PHONY : refresh_cpp/general_hacks.i
+.PHONY : refresh_cpp/general/about_declr_initial.i
 
 # target to preprocess a source file
-refresh_cpp/general_hacks.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.i
-.PHONY : refresh_cpp/general_hacks.cpp.i
+refresh_cpp/general/about_declr_initial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_declr_initial.dir\build.make CMakeFiles/about_declr_initial.dir/refresh_cpp/general/about_declr_initial.cpp.i
+.PHONY : refresh_cpp/general/about_declr_initial.cpp.i
 
-refresh_cpp/general_hacks.s: refresh_cpp/general_hacks.cpp.s
+refresh_cpp/general/about_declr_initial.s: refresh_cpp/general/about_declr_initial.cpp.s
 
-.PHONY : refresh_cpp/general_hacks.s
+.PHONY : refresh_cpp/general/about_declr_initial.s
 
 # target to generate assembly for a file
-refresh_cpp/general_hacks.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/general_hacks.cpp.s
-.PHONY : refresh_cpp/general_hacks.cpp.s
+refresh_cpp/general/about_declr_initial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_declr_initial.dir\build.make CMakeFiles/about_declr_initial.dir/refresh_cpp/general/about_declr_initial.cpp.s
+.PHONY : refresh_cpp/general/about_declr_initial.cpp.s
+
+refresh_cpp/general/about_double.obj: refresh_cpp/general/about_double.cpp.obj
+
+.PHONY : refresh_cpp/general/about_double.obj
+
+# target to build an object file
+refresh_cpp/general/about_double.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_double.dir\build.make CMakeFiles/about_double.dir/refresh_cpp/general/about_double.cpp.obj
+.PHONY : refresh_cpp/general/about_double.cpp.obj
+
+refresh_cpp/general/about_double.i: refresh_cpp/general/about_double.cpp.i
+
+.PHONY : refresh_cpp/general/about_double.i
+
+# target to preprocess a source file
+refresh_cpp/general/about_double.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_double.dir\build.make CMakeFiles/about_double.dir/refresh_cpp/general/about_double.cpp.i
+.PHONY : refresh_cpp/general/about_double.cpp.i
+
+refresh_cpp/general/about_double.s: refresh_cpp/general/about_double.cpp.s
+
+.PHONY : refresh_cpp/general/about_double.s
+
+# target to generate assembly for a file
+refresh_cpp/general/about_double.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_double.dir\build.make CMakeFiles/about_double.dir/refresh_cpp/general/about_double.cpp.s
+.PHONY : refresh_cpp/general/about_double.cpp.s
+
+refresh_cpp/general/about_float.obj: refresh_cpp/general/about_float.cpp.obj
+
+.PHONY : refresh_cpp/general/about_float.obj
+
+# target to build an object file
+refresh_cpp/general/about_float.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_float.dir\build.make CMakeFiles/about_float.dir/refresh_cpp/general/about_float.cpp.obj
+.PHONY : refresh_cpp/general/about_float.cpp.obj
+
+refresh_cpp/general/about_float.i: refresh_cpp/general/about_float.cpp.i
+
+.PHONY : refresh_cpp/general/about_float.i
+
+# target to preprocess a source file
+refresh_cpp/general/about_float.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_float.dir\build.make CMakeFiles/about_float.dir/refresh_cpp/general/about_float.cpp.i
+.PHONY : refresh_cpp/general/about_float.cpp.i
+
+refresh_cpp/general/about_float.s: refresh_cpp/general/about_float.cpp.s
+
+.PHONY : refresh_cpp/general/about_float.s
+
+# target to generate assembly for a file
+refresh_cpp/general/about_float.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_float.dir\build.make CMakeFiles/about_float.dir/refresh_cpp/general/about_float.cpp.s
+.PHONY : refresh_cpp/general/about_float.cpp.s
+
+refresh_cpp/general/about_quiz1.obj: refresh_cpp/general/about_quiz1.cpp.obj
+
+.PHONY : refresh_cpp/general/about_quiz1.obj
+
+# target to build an object file
+refresh_cpp/general/about_quiz1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_quiz1.dir\build.make CMakeFiles/about_quiz1.dir/refresh_cpp/general/about_quiz1.cpp.obj
+.PHONY : refresh_cpp/general/about_quiz1.cpp.obj
+
+refresh_cpp/general/about_quiz1.i: refresh_cpp/general/about_quiz1.cpp.i
+
+.PHONY : refresh_cpp/general/about_quiz1.i
+
+# target to preprocess a source file
+refresh_cpp/general/about_quiz1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_quiz1.dir\build.make CMakeFiles/about_quiz1.dir/refresh_cpp/general/about_quiz1.cpp.i
+.PHONY : refresh_cpp/general/about_quiz1.cpp.i
+
+refresh_cpp/general/about_quiz1.s: refresh_cpp/general/about_quiz1.cpp.s
+
+.PHONY : refresh_cpp/general/about_quiz1.s
+
+# target to generate assembly for a file
+refresh_cpp/general/about_quiz1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_quiz1.dir\build.make CMakeFiles/about_quiz1.dir/refresh_cpp/general/about_quiz1.cpp.s
+.PHONY : refresh_cpp/general/about_quiz1.cpp.s
+
+refresh_cpp/general/about_taking_inputs.obj: refresh_cpp/general/about_taking_inputs.cpp.obj
+
+.PHONY : refresh_cpp/general/about_taking_inputs.obj
+
+# target to build an object file
+refresh_cpp/general/about_taking_inputs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_taking_inputs.dir\build.make CMakeFiles/about_taking_inputs.dir/refresh_cpp/general/about_taking_inputs.cpp.obj
+.PHONY : refresh_cpp/general/about_taking_inputs.cpp.obj
+
+refresh_cpp/general/about_taking_inputs.i: refresh_cpp/general/about_taking_inputs.cpp.i
+
+.PHONY : refresh_cpp/general/about_taking_inputs.i
+
+# target to preprocess a source file
+refresh_cpp/general/about_taking_inputs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_taking_inputs.dir\build.make CMakeFiles/about_taking_inputs.dir/refresh_cpp/general/about_taking_inputs.cpp.i
+.PHONY : refresh_cpp/general/about_taking_inputs.cpp.i
+
+refresh_cpp/general/about_taking_inputs.s: refresh_cpp/general/about_taking_inputs.cpp.s
+
+.PHONY : refresh_cpp/general/about_taking_inputs.s
+
+# target to generate assembly for a file
+refresh_cpp/general/about_taking_inputs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_taking_inputs.dir\build.make CMakeFiles/about_taking_inputs.dir/refresh_cpp/general/about_taking_inputs.cpp.s
+.PHONY : refresh_cpp/general/about_taking_inputs.cpp.s
+
+refresh_cpp/general/about_taking_inputs2.obj: refresh_cpp/general/about_taking_inputs2.cpp.obj
+
+.PHONY : refresh_cpp/general/about_taking_inputs2.obj
+
+# target to build an object file
+refresh_cpp/general/about_taking_inputs2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_taking_inputs2.dir\build.make CMakeFiles/about_taking_inputs2.dir/refresh_cpp/general/about_taking_inputs2.cpp.obj
+.PHONY : refresh_cpp/general/about_taking_inputs2.cpp.obj
+
+refresh_cpp/general/about_taking_inputs2.i: refresh_cpp/general/about_taking_inputs2.cpp.i
+
+.PHONY : refresh_cpp/general/about_taking_inputs2.i
+
+# target to preprocess a source file
+refresh_cpp/general/about_taking_inputs2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_taking_inputs2.dir\build.make CMakeFiles/about_taking_inputs2.dir/refresh_cpp/general/about_taking_inputs2.cpp.i
+.PHONY : refresh_cpp/general/about_taking_inputs2.cpp.i
+
+refresh_cpp/general/about_taking_inputs2.s: refresh_cpp/general/about_taking_inputs2.cpp.s
+
+.PHONY : refresh_cpp/general/about_taking_inputs2.s
+
+# target to generate assembly for a file
+refresh_cpp/general/about_taking_inputs2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_taking_inputs2.dir\build.make CMakeFiles/about_taking_inputs2.dir/refresh_cpp/general/about_taking_inputs2.cpp.s
+.PHONY : refresh_cpp/general/about_taking_inputs2.cpp.s
+
+refresh_cpp/general/about_ternary.obj: refresh_cpp/general/about_ternary.cpp.obj
+
+.PHONY : refresh_cpp/general/about_ternary.obj
+
+# target to build an object file
+refresh_cpp/general/about_ternary.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_ternary.dir\build.make CMakeFiles/about_ternary.dir/refresh_cpp/general/about_ternary.cpp.obj
+.PHONY : refresh_cpp/general/about_ternary.cpp.obj
+
+refresh_cpp/general/about_ternary.i: refresh_cpp/general/about_ternary.cpp.i
+
+.PHONY : refresh_cpp/general/about_ternary.i
+
+# target to preprocess a source file
+refresh_cpp/general/about_ternary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_ternary.dir\build.make CMakeFiles/about_ternary.dir/refresh_cpp/general/about_ternary.cpp.i
+.PHONY : refresh_cpp/general/about_ternary.cpp.i
+
+refresh_cpp/general/about_ternary.s: refresh_cpp/general/about_ternary.cpp.s
+
+.PHONY : refresh_cpp/general/about_ternary.s
+
+# target to generate assembly for a file
+refresh_cpp/general/about_ternary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_ternary.dir\build.make CMakeFiles/about_ternary.dir/refresh_cpp/general/about_ternary.cpp.s
+.PHONY : refresh_cpp/general/about_ternary.cpp.s
+
+refresh_cpp/general/general_hacks.obj: refresh_cpp/general/general_hacks.cpp.obj
+
+.PHONY : refresh_cpp/general/general_hacks.obj
+
+# target to build an object file
+refresh_cpp/general/general_hacks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.obj
+.PHONY : refresh_cpp/general/general_hacks.cpp.obj
+
+refresh_cpp/general/general_hacks.i: refresh_cpp/general/general_hacks.cpp.i
+
+.PHONY : refresh_cpp/general/general_hacks.i
+
+# target to preprocess a source file
+refresh_cpp/general/general_hacks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.i
+.PHONY : refresh_cpp/general/general_hacks.cpp.i
+
+refresh_cpp/general/general_hacks.s: refresh_cpp/general/general_hacks.cpp.s
+
+.PHONY : refresh_cpp/general/general_hacks.s
+
+# target to generate assembly for a file
+refresh_cpp/general/general_hacks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/general/general_hacks.cpp.s
+.PHONY : refresh_cpp/general/general_hacks.cpp.s
+
+refresh_cpp/general/lower_bound.obj: refresh_cpp/general/lower_bound.cpp.obj
+
+.PHONY : refresh_cpp/general/lower_bound.obj
+
+# target to build an object file
+refresh_cpp/general/lower_bound.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.obj
+.PHONY : refresh_cpp/general/lower_bound.cpp.obj
+
+refresh_cpp/general/lower_bound.i: refresh_cpp/general/lower_bound.cpp.i
+
+.PHONY : refresh_cpp/general/lower_bound.i
+
+# target to preprocess a source file
+refresh_cpp/general/lower_bound.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.i
+.PHONY : refresh_cpp/general/lower_bound.cpp.i
+
+refresh_cpp/general/lower_bound.s: refresh_cpp/general/lower_bound.cpp.s
+
+.PHONY : refresh_cpp/general/lower_bound.s
+
+# target to generate assembly for a file
+refresh_cpp/general/lower_bound.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/general/lower_bound.cpp.s
+.PHONY : refresh_cpp/general/lower_bound.cpp.s
 
 refresh_cpp/hashmaps/hash_map.obj: refresh_cpp/hashmaps/hash_map.cpp.obj
 
@@ -697,86 +1003,113 @@ refresh_cpp/hashmaps/hash_map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/hashmaps/hash_map.cpp.s
 .PHONY : refresh_cpp/hashmaps/hash_map.cpp.s
 
-refresh_cpp/learning_stringstream.obj: refresh_cpp/learning_stringstream.cpp.obj
+refresh_cpp/linkedlist/linkedlists.obj: refresh_cpp/linkedlist/linkedlists.cpp.obj
 
-.PHONY : refresh_cpp/learning_stringstream.obj
-
-# target to build an object file
-refresh_cpp/learning_stringstream.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.obj
-.PHONY : refresh_cpp/learning_stringstream.cpp.obj
-
-refresh_cpp/learning_stringstream.i: refresh_cpp/learning_stringstream.cpp.i
-
-.PHONY : refresh_cpp/learning_stringstream.i
-
-# target to preprocess a source file
-refresh_cpp/learning_stringstream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.i
-.PHONY : refresh_cpp/learning_stringstream.cpp.i
-
-refresh_cpp/learning_stringstream.s: refresh_cpp/learning_stringstream.cpp.s
-
-.PHONY : refresh_cpp/learning_stringstream.s
-
-# target to generate assembly for a file
-refresh_cpp/learning_stringstream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/learning_stringstream.cpp.s
-.PHONY : refresh_cpp/learning_stringstream.cpp.s
-
-refresh_cpp/linkedlists.obj: refresh_cpp/linkedlists.cpp.obj
-
-.PHONY : refresh_cpp/linkedlists.obj
+.PHONY : refresh_cpp/linkedlist/linkedlists.obj
 
 # target to build an object file
-refresh_cpp/linkedlists.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.obj
-.PHONY : refresh_cpp/linkedlists.cpp.obj
+refresh_cpp/linkedlist/linkedlists.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.obj
+.PHONY : refresh_cpp/linkedlist/linkedlists.cpp.obj
 
-refresh_cpp/linkedlists.i: refresh_cpp/linkedlists.cpp.i
+refresh_cpp/linkedlist/linkedlists.i: refresh_cpp/linkedlist/linkedlists.cpp.i
 
-.PHONY : refresh_cpp/linkedlists.i
+.PHONY : refresh_cpp/linkedlist/linkedlists.i
 
 # target to preprocess a source file
-refresh_cpp/linkedlists.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.i
-.PHONY : refresh_cpp/linkedlists.cpp.i
+refresh_cpp/linkedlist/linkedlists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.i
+.PHONY : refresh_cpp/linkedlist/linkedlists.cpp.i
 
-refresh_cpp/linkedlists.s: refresh_cpp/linkedlists.cpp.s
+refresh_cpp/linkedlist/linkedlists.s: refresh_cpp/linkedlist/linkedlists.cpp.s
 
-.PHONY : refresh_cpp/linkedlists.s
+.PHONY : refresh_cpp/linkedlist/linkedlists.s
 
 # target to generate assembly for a file
-refresh_cpp/linkedlists.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/linkedlists.cpp.s
-.PHONY : refresh_cpp/linkedlists.cpp.s
+refresh_cpp/linkedlist/linkedlists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.s
+.PHONY : refresh_cpp/linkedlist/linkedlists.cpp.s
 
-refresh_cpp/lower_bound.obj: refresh_cpp/lower_bound.cpp.obj
+refresh_cpp/math/powers.obj: refresh_cpp/math/powers.cpp.obj
 
-.PHONY : refresh_cpp/lower_bound.obj
+.PHONY : refresh_cpp/math/powers.obj
 
 # target to build an object file
-refresh_cpp/lower_bound.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.obj
-.PHONY : refresh_cpp/lower_bound.cpp.obj
+refresh_cpp/math/powers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\powers.dir\build.make CMakeFiles/powers.dir/refresh_cpp/math/powers.cpp.obj
+.PHONY : refresh_cpp/math/powers.cpp.obj
 
-refresh_cpp/lower_bound.i: refresh_cpp/lower_bound.cpp.i
+refresh_cpp/math/powers.i: refresh_cpp/math/powers.cpp.i
 
-.PHONY : refresh_cpp/lower_bound.i
+.PHONY : refresh_cpp/math/powers.i
 
 # target to preprocess a source file
-refresh_cpp/lower_bound.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.i
-.PHONY : refresh_cpp/lower_bound.cpp.i
+refresh_cpp/math/powers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\powers.dir\build.make CMakeFiles/powers.dir/refresh_cpp/math/powers.cpp.i
+.PHONY : refresh_cpp/math/powers.cpp.i
 
-refresh_cpp/lower_bound.s: refresh_cpp/lower_bound.cpp.s
+refresh_cpp/math/powers.s: refresh_cpp/math/powers.cpp.s
 
-.PHONY : refresh_cpp/lower_bound.s
+.PHONY : refresh_cpp/math/powers.s
 
 # target to generate assembly for a file
-refresh_cpp/lower_bound.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/lower_bound.cpp.s
-.PHONY : refresh_cpp/lower_bound.cpp.s
+refresh_cpp/math/powers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\powers.dir\build.make CMakeFiles/powers.dir/refresh_cpp/math/powers.cpp.s
+.PHONY : refresh_cpp/math/powers.cpp.s
+
+refresh_cpp/math/squareroot.obj: refresh_cpp/math/squareroot.cpp.obj
+
+.PHONY : refresh_cpp/math/squareroot.obj
+
+# target to build an object file
+refresh_cpp/math/squareroot.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\squareroot.dir\build.make CMakeFiles/squareroot.dir/refresh_cpp/math/squareroot.cpp.obj
+.PHONY : refresh_cpp/math/squareroot.cpp.obj
+
+refresh_cpp/math/squareroot.i: refresh_cpp/math/squareroot.cpp.i
+
+.PHONY : refresh_cpp/math/squareroot.i
+
+# target to preprocess a source file
+refresh_cpp/math/squareroot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\squareroot.dir\build.make CMakeFiles/squareroot.dir/refresh_cpp/math/squareroot.cpp.i
+.PHONY : refresh_cpp/math/squareroot.cpp.i
+
+refresh_cpp/math/squareroot.s: refresh_cpp/math/squareroot.cpp.s
+
+.PHONY : refresh_cpp/math/squareroot.s
+
+# target to generate assembly for a file
+refresh_cpp/math/squareroot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\squareroot.dir\build.make CMakeFiles/squareroot.dir/refresh_cpp/math/squareroot.cpp.s
+.PHONY : refresh_cpp/math/squareroot.cpp.s
+
+refresh_cpp/math/trigo.obj: refresh_cpp/math/trigo.cpp.obj
+
+.PHONY : refresh_cpp/math/trigo.obj
+
+# target to build an object file
+refresh_cpp/math/trigo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trigo.dir\build.make CMakeFiles/trigo.dir/refresh_cpp/math/trigo.cpp.obj
+.PHONY : refresh_cpp/math/trigo.cpp.obj
+
+refresh_cpp/math/trigo.i: refresh_cpp/math/trigo.cpp.i
+
+.PHONY : refresh_cpp/math/trigo.i
+
+# target to preprocess a source file
+refresh_cpp/math/trigo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trigo.dir\build.make CMakeFiles/trigo.dir/refresh_cpp/math/trigo.cpp.i
+.PHONY : refresh_cpp/math/trigo.cpp.i
+
+refresh_cpp/math/trigo.s: refresh_cpp/math/trigo.cpp.s
+
+.PHONY : refresh_cpp/math/trigo.s
+
+# target to generate assembly for a file
+refresh_cpp/math/trigo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trigo.dir\build.make CMakeFiles/trigo.dir/refresh_cpp/math/trigo.cpp.s
+.PHONY : refresh_cpp/math/trigo.cpp.s
 
 refresh_cpp/number_guessing_game.obj: refresh_cpp/number_guessing_game.cpp.obj
 
@@ -832,6 +1165,33 @@ refresh_cpp/sets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/sets.cpp.s
 .PHONY : refresh_cpp/sets.cpp.s
 
+refresh_cpp/strings/learning_stringstream.obj: refresh_cpp/strings/learning_stringstream.cpp.obj
+
+.PHONY : refresh_cpp/strings/learning_stringstream.obj
+
+# target to build an object file
+refresh_cpp/strings/learning_stringstream.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.obj
+.PHONY : refresh_cpp/strings/learning_stringstream.cpp.obj
+
+refresh_cpp/strings/learning_stringstream.i: refresh_cpp/strings/learning_stringstream.cpp.i
+
+.PHONY : refresh_cpp/strings/learning_stringstream.i
+
+# target to preprocess a source file
+refresh_cpp/strings/learning_stringstream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.i
+.PHONY : refresh_cpp/strings/learning_stringstream.cpp.i
+
+refresh_cpp/strings/learning_stringstream.s: refresh_cpp/strings/learning_stringstream.cpp.s
+
+.PHONY : refresh_cpp/strings/learning_stringstream.s
+
+# target to generate assembly for a file
+refresh_cpp/strings/learning_stringstream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/strings/learning_stringstream.cpp.s
+.PHONY : refresh_cpp/strings/learning_stringstream.cpp.s
+
 refresh_cpp/strings/string.obj: refresh_cpp/strings/string.cpp.obj
 
 .PHONY : refresh_cpp/strings/string.obj
@@ -867,10 +1227,19 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... about_declr_initial
+	@echo ... about_double
+	@echo ... about_float
+	@echo ... about_quiz1
+	@echo ... about_taking_inputs
+	@echo ... about_taking_inputs2
+	@echo ... about_ternary
 	@echo ... cppmaster
 	@echo ... fill_array
 	@echo ... find_where_the_element
-	@echo ... vector_tricks
+	@echo ... powers
+	@echo ... squareroot
+	@echo ... trigo
 	@echo ... cpp_questions/best_time_to_buy_sell_stock_1.obj
 	@echo ... cpp_questions/best_time_to_buy_sell_stock_1.i
 	@echo ... cpp_questions/best_time_to_buy_sell_stock_1.s
@@ -919,30 +1288,57 @@ help:
 	@echo ... refresh_cpp/arrays/vector_erase.obj
 	@echo ... refresh_cpp/arrays/vector_erase.i
 	@echo ... refresh_cpp/arrays/vector_erase.s
-	@echo ... refresh_cpp/arrays/vector_tricks.obj
-	@echo ... refresh_cpp/arrays/vector_tricks.i
-	@echo ... refresh_cpp/arrays/vector_tricks.s
-	@echo ... refresh_cpp/general_hacks.obj
-	@echo ... refresh_cpp/general_hacks.i
-	@echo ... refresh_cpp/general_hacks.s
+	@echo ... refresh_cpp/general/about_declr_initial.obj
+	@echo ... refresh_cpp/general/about_declr_initial.i
+	@echo ... refresh_cpp/general/about_declr_initial.s
+	@echo ... refresh_cpp/general/about_double.obj
+	@echo ... refresh_cpp/general/about_double.i
+	@echo ... refresh_cpp/general/about_double.s
+	@echo ... refresh_cpp/general/about_float.obj
+	@echo ... refresh_cpp/general/about_float.i
+	@echo ... refresh_cpp/general/about_float.s
+	@echo ... refresh_cpp/general/about_quiz1.obj
+	@echo ... refresh_cpp/general/about_quiz1.i
+	@echo ... refresh_cpp/general/about_quiz1.s
+	@echo ... refresh_cpp/general/about_taking_inputs.obj
+	@echo ... refresh_cpp/general/about_taking_inputs.i
+	@echo ... refresh_cpp/general/about_taking_inputs.s
+	@echo ... refresh_cpp/general/about_taking_inputs2.obj
+	@echo ... refresh_cpp/general/about_taking_inputs2.i
+	@echo ... refresh_cpp/general/about_taking_inputs2.s
+	@echo ... refresh_cpp/general/about_ternary.obj
+	@echo ... refresh_cpp/general/about_ternary.i
+	@echo ... refresh_cpp/general/about_ternary.s
+	@echo ... refresh_cpp/general/general_hacks.obj
+	@echo ... refresh_cpp/general/general_hacks.i
+	@echo ... refresh_cpp/general/general_hacks.s
+	@echo ... refresh_cpp/general/lower_bound.obj
+	@echo ... refresh_cpp/general/lower_bound.i
+	@echo ... refresh_cpp/general/lower_bound.s
 	@echo ... refresh_cpp/hashmaps/hash_map.obj
 	@echo ... refresh_cpp/hashmaps/hash_map.i
 	@echo ... refresh_cpp/hashmaps/hash_map.s
-	@echo ... refresh_cpp/learning_stringstream.obj
-	@echo ... refresh_cpp/learning_stringstream.i
-	@echo ... refresh_cpp/learning_stringstream.s
-	@echo ... refresh_cpp/linkedlists.obj
-	@echo ... refresh_cpp/linkedlists.i
-	@echo ... refresh_cpp/linkedlists.s
-	@echo ... refresh_cpp/lower_bound.obj
-	@echo ... refresh_cpp/lower_bound.i
-	@echo ... refresh_cpp/lower_bound.s
+	@echo ... refresh_cpp/linkedlist/linkedlists.obj
+	@echo ... refresh_cpp/linkedlist/linkedlists.i
+	@echo ... refresh_cpp/linkedlist/linkedlists.s
+	@echo ... refresh_cpp/math/powers.obj
+	@echo ... refresh_cpp/math/powers.i
+	@echo ... refresh_cpp/math/powers.s
+	@echo ... refresh_cpp/math/squareroot.obj
+	@echo ... refresh_cpp/math/squareroot.i
+	@echo ... refresh_cpp/math/squareroot.s
+	@echo ... refresh_cpp/math/trigo.obj
+	@echo ... refresh_cpp/math/trigo.i
+	@echo ... refresh_cpp/math/trigo.s
 	@echo ... refresh_cpp/number_guessing_game.obj
 	@echo ... refresh_cpp/number_guessing_game.i
 	@echo ... refresh_cpp/number_guessing_game.s
 	@echo ... refresh_cpp/sets.obj
 	@echo ... refresh_cpp/sets.i
 	@echo ... refresh_cpp/sets.s
+	@echo ... refresh_cpp/strings/learning_stringstream.obj
+	@echo ... refresh_cpp/strings/learning_stringstream.i
+	@echo ... refresh_cpp/strings/learning_stringstream.s
 	@echo ... refresh_cpp/strings/string.obj
 	@echo ... refresh_cpp/strings/string.i
 	@echo ... refresh_cpp/strings/string.s
