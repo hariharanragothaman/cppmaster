@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\about_pointer_implementation.dir/objects.a
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\about_pointer_implementation.dir/objects.a @CMakeFiles\about_pointer_implementation.dir\objects1.rsp
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\about_pointer_implementation.dir/objects.a -Wl,--no-whole-archive  -o about_pointer_implementation.exe -Wl,--out-implib,libabout_pointer_implementation.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\about_pointer_implementation.dir\linklibs.rsp

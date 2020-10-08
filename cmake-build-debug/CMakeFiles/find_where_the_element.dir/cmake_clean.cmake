@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/find_where_the_element.dir/refresh_cpp/arrays/find_where_the_element.cpp.obj"
+  "CMakeFiles/find_where_the_element.dir/refresh_cpp/vectors/find_where_the_element.cpp.obj"
   "find_where_the_element.exe"
   "find_where_the_element.exe.manifest"
   "find_where_the_element.pdb"

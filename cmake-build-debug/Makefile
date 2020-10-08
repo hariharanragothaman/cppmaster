@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cm
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -208,6 +208,19 @@ about_declr_initial/fast:
 .PHONY : about_declr_initial/fast
 
 #=============================================================================
+# Target rules for targets named about_arrays
+
+# Build rule for target.
+about_arrays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_arrays
+.PHONY : about_arrays
+
+# fast build rule for target.
+about_arrays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_arrays.dir\build.make CMakeFiles/about_arrays.dir/build
+.PHONY : about_arrays/fast
+
+#=============================================================================
 # Target rules for targets named about_taking_inputs2
 
 # Build rule for target.
@@ -245,6 +258,19 @@ squareroot: cmake_check_build_system
 squareroot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\squareroot.dir\build.make CMakeFiles/squareroot.dir/build
 .PHONY : squareroot/fast
+
+#=============================================================================
+# Target rules for targets named about_call_by_reference
+
+# Build rule for target.
+about_call_by_reference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_call_by_reference
+.PHONY : about_call_by_reference
+
+# fast build rule for target.
+about_call_by_reference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_call_by_reference.dir\build.make CMakeFiles/about_call_by_reference.dir/build
+.PHONY : about_call_by_reference/fast
 
 #=============================================================================
 # Target rules for targets named powers
@@ -297,6 +323,123 @@ about_ternary: cmake_check_build_system
 about_ternary/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_ternary.dir\build.make CMakeFiles/about_ternary.dir/build
 .PHONY : about_ternary/fast
+
+#=============================================================================
+# Target rules for targets named about_pointer_to_a_function
+
+# Build rule for target.
+about_pointer_to_a_function: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_pointer_to_a_function
+.PHONY : about_pointer_to_a_function
+
+# fast build rule for target.
+about_pointer_to_a_function/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_to_a_function.dir\build.make CMakeFiles/about_pointer_to_a_function.dir/build
+.PHONY : about_pointer_to_a_function/fast
+
+#=============================================================================
+# Target rules for targets named about_pointers
+
+# Build rule for target.
+about_pointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_pointers
+.PHONY : about_pointers
+
+# fast build rule for target.
+about_pointers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointers.dir\build.make CMakeFiles/about_pointers.dir/build
+.PHONY : about_pointers/fast
+
+#=============================================================================
+# Target rules for targets named about_pointer_implementation
+
+# Build rule for target.
+about_pointer_implementation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_pointer_implementation
+.PHONY : about_pointer_implementation
+
+# fast build rule for target.
+about_pointer_implementation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_implementation.dir\build.make CMakeFiles/about_pointer_implementation.dir/build
+.PHONY : about_pointer_implementation/fast
+
+#=============================================================================
+# Target rules for targets named about_referencing_variables
+
+# Build rule for target.
+about_referencing_variables: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_referencing_variables
+.PHONY : about_referencing_variables
+
+# fast build rule for target.
+about_referencing_variables/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_referencing_variables.dir\build.make CMakeFiles/about_referencing_variables.dir/build
+.PHONY : about_referencing_variables/fast
+
+#=============================================================================
+# Target rules for targets named about_pointers_to_arrays
+
+# Build rule for target.
+about_pointers_to_arrays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_pointers_to_arrays
+.PHONY : about_pointers_to_arrays
+
+# fast build rule for target.
+about_pointers_to_arrays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointers_to_arrays.dir\build.make CMakeFiles/about_pointers_to_arrays.dir/build
+.PHONY : about_pointers_to_arrays/fast
+
+#=============================================================================
+# Target rules for targets named about_class_member_functions
+
+# Build rule for target.
+about_class_member_functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_class_member_functions
+.PHONY : about_class_member_functions
+
+# fast build rule for target.
+about_class_member_functions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_class_member_functions.dir\build.make CMakeFiles/about_class_member_functions.dir/build
+.PHONY : about_class_member_functions/fast
+
+#=============================================================================
+# Target rules for targets named about_pointer_to_pointer
+
+# Build rule for target.
+about_pointer_to_pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_pointer_to_pointer
+.PHONY : about_pointer_to_pointer
+
+# fast build rule for target.
+about_pointer_to_pointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_to_pointer.dir\build.make CMakeFiles/about_pointer_to_pointer.dir/build
+.PHONY : about_pointer_to_pointer/fast
+
+#=============================================================================
+# Target rules for targets named fibonacci
+
+# Build rule for target.
+fibonacci: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fibonacci
+.PHONY : fibonacci
+
+# fast build rule for target.
+fibonacci/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/build
+.PHONY : fibonacci/fast
+
+#=============================================================================
+# Target rules for targets named about_classes
+
+# Build rule for target.
+about_classes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_classes
+.PHONY : about_classes
+
+# fast build rule for target.
+about_classes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_classes.dir\build.make CMakeFiles/about_classes.dir/build
+.PHONY : about_classes/fast
 
 cpp_questions/best_time_to_buy_sell_stock_1.obj: cpp_questions/best_time_to_buy_sell_stock_1.cpp.obj
 
@@ -568,170 +711,32 @@ cpp_questions/variable_array.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/cpp_questions/variable_array.cpp.s
 .PHONY : cpp_questions/variable_array.cpp.s
 
-refresh_cpp/arrays/fill_array.obj: refresh_cpp/arrays/fill_array.cpp.obj
+refresh_cpp/arrays/about_arrays.obj: refresh_cpp/arrays/about_arrays.cpp.obj
 
-.PHONY : refresh_cpp/arrays/fill_array.obj
-
-# target to build an object file
-refresh_cpp/arrays/fill_array.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/fill_array.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fill_array.dir\build.make CMakeFiles/fill_array.dir/refresh_cpp/arrays/fill_array.cpp.obj
-.PHONY : refresh_cpp/arrays/fill_array.cpp.obj
-
-refresh_cpp/arrays/fill_array.i: refresh_cpp/arrays/fill_array.cpp.i
-
-.PHONY : refresh_cpp/arrays/fill_array.i
-
-# target to preprocess a source file
-refresh_cpp/arrays/fill_array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/fill_array.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fill_array.dir\build.make CMakeFiles/fill_array.dir/refresh_cpp/arrays/fill_array.cpp.i
-.PHONY : refresh_cpp/arrays/fill_array.cpp.i
-
-refresh_cpp/arrays/fill_array.s: refresh_cpp/arrays/fill_array.cpp.s
-
-.PHONY : refresh_cpp/arrays/fill_array.s
-
-# target to generate assembly for a file
-refresh_cpp/arrays/fill_array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/fill_array.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fill_array.dir\build.make CMakeFiles/fill_array.dir/refresh_cpp/arrays/fill_array.cpp.s
-.PHONY : refresh_cpp/arrays/fill_array.cpp.s
-
-refresh_cpp/arrays/find_max_element.obj: refresh_cpp/arrays/find_max_element.cpp.obj
-
-.PHONY : refresh_cpp/arrays/find_max_element.obj
+.PHONY : refresh_cpp/arrays/about_arrays.obj
 
 # target to build an object file
-refresh_cpp/arrays/find_max_element.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/find_max_element.cpp.obj
-.PHONY : refresh_cpp/arrays/find_max_element.cpp.obj
+refresh_cpp/arrays/about_arrays.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_arrays.dir\build.make CMakeFiles/about_arrays.dir/refresh_cpp/arrays/about_arrays.cpp.obj
+.PHONY : refresh_cpp/arrays/about_arrays.cpp.obj
 
-refresh_cpp/arrays/find_max_element.i: refresh_cpp/arrays/find_max_element.cpp.i
+refresh_cpp/arrays/about_arrays.i: refresh_cpp/arrays/about_arrays.cpp.i
 
-.PHONY : refresh_cpp/arrays/find_max_element.i
-
-# target to preprocess a source file
-refresh_cpp/arrays/find_max_element.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/find_max_element.cpp.i
-.PHONY : refresh_cpp/arrays/find_max_element.cpp.i
-
-refresh_cpp/arrays/find_max_element.s: refresh_cpp/arrays/find_max_element.cpp.s
-
-.PHONY : refresh_cpp/arrays/find_max_element.s
-
-# target to generate assembly for a file
-refresh_cpp/arrays/find_max_element.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/find_max_element.cpp.s
-.PHONY : refresh_cpp/arrays/find_max_element.cpp.s
-
-refresh_cpp/arrays/find_where_the_element.obj: refresh_cpp/arrays/find_where_the_element.cpp.obj
-
-.PHONY : refresh_cpp/arrays/find_where_the_element.obj
-
-# target to build an object file
-refresh_cpp/arrays/find_where_the_element.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/refresh_cpp/arrays/find_where_the_element.cpp.obj
-.PHONY : refresh_cpp/arrays/find_where_the_element.cpp.obj
-
-refresh_cpp/arrays/find_where_the_element.i: refresh_cpp/arrays/find_where_the_element.cpp.i
-
-.PHONY : refresh_cpp/arrays/find_where_the_element.i
+.PHONY : refresh_cpp/arrays/about_arrays.i
 
 # target to preprocess a source file
-refresh_cpp/arrays/find_where_the_element.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/refresh_cpp/arrays/find_where_the_element.cpp.i
-.PHONY : refresh_cpp/arrays/find_where_the_element.cpp.i
+refresh_cpp/arrays/about_arrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_arrays.dir\build.make CMakeFiles/about_arrays.dir/refresh_cpp/arrays/about_arrays.cpp.i
+.PHONY : refresh_cpp/arrays/about_arrays.cpp.i
 
-refresh_cpp/arrays/find_where_the_element.s: refresh_cpp/arrays/find_where_the_element.cpp.s
+refresh_cpp/arrays/about_arrays.s: refresh_cpp/arrays/about_arrays.cpp.s
 
-.PHONY : refresh_cpp/arrays/find_where_the_element.s
-
-# target to generate assembly for a file
-refresh_cpp/arrays/find_where_the_element.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/refresh_cpp/arrays/find_where_the_element.cpp.s
-.PHONY : refresh_cpp/arrays/find_where_the_element.cpp.s
-
-refresh_cpp/arrays/itertools_accumulate.obj: refresh_cpp/arrays/itertools_accumulate.cpp.obj
-
-.PHONY : refresh_cpp/arrays/itertools_accumulate.obj
-
-# target to build an object file
-refresh_cpp/arrays/itertools_accumulate.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/itertools_accumulate.cpp.obj
-.PHONY : refresh_cpp/arrays/itertools_accumulate.cpp.obj
-
-refresh_cpp/arrays/itertools_accumulate.i: refresh_cpp/arrays/itertools_accumulate.cpp.i
-
-.PHONY : refresh_cpp/arrays/itertools_accumulate.i
-
-# target to preprocess a source file
-refresh_cpp/arrays/itertools_accumulate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/itertools_accumulate.cpp.i
-.PHONY : refresh_cpp/arrays/itertools_accumulate.cpp.i
-
-refresh_cpp/arrays/itertools_accumulate.s: refresh_cpp/arrays/itertools_accumulate.cpp.s
-
-.PHONY : refresh_cpp/arrays/itertools_accumulate.s
+.PHONY : refresh_cpp/arrays/about_arrays.s
 
 # target to generate assembly for a file
-refresh_cpp/arrays/itertools_accumulate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/itertools_accumulate.cpp.s
-.PHONY : refresh_cpp/arrays/itertools_accumulate.cpp.s
-
-refresh_cpp/arrays/removing_element_from_vector.obj: refresh_cpp/arrays/removing_element_from_vector.cpp.obj
-
-.PHONY : refresh_cpp/arrays/removing_element_from_vector.obj
-
-# target to build an object file
-refresh_cpp/arrays/removing_element_from_vector.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.obj
-.PHONY : refresh_cpp/arrays/removing_element_from_vector.cpp.obj
-
-refresh_cpp/arrays/removing_element_from_vector.i: refresh_cpp/arrays/removing_element_from_vector.cpp.i
-
-.PHONY : refresh_cpp/arrays/removing_element_from_vector.i
-
-# target to preprocess a source file
-refresh_cpp/arrays/removing_element_from_vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.i
-.PHONY : refresh_cpp/arrays/removing_element_from_vector.cpp.i
-
-refresh_cpp/arrays/removing_element_from_vector.s: refresh_cpp/arrays/removing_element_from_vector.cpp.s
-
-.PHONY : refresh_cpp/arrays/removing_element_from_vector.s
-
-# target to generate assembly for a file
-refresh_cpp/arrays/removing_element_from_vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/removing_element_from_vector.cpp.s
-.PHONY : refresh_cpp/arrays/removing_element_from_vector.cpp.s
-
-refresh_cpp/arrays/vector_erase.obj: refresh_cpp/arrays/vector_erase.cpp.obj
-
-.PHONY : refresh_cpp/arrays/vector_erase.obj
-
-# target to build an object file
-refresh_cpp/arrays/vector_erase.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/vector_erase.cpp.obj
-.PHONY : refresh_cpp/arrays/vector_erase.cpp.obj
-
-refresh_cpp/arrays/vector_erase.i: refresh_cpp/arrays/vector_erase.cpp.i
-
-.PHONY : refresh_cpp/arrays/vector_erase.i
-
-# target to preprocess a source file
-refresh_cpp/arrays/vector_erase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/vector_erase.cpp.i
-.PHONY : refresh_cpp/arrays/vector_erase.cpp.i
-
-refresh_cpp/arrays/vector_erase.s: refresh_cpp/arrays/vector_erase.cpp.s
-
-.PHONY : refresh_cpp/arrays/vector_erase.s
-
-# target to generate assembly for a file
-refresh_cpp/arrays/vector_erase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/arrays/vector_erase.cpp.s
-.PHONY : refresh_cpp/arrays/vector_erase.cpp.s
+refresh_cpp/arrays/about_arrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_arrays.dir\build.make CMakeFiles/about_arrays.dir/refresh_cpp/arrays/about_arrays.cpp.s
+.PHONY : refresh_cpp/arrays/about_arrays.cpp.s
 
 refresh_cpp/general/about_declr_initial.obj: refresh_cpp/general/about_declr_initial.cpp.obj
 
@@ -1030,6 +1035,33 @@ refresh_cpp/linkedlist/linkedlists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/linkedlist/linkedlists.cpp.s
 .PHONY : refresh_cpp/linkedlist/linkedlists.cpp.s
 
+refresh_cpp/math/fibonacci.obj: refresh_cpp/math/fibonacci.cpp.obj
+
+.PHONY : refresh_cpp/math/fibonacci.obj
+
+# target to build an object file
+refresh_cpp/math/fibonacci.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/refresh_cpp/math/fibonacci.cpp.obj
+.PHONY : refresh_cpp/math/fibonacci.cpp.obj
+
+refresh_cpp/math/fibonacci.i: refresh_cpp/math/fibonacci.cpp.i
+
+.PHONY : refresh_cpp/math/fibonacci.i
+
+# target to preprocess a source file
+refresh_cpp/math/fibonacci.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/refresh_cpp/math/fibonacci.cpp.i
+.PHONY : refresh_cpp/math/fibonacci.cpp.i
+
+refresh_cpp/math/fibonacci.s: refresh_cpp/math/fibonacci.cpp.s
+
+.PHONY : refresh_cpp/math/fibonacci.s
+
+# target to generate assembly for a file
+refresh_cpp/math/fibonacci.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/refresh_cpp/math/fibonacci.cpp.s
+.PHONY : refresh_cpp/math/fibonacci.cpp.s
+
 refresh_cpp/math/powers.obj: refresh_cpp/math/powers.cpp.obj
 
 .PHONY : refresh_cpp/math/powers.obj
@@ -1138,6 +1170,249 @@ refresh_cpp/number_guessing_game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/number_guessing_game.cpp.s
 .PHONY : refresh_cpp/number_guessing_game.cpp.s
 
+refresh_cpp/oops/about_class_member_functions.obj: refresh_cpp/oops/about_class_member_functions.cpp.obj
+
+.PHONY : refresh_cpp/oops/about_class_member_functions.obj
+
+# target to build an object file
+refresh_cpp/oops/about_class_member_functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_class_member_functions.dir\build.make CMakeFiles/about_class_member_functions.dir/refresh_cpp/oops/about_class_member_functions.cpp.obj
+.PHONY : refresh_cpp/oops/about_class_member_functions.cpp.obj
+
+refresh_cpp/oops/about_class_member_functions.i: refresh_cpp/oops/about_class_member_functions.cpp.i
+
+.PHONY : refresh_cpp/oops/about_class_member_functions.i
+
+# target to preprocess a source file
+refresh_cpp/oops/about_class_member_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_class_member_functions.dir\build.make CMakeFiles/about_class_member_functions.dir/refresh_cpp/oops/about_class_member_functions.cpp.i
+.PHONY : refresh_cpp/oops/about_class_member_functions.cpp.i
+
+refresh_cpp/oops/about_class_member_functions.s: refresh_cpp/oops/about_class_member_functions.cpp.s
+
+.PHONY : refresh_cpp/oops/about_class_member_functions.s
+
+# target to generate assembly for a file
+refresh_cpp/oops/about_class_member_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_class_member_functions.dir\build.make CMakeFiles/about_class_member_functions.dir/refresh_cpp/oops/about_class_member_functions.cpp.s
+.PHONY : refresh_cpp/oops/about_class_member_functions.cpp.s
+
+refresh_cpp/oops/about_classes.obj: refresh_cpp/oops/about_classes.cpp.obj
+
+.PHONY : refresh_cpp/oops/about_classes.obj
+
+# target to build an object file
+refresh_cpp/oops/about_classes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_classes.dir\build.make CMakeFiles/about_classes.dir/refresh_cpp/oops/about_classes.cpp.obj
+.PHONY : refresh_cpp/oops/about_classes.cpp.obj
+
+refresh_cpp/oops/about_classes.i: refresh_cpp/oops/about_classes.cpp.i
+
+.PHONY : refresh_cpp/oops/about_classes.i
+
+# target to preprocess a source file
+refresh_cpp/oops/about_classes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_classes.dir\build.make CMakeFiles/about_classes.dir/refresh_cpp/oops/about_classes.cpp.i
+.PHONY : refresh_cpp/oops/about_classes.cpp.i
+
+refresh_cpp/oops/about_classes.s: refresh_cpp/oops/about_classes.cpp.s
+
+.PHONY : refresh_cpp/oops/about_classes.s
+
+# target to generate assembly for a file
+refresh_cpp/oops/about_classes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_classes.dir\build.make CMakeFiles/about_classes.dir/refresh_cpp/oops/about_classes.cpp.s
+.PHONY : refresh_cpp/oops/about_classes.cpp.s
+
+refresh_cpp/pointers/about_call_by_reference.obj: refresh_cpp/pointers/about_call_by_reference.cpp.obj
+
+.PHONY : refresh_cpp/pointers/about_call_by_reference.obj
+
+# target to build an object file
+refresh_cpp/pointers/about_call_by_reference.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_call_by_reference.dir\build.make CMakeFiles/about_call_by_reference.dir/refresh_cpp/pointers/about_call_by_reference.cpp.obj
+.PHONY : refresh_cpp/pointers/about_call_by_reference.cpp.obj
+
+refresh_cpp/pointers/about_call_by_reference.i: refresh_cpp/pointers/about_call_by_reference.cpp.i
+
+.PHONY : refresh_cpp/pointers/about_call_by_reference.i
+
+# target to preprocess a source file
+refresh_cpp/pointers/about_call_by_reference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_call_by_reference.dir\build.make CMakeFiles/about_call_by_reference.dir/refresh_cpp/pointers/about_call_by_reference.cpp.i
+.PHONY : refresh_cpp/pointers/about_call_by_reference.cpp.i
+
+refresh_cpp/pointers/about_call_by_reference.s: refresh_cpp/pointers/about_call_by_reference.cpp.s
+
+.PHONY : refresh_cpp/pointers/about_call_by_reference.s
+
+# target to generate assembly for a file
+refresh_cpp/pointers/about_call_by_reference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_call_by_reference.dir\build.make CMakeFiles/about_call_by_reference.dir/refresh_cpp/pointers/about_call_by_reference.cpp.s
+.PHONY : refresh_cpp/pointers/about_call_by_reference.cpp.s
+
+refresh_cpp/pointers/about_pointer_implementation.obj: refresh_cpp/pointers/about_pointer_implementation.cpp.obj
+
+.PHONY : refresh_cpp/pointers/about_pointer_implementation.obj
+
+# target to build an object file
+refresh_cpp/pointers/about_pointer_implementation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_implementation.dir\build.make CMakeFiles/about_pointer_implementation.dir/refresh_cpp/pointers/about_pointer_implementation.cpp.obj
+.PHONY : refresh_cpp/pointers/about_pointer_implementation.cpp.obj
+
+refresh_cpp/pointers/about_pointer_implementation.i: refresh_cpp/pointers/about_pointer_implementation.cpp.i
+
+.PHONY : refresh_cpp/pointers/about_pointer_implementation.i
+
+# target to preprocess a source file
+refresh_cpp/pointers/about_pointer_implementation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_implementation.dir\build.make CMakeFiles/about_pointer_implementation.dir/refresh_cpp/pointers/about_pointer_implementation.cpp.i
+.PHONY : refresh_cpp/pointers/about_pointer_implementation.cpp.i
+
+refresh_cpp/pointers/about_pointer_implementation.s: refresh_cpp/pointers/about_pointer_implementation.cpp.s
+
+.PHONY : refresh_cpp/pointers/about_pointer_implementation.s
+
+# target to generate assembly for a file
+refresh_cpp/pointers/about_pointer_implementation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_implementation.dir\build.make CMakeFiles/about_pointer_implementation.dir/refresh_cpp/pointers/about_pointer_implementation.cpp.s
+.PHONY : refresh_cpp/pointers/about_pointer_implementation.cpp.s
+
+refresh_cpp/pointers/about_pointer_to_a_function.obj: refresh_cpp/pointers/about_pointer_to_a_function.cpp.obj
+
+.PHONY : refresh_cpp/pointers/about_pointer_to_a_function.obj
+
+# target to build an object file
+refresh_cpp/pointers/about_pointer_to_a_function.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_to_a_function.dir\build.make CMakeFiles/about_pointer_to_a_function.dir/refresh_cpp/pointers/about_pointer_to_a_function.cpp.obj
+.PHONY : refresh_cpp/pointers/about_pointer_to_a_function.cpp.obj
+
+refresh_cpp/pointers/about_pointer_to_a_function.i: refresh_cpp/pointers/about_pointer_to_a_function.cpp.i
+
+.PHONY : refresh_cpp/pointers/about_pointer_to_a_function.i
+
+# target to preprocess a source file
+refresh_cpp/pointers/about_pointer_to_a_function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_to_a_function.dir\build.make CMakeFiles/about_pointer_to_a_function.dir/refresh_cpp/pointers/about_pointer_to_a_function.cpp.i
+.PHONY : refresh_cpp/pointers/about_pointer_to_a_function.cpp.i
+
+refresh_cpp/pointers/about_pointer_to_a_function.s: refresh_cpp/pointers/about_pointer_to_a_function.cpp.s
+
+.PHONY : refresh_cpp/pointers/about_pointer_to_a_function.s
+
+# target to generate assembly for a file
+refresh_cpp/pointers/about_pointer_to_a_function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_to_a_function.dir\build.make CMakeFiles/about_pointer_to_a_function.dir/refresh_cpp/pointers/about_pointer_to_a_function.cpp.s
+.PHONY : refresh_cpp/pointers/about_pointer_to_a_function.cpp.s
+
+refresh_cpp/pointers/about_pointer_to_pointer.obj: refresh_cpp/pointers/about_pointer_to_pointer.cpp.obj
+
+.PHONY : refresh_cpp/pointers/about_pointer_to_pointer.obj
+
+# target to build an object file
+refresh_cpp/pointers/about_pointer_to_pointer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_to_pointer.dir\build.make CMakeFiles/about_pointer_to_pointer.dir/refresh_cpp/pointers/about_pointer_to_pointer.cpp.obj
+.PHONY : refresh_cpp/pointers/about_pointer_to_pointer.cpp.obj
+
+refresh_cpp/pointers/about_pointer_to_pointer.i: refresh_cpp/pointers/about_pointer_to_pointer.cpp.i
+
+.PHONY : refresh_cpp/pointers/about_pointer_to_pointer.i
+
+# target to preprocess a source file
+refresh_cpp/pointers/about_pointer_to_pointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_to_pointer.dir\build.make CMakeFiles/about_pointer_to_pointer.dir/refresh_cpp/pointers/about_pointer_to_pointer.cpp.i
+.PHONY : refresh_cpp/pointers/about_pointer_to_pointer.cpp.i
+
+refresh_cpp/pointers/about_pointer_to_pointer.s: refresh_cpp/pointers/about_pointer_to_pointer.cpp.s
+
+.PHONY : refresh_cpp/pointers/about_pointer_to_pointer.s
+
+# target to generate assembly for a file
+refresh_cpp/pointers/about_pointer_to_pointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointer_to_pointer.dir\build.make CMakeFiles/about_pointer_to_pointer.dir/refresh_cpp/pointers/about_pointer_to_pointer.cpp.s
+.PHONY : refresh_cpp/pointers/about_pointer_to_pointer.cpp.s
+
+refresh_cpp/pointers/about_pointers.obj: refresh_cpp/pointers/about_pointers.cpp.obj
+
+.PHONY : refresh_cpp/pointers/about_pointers.obj
+
+# target to build an object file
+refresh_cpp/pointers/about_pointers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointers.dir\build.make CMakeFiles/about_pointers.dir/refresh_cpp/pointers/about_pointers.cpp.obj
+.PHONY : refresh_cpp/pointers/about_pointers.cpp.obj
+
+refresh_cpp/pointers/about_pointers.i: refresh_cpp/pointers/about_pointers.cpp.i
+
+.PHONY : refresh_cpp/pointers/about_pointers.i
+
+# target to preprocess a source file
+refresh_cpp/pointers/about_pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointers.dir\build.make CMakeFiles/about_pointers.dir/refresh_cpp/pointers/about_pointers.cpp.i
+.PHONY : refresh_cpp/pointers/about_pointers.cpp.i
+
+refresh_cpp/pointers/about_pointers.s: refresh_cpp/pointers/about_pointers.cpp.s
+
+.PHONY : refresh_cpp/pointers/about_pointers.s
+
+# target to generate assembly for a file
+refresh_cpp/pointers/about_pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointers.dir\build.make CMakeFiles/about_pointers.dir/refresh_cpp/pointers/about_pointers.cpp.s
+.PHONY : refresh_cpp/pointers/about_pointers.cpp.s
+
+refresh_cpp/pointers/about_pointers_to_arrays.obj: refresh_cpp/pointers/about_pointers_to_arrays.cpp.obj
+
+.PHONY : refresh_cpp/pointers/about_pointers_to_arrays.obj
+
+# target to build an object file
+refresh_cpp/pointers/about_pointers_to_arrays.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointers_to_arrays.dir\build.make CMakeFiles/about_pointers_to_arrays.dir/refresh_cpp/pointers/about_pointers_to_arrays.cpp.obj
+.PHONY : refresh_cpp/pointers/about_pointers_to_arrays.cpp.obj
+
+refresh_cpp/pointers/about_pointers_to_arrays.i: refresh_cpp/pointers/about_pointers_to_arrays.cpp.i
+
+.PHONY : refresh_cpp/pointers/about_pointers_to_arrays.i
+
+# target to preprocess a source file
+refresh_cpp/pointers/about_pointers_to_arrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointers_to_arrays.dir\build.make CMakeFiles/about_pointers_to_arrays.dir/refresh_cpp/pointers/about_pointers_to_arrays.cpp.i
+.PHONY : refresh_cpp/pointers/about_pointers_to_arrays.cpp.i
+
+refresh_cpp/pointers/about_pointers_to_arrays.s: refresh_cpp/pointers/about_pointers_to_arrays.cpp.s
+
+.PHONY : refresh_cpp/pointers/about_pointers_to_arrays.s
+
+# target to generate assembly for a file
+refresh_cpp/pointers/about_pointers_to_arrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_pointers_to_arrays.dir\build.make CMakeFiles/about_pointers_to_arrays.dir/refresh_cpp/pointers/about_pointers_to_arrays.cpp.s
+.PHONY : refresh_cpp/pointers/about_pointers_to_arrays.cpp.s
+
+refresh_cpp/pointers/about_referencing_variables.obj: refresh_cpp/pointers/about_referencing_variables.cpp.obj
+
+.PHONY : refresh_cpp/pointers/about_referencing_variables.obj
+
+# target to build an object file
+refresh_cpp/pointers/about_referencing_variables.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_referencing_variables.dir\build.make CMakeFiles/about_referencing_variables.dir/refresh_cpp/pointers/about_referencing_variables.cpp.obj
+.PHONY : refresh_cpp/pointers/about_referencing_variables.cpp.obj
+
+refresh_cpp/pointers/about_referencing_variables.i: refresh_cpp/pointers/about_referencing_variables.cpp.i
+
+.PHONY : refresh_cpp/pointers/about_referencing_variables.i
+
+# target to preprocess a source file
+refresh_cpp/pointers/about_referencing_variables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_referencing_variables.dir\build.make CMakeFiles/about_referencing_variables.dir/refresh_cpp/pointers/about_referencing_variables.cpp.i
+.PHONY : refresh_cpp/pointers/about_referencing_variables.cpp.i
+
+refresh_cpp/pointers/about_referencing_variables.s: refresh_cpp/pointers/about_referencing_variables.cpp.s
+
+.PHONY : refresh_cpp/pointers/about_referencing_variables.s
+
+# target to generate assembly for a file
+refresh_cpp/pointers/about_referencing_variables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_referencing_variables.dir\build.make CMakeFiles/about_referencing_variables.dir/refresh_cpp/pointers/about_referencing_variables.cpp.s
+.PHONY : refresh_cpp/pointers/about_referencing_variables.cpp.s
+
 refresh_cpp/sets.obj: refresh_cpp/sets.cpp.obj
 
 .PHONY : refresh_cpp/sets.obj
@@ -1219,6 +1494,171 @@ refresh_cpp/strings/string.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/strings/string.cpp.s
 .PHONY : refresh_cpp/strings/string.cpp.s
 
+refresh_cpp/vectors/fill_array.obj: refresh_cpp/vectors/fill_array.cpp.obj
+
+.PHONY : refresh_cpp/vectors/fill_array.obj
+
+# target to build an object file
+refresh_cpp/vectors/fill_array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/fill_array.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fill_array.dir\build.make CMakeFiles/fill_array.dir/refresh_cpp/vectors/fill_array.cpp.obj
+.PHONY : refresh_cpp/vectors/fill_array.cpp.obj
+
+refresh_cpp/vectors/fill_array.i: refresh_cpp/vectors/fill_array.cpp.i
+
+.PHONY : refresh_cpp/vectors/fill_array.i
+
+# target to preprocess a source file
+refresh_cpp/vectors/fill_array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/fill_array.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fill_array.dir\build.make CMakeFiles/fill_array.dir/refresh_cpp/vectors/fill_array.cpp.i
+.PHONY : refresh_cpp/vectors/fill_array.cpp.i
+
+refresh_cpp/vectors/fill_array.s: refresh_cpp/vectors/fill_array.cpp.s
+
+.PHONY : refresh_cpp/vectors/fill_array.s
+
+# target to generate assembly for a file
+refresh_cpp/vectors/fill_array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/fill_array.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fill_array.dir\build.make CMakeFiles/fill_array.dir/refresh_cpp/vectors/fill_array.cpp.s
+.PHONY : refresh_cpp/vectors/fill_array.cpp.s
+
+refresh_cpp/vectors/find_max_element.obj: refresh_cpp/vectors/find_max_element.cpp.obj
+
+.PHONY : refresh_cpp/vectors/find_max_element.obj
+
+# target to build an object file
+refresh_cpp/vectors/find_max_element.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/find_max_element.cpp.obj
+.PHONY : refresh_cpp/vectors/find_max_element.cpp.obj
+
+refresh_cpp/vectors/find_max_element.i: refresh_cpp/vectors/find_max_element.cpp.i
+
+.PHONY : refresh_cpp/vectors/find_max_element.i
+
+# target to preprocess a source file
+refresh_cpp/vectors/find_max_element.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/find_max_element.cpp.i
+.PHONY : refresh_cpp/vectors/find_max_element.cpp.i
+
+refresh_cpp/vectors/find_max_element.s: refresh_cpp/vectors/find_max_element.cpp.s
+
+.PHONY : refresh_cpp/vectors/find_max_element.s
+
+# target to generate assembly for a file
+refresh_cpp/vectors/find_max_element.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/find_max_element.cpp.s
+.PHONY : refresh_cpp/vectors/find_max_element.cpp.s
+
+refresh_cpp/vectors/find_where_the_element.obj: refresh_cpp/vectors/find_where_the_element.cpp.obj
+
+.PHONY : refresh_cpp/vectors/find_where_the_element.obj
+
+# target to build an object file
+refresh_cpp/vectors/find_where_the_element.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/refresh_cpp/vectors/find_where_the_element.cpp.obj
+.PHONY : refresh_cpp/vectors/find_where_the_element.cpp.obj
+
+refresh_cpp/vectors/find_where_the_element.i: refresh_cpp/vectors/find_where_the_element.cpp.i
+
+.PHONY : refresh_cpp/vectors/find_where_the_element.i
+
+# target to preprocess a source file
+refresh_cpp/vectors/find_where_the_element.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/refresh_cpp/vectors/find_where_the_element.cpp.i
+.PHONY : refresh_cpp/vectors/find_where_the_element.cpp.i
+
+refresh_cpp/vectors/find_where_the_element.s: refresh_cpp/vectors/find_where_the_element.cpp.s
+
+.PHONY : refresh_cpp/vectors/find_where_the_element.s
+
+# target to generate assembly for a file
+refresh_cpp/vectors/find_where_the_element.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/refresh_cpp/vectors/find_where_the_element.cpp.s
+.PHONY : refresh_cpp/vectors/find_where_the_element.cpp.s
+
+refresh_cpp/vectors/itertools_accumulate.obj: refresh_cpp/vectors/itertools_accumulate.cpp.obj
+
+.PHONY : refresh_cpp/vectors/itertools_accumulate.obj
+
+# target to build an object file
+refresh_cpp/vectors/itertools_accumulate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/itertools_accumulate.cpp.obj
+.PHONY : refresh_cpp/vectors/itertools_accumulate.cpp.obj
+
+refresh_cpp/vectors/itertools_accumulate.i: refresh_cpp/vectors/itertools_accumulate.cpp.i
+
+.PHONY : refresh_cpp/vectors/itertools_accumulate.i
+
+# target to preprocess a source file
+refresh_cpp/vectors/itertools_accumulate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/itertools_accumulate.cpp.i
+.PHONY : refresh_cpp/vectors/itertools_accumulate.cpp.i
+
+refresh_cpp/vectors/itertools_accumulate.s: refresh_cpp/vectors/itertools_accumulate.cpp.s
+
+.PHONY : refresh_cpp/vectors/itertools_accumulate.s
+
+# target to generate assembly for a file
+refresh_cpp/vectors/itertools_accumulate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/itertools_accumulate.cpp.s
+.PHONY : refresh_cpp/vectors/itertools_accumulate.cpp.s
+
+refresh_cpp/vectors/removing_element_from_vector.obj: refresh_cpp/vectors/removing_element_from_vector.cpp.obj
+
+.PHONY : refresh_cpp/vectors/removing_element_from_vector.obj
+
+# target to build an object file
+refresh_cpp/vectors/removing_element_from_vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/removing_element_from_vector.cpp.obj
+.PHONY : refresh_cpp/vectors/removing_element_from_vector.cpp.obj
+
+refresh_cpp/vectors/removing_element_from_vector.i: refresh_cpp/vectors/removing_element_from_vector.cpp.i
+
+.PHONY : refresh_cpp/vectors/removing_element_from_vector.i
+
+# target to preprocess a source file
+refresh_cpp/vectors/removing_element_from_vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/removing_element_from_vector.cpp.i
+.PHONY : refresh_cpp/vectors/removing_element_from_vector.cpp.i
+
+refresh_cpp/vectors/removing_element_from_vector.s: refresh_cpp/vectors/removing_element_from_vector.cpp.s
+
+.PHONY : refresh_cpp/vectors/removing_element_from_vector.s
+
+# target to generate assembly for a file
+refresh_cpp/vectors/removing_element_from_vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/removing_element_from_vector.cpp.s
+.PHONY : refresh_cpp/vectors/removing_element_from_vector.cpp.s
+
+refresh_cpp/vectors/vector_erase.obj: refresh_cpp/vectors/vector_erase.cpp.obj
+
+.PHONY : refresh_cpp/vectors/vector_erase.obj
+
+# target to build an object file
+refresh_cpp/vectors/vector_erase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/vector_erase.cpp.obj
+.PHONY : refresh_cpp/vectors/vector_erase.cpp.obj
+
+refresh_cpp/vectors/vector_erase.i: refresh_cpp/vectors/vector_erase.cpp.i
+
+.PHONY : refresh_cpp/vectors/vector_erase.i
+
+# target to preprocess a source file
+refresh_cpp/vectors/vector_erase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/vector_erase.cpp.i
+.PHONY : refresh_cpp/vectors/vector_erase.cpp.i
+
+refresh_cpp/vectors/vector_erase.s: refresh_cpp/vectors/vector_erase.cpp.s
+
+.PHONY : refresh_cpp/vectors/vector_erase.s
+
+# target to generate assembly for a file
+refresh_cpp/vectors/vector_erase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/vector_erase.cpp.s
+.PHONY : refresh_cpp/vectors/vector_erase.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1227,14 +1667,25 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... about_arrays
+	@echo ... about_call_by_reference
+	@echo ... about_class_member_functions
+	@echo ... about_classes
 	@echo ... about_declr_initial
 	@echo ... about_double
 	@echo ... about_float
+	@echo ... about_pointer_implementation
+	@echo ... about_pointer_to_a_function
+	@echo ... about_pointer_to_pointer
+	@echo ... about_pointers
+	@echo ... about_pointers_to_arrays
 	@echo ... about_quiz1
+	@echo ... about_referencing_variables
 	@echo ... about_taking_inputs
 	@echo ... about_taking_inputs2
 	@echo ... about_ternary
 	@echo ... cppmaster
+	@echo ... fibonacci
 	@echo ... fill_array
 	@echo ... find_where_the_element
 	@echo ... powers
@@ -1270,24 +1721,9 @@ help:
 	@echo ... cpp_questions/variable_array.obj
 	@echo ... cpp_questions/variable_array.i
 	@echo ... cpp_questions/variable_array.s
-	@echo ... refresh_cpp/arrays/fill_array.obj
-	@echo ... refresh_cpp/arrays/fill_array.i
-	@echo ... refresh_cpp/arrays/fill_array.s
-	@echo ... refresh_cpp/arrays/find_max_element.obj
-	@echo ... refresh_cpp/arrays/find_max_element.i
-	@echo ... refresh_cpp/arrays/find_max_element.s
-	@echo ... refresh_cpp/arrays/find_where_the_element.obj
-	@echo ... refresh_cpp/arrays/find_where_the_element.i
-	@echo ... refresh_cpp/arrays/find_where_the_element.s
-	@echo ... refresh_cpp/arrays/itertools_accumulate.obj
-	@echo ... refresh_cpp/arrays/itertools_accumulate.i
-	@echo ... refresh_cpp/arrays/itertools_accumulate.s
-	@echo ... refresh_cpp/arrays/removing_element_from_vector.obj
-	@echo ... refresh_cpp/arrays/removing_element_from_vector.i
-	@echo ... refresh_cpp/arrays/removing_element_from_vector.s
-	@echo ... refresh_cpp/arrays/vector_erase.obj
-	@echo ... refresh_cpp/arrays/vector_erase.i
-	@echo ... refresh_cpp/arrays/vector_erase.s
+	@echo ... refresh_cpp/arrays/about_arrays.obj
+	@echo ... refresh_cpp/arrays/about_arrays.i
+	@echo ... refresh_cpp/arrays/about_arrays.s
 	@echo ... refresh_cpp/general/about_declr_initial.obj
 	@echo ... refresh_cpp/general/about_declr_initial.i
 	@echo ... refresh_cpp/general/about_declr_initial.s
@@ -1321,6 +1757,9 @@ help:
 	@echo ... refresh_cpp/linkedlist/linkedlists.obj
 	@echo ... refresh_cpp/linkedlist/linkedlists.i
 	@echo ... refresh_cpp/linkedlist/linkedlists.s
+	@echo ... refresh_cpp/math/fibonacci.obj
+	@echo ... refresh_cpp/math/fibonacci.i
+	@echo ... refresh_cpp/math/fibonacci.s
 	@echo ... refresh_cpp/math/powers.obj
 	@echo ... refresh_cpp/math/powers.i
 	@echo ... refresh_cpp/math/powers.s
@@ -1333,6 +1772,33 @@ help:
 	@echo ... refresh_cpp/number_guessing_game.obj
 	@echo ... refresh_cpp/number_guessing_game.i
 	@echo ... refresh_cpp/number_guessing_game.s
+	@echo ... refresh_cpp/oops/about_class_member_functions.obj
+	@echo ... refresh_cpp/oops/about_class_member_functions.i
+	@echo ... refresh_cpp/oops/about_class_member_functions.s
+	@echo ... refresh_cpp/oops/about_classes.obj
+	@echo ... refresh_cpp/oops/about_classes.i
+	@echo ... refresh_cpp/oops/about_classes.s
+	@echo ... refresh_cpp/pointers/about_call_by_reference.obj
+	@echo ... refresh_cpp/pointers/about_call_by_reference.i
+	@echo ... refresh_cpp/pointers/about_call_by_reference.s
+	@echo ... refresh_cpp/pointers/about_pointer_implementation.obj
+	@echo ... refresh_cpp/pointers/about_pointer_implementation.i
+	@echo ... refresh_cpp/pointers/about_pointer_implementation.s
+	@echo ... refresh_cpp/pointers/about_pointer_to_a_function.obj
+	@echo ... refresh_cpp/pointers/about_pointer_to_a_function.i
+	@echo ... refresh_cpp/pointers/about_pointer_to_a_function.s
+	@echo ... refresh_cpp/pointers/about_pointer_to_pointer.obj
+	@echo ... refresh_cpp/pointers/about_pointer_to_pointer.i
+	@echo ... refresh_cpp/pointers/about_pointer_to_pointer.s
+	@echo ... refresh_cpp/pointers/about_pointers.obj
+	@echo ... refresh_cpp/pointers/about_pointers.i
+	@echo ... refresh_cpp/pointers/about_pointers.s
+	@echo ... refresh_cpp/pointers/about_pointers_to_arrays.obj
+	@echo ... refresh_cpp/pointers/about_pointers_to_arrays.i
+	@echo ... refresh_cpp/pointers/about_pointers_to_arrays.s
+	@echo ... refresh_cpp/pointers/about_referencing_variables.obj
+	@echo ... refresh_cpp/pointers/about_referencing_variables.i
+	@echo ... refresh_cpp/pointers/about_referencing_variables.s
 	@echo ... refresh_cpp/sets.obj
 	@echo ... refresh_cpp/sets.i
 	@echo ... refresh_cpp/sets.s
@@ -1342,6 +1808,24 @@ help:
 	@echo ... refresh_cpp/strings/string.obj
 	@echo ... refresh_cpp/strings/string.i
 	@echo ... refresh_cpp/strings/string.s
+	@echo ... refresh_cpp/vectors/fill_array.obj
+	@echo ... refresh_cpp/vectors/fill_array.i
+	@echo ... refresh_cpp/vectors/fill_array.s
+	@echo ... refresh_cpp/vectors/find_max_element.obj
+	@echo ... refresh_cpp/vectors/find_max_element.i
+	@echo ... refresh_cpp/vectors/find_max_element.s
+	@echo ... refresh_cpp/vectors/find_where_the_element.obj
+	@echo ... refresh_cpp/vectors/find_where_the_element.i
+	@echo ... refresh_cpp/vectors/find_where_the_element.s
+	@echo ... refresh_cpp/vectors/itertools_accumulate.obj
+	@echo ... refresh_cpp/vectors/itertools_accumulate.i
+	@echo ... refresh_cpp/vectors/itertools_accumulate.s
+	@echo ... refresh_cpp/vectors/removing_element_from_vector.obj
+	@echo ... refresh_cpp/vectors/removing_element_from_vector.i
+	@echo ... refresh_cpp/vectors/removing_element_from_vector.s
+	@echo ... refresh_cpp/vectors/vector_erase.obj
+	@echo ... refresh_cpp/vectors/vector_erase.i
+	@echo ... refresh_cpp/vectors/vector_erase.s
 .PHONY : help
 
 
