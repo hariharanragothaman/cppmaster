@@ -51,3 +51,7 @@ add_executable(about_pointer_to_a_function refresh_cpp/pointers/about_pointer_to
 add_executable(fibonacci refresh_cpp/math/fibonacci.cpp)
 add_executable(about_classes refresh_cpp/oops/about_classes.cpp)
 add_executable(about_class_member_functions refresh_cpp/oops/about_class_member_functions.cpp)
+add_executable(about_constructors refresh_cpp/oops/about_constructors.cpp)
+add_executable(about_inheritance refresh_cpp/oops/about_inheritance.cpp)
+add_executable(about_polymorphism_virtual_functions refresh_cpp/oops/about_polymorphism_virtual_functions.cpp)
+add_executable(sizeof_class refresh_cpp/oops/sizeof_class.cpp)

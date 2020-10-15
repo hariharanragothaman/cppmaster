@@ -156,6 +156,32 @@ about_double/fast:
 .PHONY : about_double/fast
 
 #=============================================================================
+# Target rules for targets named about_polymorphism_virtual_functions
+
+# Build rule for target.
+about_polymorphism_virtual_functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_polymorphism_virtual_functions
+.PHONY : about_polymorphism_virtual_functions
+
+# fast build rule for target.
+about_polymorphism_virtual_functions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_polymorphism_virtual_functions.dir\build.make CMakeFiles/about_polymorphism_virtual_functions.dir/build
+.PHONY : about_polymorphism_virtual_functions/fast
+
+#=============================================================================
+# Target rules for targets named about_constructors
+
+# Build rule for target.
+about_constructors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_constructors
+.PHONY : about_constructors
+
+# fast build rule for target.
+about_constructors/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_constructors.dir\build.make CMakeFiles/about_constructors.dir/build
+.PHONY : about_constructors/fast
+
+#=============================================================================
 # Target rules for targets named fill_array
 
 # Build rule for target.
@@ -440,6 +466,32 @@ about_classes: cmake_check_build_system
 about_classes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_classes.dir\build.make CMakeFiles/about_classes.dir/build
 .PHONY : about_classes/fast
+
+#=============================================================================
+# Target rules for targets named about_inheritance
+
+# Build rule for target.
+about_inheritance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 about_inheritance
+.PHONY : about_inheritance
+
+# fast build rule for target.
+about_inheritance/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_inheritance.dir\build.make CMakeFiles/about_inheritance.dir/build
+.PHONY : about_inheritance/fast
+
+#=============================================================================
+# Target rules for targets named sizeof_class
+
+# Build rule for target.
+sizeof_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sizeof_class
+.PHONY : sizeof_class
+
+# fast build rule for target.
+sizeof_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sizeof_class.dir\build.make CMakeFiles/sizeof_class.dir/build
+.PHONY : sizeof_class/fast
 
 cpp_questions/best_time_to_buy_sell_stock_1.obj: cpp_questions/best_time_to_buy_sell_stock_1.cpp.obj
 
@@ -1224,6 +1276,114 @@ refresh_cpp/oops/about_classes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_classes.dir\build.make CMakeFiles/about_classes.dir/refresh_cpp/oops/about_classes.cpp.s
 .PHONY : refresh_cpp/oops/about_classes.cpp.s
 
+refresh_cpp/oops/about_constructors.obj: refresh_cpp/oops/about_constructors.cpp.obj
+
+.PHONY : refresh_cpp/oops/about_constructors.obj
+
+# target to build an object file
+refresh_cpp/oops/about_constructors.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_constructors.dir\build.make CMakeFiles/about_constructors.dir/refresh_cpp/oops/about_constructors.cpp.obj
+.PHONY : refresh_cpp/oops/about_constructors.cpp.obj
+
+refresh_cpp/oops/about_constructors.i: refresh_cpp/oops/about_constructors.cpp.i
+
+.PHONY : refresh_cpp/oops/about_constructors.i
+
+# target to preprocess a source file
+refresh_cpp/oops/about_constructors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_constructors.dir\build.make CMakeFiles/about_constructors.dir/refresh_cpp/oops/about_constructors.cpp.i
+.PHONY : refresh_cpp/oops/about_constructors.cpp.i
+
+refresh_cpp/oops/about_constructors.s: refresh_cpp/oops/about_constructors.cpp.s
+
+.PHONY : refresh_cpp/oops/about_constructors.s
+
+# target to generate assembly for a file
+refresh_cpp/oops/about_constructors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_constructors.dir\build.make CMakeFiles/about_constructors.dir/refresh_cpp/oops/about_constructors.cpp.s
+.PHONY : refresh_cpp/oops/about_constructors.cpp.s
+
+refresh_cpp/oops/about_inheritance.obj: refresh_cpp/oops/about_inheritance.cpp.obj
+
+.PHONY : refresh_cpp/oops/about_inheritance.obj
+
+# target to build an object file
+refresh_cpp/oops/about_inheritance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_inheritance.dir\build.make CMakeFiles/about_inheritance.dir/refresh_cpp/oops/about_inheritance.cpp.obj
+.PHONY : refresh_cpp/oops/about_inheritance.cpp.obj
+
+refresh_cpp/oops/about_inheritance.i: refresh_cpp/oops/about_inheritance.cpp.i
+
+.PHONY : refresh_cpp/oops/about_inheritance.i
+
+# target to preprocess a source file
+refresh_cpp/oops/about_inheritance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_inheritance.dir\build.make CMakeFiles/about_inheritance.dir/refresh_cpp/oops/about_inheritance.cpp.i
+.PHONY : refresh_cpp/oops/about_inheritance.cpp.i
+
+refresh_cpp/oops/about_inheritance.s: refresh_cpp/oops/about_inheritance.cpp.s
+
+.PHONY : refresh_cpp/oops/about_inheritance.s
+
+# target to generate assembly for a file
+refresh_cpp/oops/about_inheritance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_inheritance.dir\build.make CMakeFiles/about_inheritance.dir/refresh_cpp/oops/about_inheritance.cpp.s
+.PHONY : refresh_cpp/oops/about_inheritance.cpp.s
+
+refresh_cpp/oops/about_polymorphism_virtual_functions.obj: refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.obj
+
+.PHONY : refresh_cpp/oops/about_polymorphism_virtual_functions.obj
+
+# target to build an object file
+refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_polymorphism_virtual_functions.dir\build.make CMakeFiles/about_polymorphism_virtual_functions.dir/refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.obj
+.PHONY : refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.obj
+
+refresh_cpp/oops/about_polymorphism_virtual_functions.i: refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.i
+
+.PHONY : refresh_cpp/oops/about_polymorphism_virtual_functions.i
+
+# target to preprocess a source file
+refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_polymorphism_virtual_functions.dir\build.make CMakeFiles/about_polymorphism_virtual_functions.dir/refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.i
+.PHONY : refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.i
+
+refresh_cpp/oops/about_polymorphism_virtual_functions.s: refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.s
+
+.PHONY : refresh_cpp/oops/about_polymorphism_virtual_functions.s
+
+# target to generate assembly for a file
+refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_polymorphism_virtual_functions.dir\build.make CMakeFiles/about_polymorphism_virtual_functions.dir/refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.s
+.PHONY : refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.s
+
+refresh_cpp/oops/sizeof_class.obj: refresh_cpp/oops/sizeof_class.cpp.obj
+
+.PHONY : refresh_cpp/oops/sizeof_class.obj
+
+# target to build an object file
+refresh_cpp/oops/sizeof_class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sizeof_class.dir\build.make CMakeFiles/sizeof_class.dir/refresh_cpp/oops/sizeof_class.cpp.obj
+.PHONY : refresh_cpp/oops/sizeof_class.cpp.obj
+
+refresh_cpp/oops/sizeof_class.i: refresh_cpp/oops/sizeof_class.cpp.i
+
+.PHONY : refresh_cpp/oops/sizeof_class.i
+
+# target to preprocess a source file
+refresh_cpp/oops/sizeof_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sizeof_class.dir\build.make CMakeFiles/sizeof_class.dir/refresh_cpp/oops/sizeof_class.cpp.i
+.PHONY : refresh_cpp/oops/sizeof_class.cpp.i
+
+refresh_cpp/oops/sizeof_class.s: refresh_cpp/oops/sizeof_class.cpp.s
+
+.PHONY : refresh_cpp/oops/sizeof_class.s
+
+# target to generate assembly for a file
+refresh_cpp/oops/sizeof_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sizeof_class.dir\build.make CMakeFiles/sizeof_class.dir/refresh_cpp/oops/sizeof_class.cpp.s
+.PHONY : refresh_cpp/oops/sizeof_class.cpp.s
+
 refresh_cpp/pointers/about_call_by_reference.obj: refresh_cpp/pointers/about_call_by_reference.cpp.obj
 
 .PHONY : refresh_cpp/pointers/about_call_by_reference.obj
@@ -1671,14 +1831,17 @@ help:
 	@echo ... about_call_by_reference
 	@echo ... about_class_member_functions
 	@echo ... about_classes
+	@echo ... about_constructors
 	@echo ... about_declr_initial
 	@echo ... about_double
 	@echo ... about_float
+	@echo ... about_inheritance
 	@echo ... about_pointer_implementation
 	@echo ... about_pointer_to_a_function
 	@echo ... about_pointer_to_pointer
 	@echo ... about_pointers
 	@echo ... about_pointers_to_arrays
+	@echo ... about_polymorphism_virtual_functions
 	@echo ... about_quiz1
 	@echo ... about_referencing_variables
 	@echo ... about_taking_inputs
@@ -1689,6 +1852,7 @@ help:
 	@echo ... fill_array
 	@echo ... find_where_the_element
 	@echo ... powers
+	@echo ... sizeof_class
 	@echo ... squareroot
 	@echo ... trigo
 	@echo ... cpp_questions/best_time_to_buy_sell_stock_1.obj
@@ -1778,6 +1942,18 @@ help:
 	@echo ... refresh_cpp/oops/about_classes.obj
 	@echo ... refresh_cpp/oops/about_classes.i
 	@echo ... refresh_cpp/oops/about_classes.s
+	@echo ... refresh_cpp/oops/about_constructors.obj
+	@echo ... refresh_cpp/oops/about_constructors.i
+	@echo ... refresh_cpp/oops/about_constructors.s
+	@echo ... refresh_cpp/oops/about_inheritance.obj
+	@echo ... refresh_cpp/oops/about_inheritance.i
+	@echo ... refresh_cpp/oops/about_inheritance.s
+	@echo ... refresh_cpp/oops/about_polymorphism_virtual_functions.obj
+	@echo ... refresh_cpp/oops/about_polymorphism_virtual_functions.i
+	@echo ... refresh_cpp/oops/about_polymorphism_virtual_functions.s
+	@echo ... refresh_cpp/oops/sizeof_class.obj
+	@echo ... refresh_cpp/oops/sizeof_class.i
+	@echo ... refresh_cpp/oops/sizeof_class.s
 	@echo ... refresh_cpp/pointers/about_call_by_reference.obj
 	@echo ... refresh_cpp/pointers/about_call_by_reference.i
 	@echo ... refresh_cpp/pointers/about_call_by_reference.s

@@ -55,6 +55,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cppmaster.dir/DependInfo.cmake"
   "CMakeFiles/about_double.dir/DependInfo.cmake"
+  "CMakeFiles/about_polymorphism_virtual_functions.dir/DependInfo.cmake"
+  "CMakeFiles/about_constructors.dir/DependInfo.cmake"
   "CMakeFiles/fill_array.dir/DependInfo.cmake"
   "CMakeFiles/find_where_the_element.dir/DependInfo.cmake"
   "CMakeFiles/about_float.dir/DependInfo.cmake"
@@ -77,4 +79,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/about_pointer_to_pointer.dir/DependInfo.cmake"
   "CMakeFiles/fibonacci.dir/DependInfo.cmake"
   "CMakeFiles/about_classes.dir/DependInfo.cmake"
+  "CMakeFiles/about_inheritance.dir/DependInfo.cmake"
+  "CMakeFiles/sizeof_class.dir/DependInfo.cmake"
   )

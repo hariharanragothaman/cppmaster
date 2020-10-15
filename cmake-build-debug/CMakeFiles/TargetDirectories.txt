@@ -1,5 +1,7 @@
 C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/cppmaster.dir
 C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/about_double.dir
+C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/about_polymorphism_virtual_functions.dir
+C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/about_constructors.dir
 C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/fill_array.dir
 C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/find_where_the_element.dir
 C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/about_float.dir
@@ -23,4 +25,6 @@ C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMa
 C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/about_pointer_to_pointer.dir
 C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/fibonacci.dir
 C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/about_classes.dir
+C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/about_inheritance.dir
+C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/sizeof_class.dir
 C:/cygwin64/home/harih/interview_templates_repos/cppmaster/cmake-build-debug/CMakeFiles/edit_cache.dir
