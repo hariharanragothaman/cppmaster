@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.14)
 project(cppmaster)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -60,3 +60,4 @@ add_executable(find_the_output2 refresh_cpp/oops/find_the_output2.cpp)
 add_executable(calculating_area refresh_cpp/oops/calculating_area.cpp)
 add_executable(example_generic templates/example_generic.cpp)
 add_executable(example_with_templates templates/example_with_templates.cpp)
+add_executable(sets refresh_cpp/sets.cpp)
