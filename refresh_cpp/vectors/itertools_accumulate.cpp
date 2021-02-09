@@ -5,6 +5,8 @@
 #include <numeric>
 #include <vector>
 
+using namespace std;
+
 vector<int> runningSum_stl(vector<int>& nums)
 {
     partial_sum(nums.begin(), nums.end(), nums.begin());
@@ -13,5 +15,6 @@ vector<int> runningSum_stl(vector<int>& nums)
 
 vector<int> runningProduct(vector<int>& nums)
 {
-    partial_sum(nums.begin(), nums.end(),nums.begin(), std::multiplies<int>() )
+    partial_sum(nums.begin(), nums.end(),nums.begin(), std::multiplies<int>() );
+    return nums;
 }

@@ -8,6 +8,6 @@ class Score {
 int main()
 {
     Score sc;
-    cout << sc.x;
+    // cout << sc.x; - This will raise a compile error, since x is private
     return 0;
 }
