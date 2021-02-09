@@ -53,6 +53,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/find_the_output2.dir/DependInfo.cmake"
   "CMakeFiles/cppmaster.dir/DependInfo.cmake"
   "CMakeFiles/about_double.dir/DependInfo.cmake"
   "CMakeFiles/about_polymorphism_virtual_functions.dir/DependInfo.cmake"
@@ -77,8 +78,12 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/about_pointers_to_arrays.dir/DependInfo.cmake"
   "CMakeFiles/about_class_member_functions.dir/DependInfo.cmake"
   "CMakeFiles/about_pointer_to_pointer.dir/DependInfo.cmake"
+  "CMakeFiles/example_generic.dir/DependInfo.cmake"
   "CMakeFiles/fibonacci.dir/DependInfo.cmake"
   "CMakeFiles/about_classes.dir/DependInfo.cmake"
   "CMakeFiles/about_inheritance.dir/DependInfo.cmake"
   "CMakeFiles/sizeof_class.dir/DependInfo.cmake"
+  "CMakeFiles/find_the_output.dir/DependInfo.cmake"
+  "CMakeFiles/calculating_area.dir/DependInfo.cmake"
+  "CMakeFiles/example_with_templates.dir/DependInfo.cmake"
   )

@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named find_the_output2
+
+# Build rule for target.
+find_the_output2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 find_the_output2
+.PHONY : find_the_output2
+
+# fast build rule for target.
+find_the_output2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output2.dir\build.make CMakeFiles/find_the_output2.dir/build
+.PHONY : find_the_output2/fast
+
+#=============================================================================
 # Target rules for targets named cppmaster
 
 # Build rule for target.
@@ -442,6 +455,19 @@ about_pointer_to_pointer/fast:
 .PHONY : about_pointer_to_pointer/fast
 
 #=============================================================================
+# Target rules for targets named example_generic
+
+# Build rule for target.
+example_generic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 example_generic
+.PHONY : example_generic
+
+# fast build rule for target.
+example_generic/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_generic.dir\build.make CMakeFiles/example_generic.dir/build
+.PHONY : example_generic/fast
+
+#=============================================================================
 # Target rules for targets named fibonacci
 
 # Build rule for target.
@@ -492,6 +518,45 @@ sizeof_class: cmake_check_build_system
 sizeof_class/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sizeof_class.dir\build.make CMakeFiles/sizeof_class.dir/build
 .PHONY : sizeof_class/fast
+
+#=============================================================================
+# Target rules for targets named find_the_output
+
+# Build rule for target.
+find_the_output: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 find_the_output
+.PHONY : find_the_output
+
+# fast build rule for target.
+find_the_output/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output.dir\build.make CMakeFiles/find_the_output.dir/build
+.PHONY : find_the_output/fast
+
+#=============================================================================
+# Target rules for targets named calculating_area
+
+# Build rule for target.
+calculating_area: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calculating_area
+.PHONY : calculating_area
+
+# fast build rule for target.
+calculating_area/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculating_area.dir\build.make CMakeFiles/calculating_area.dir/build
+.PHONY : calculating_area/fast
+
+#=============================================================================
+# Target rules for targets named example_with_templates
+
+# Build rule for target.
+example_with_templates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 example_with_templates
+.PHONY : example_with_templates
+
+# fast build rule for target.
+example_with_templates/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_with_templates.dir\build.make CMakeFiles/example_with_templates.dir/build
+.PHONY : example_with_templates/fast
 
 cpp_questions/best_time_to_buy_sell_stock_1.obj: cpp_questions/best_time_to_buy_sell_stock_1.cpp.obj
 
@@ -1357,6 +1422,87 @@ refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\about_polymorphism_virtual_functions.dir\build.make CMakeFiles/about_polymorphism_virtual_functions.dir/refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.s
 .PHONY : refresh_cpp/oops/about_polymorphism_virtual_functions.cpp.s
 
+refresh_cpp/oops/calculating_area.obj: refresh_cpp/oops/calculating_area.cpp.obj
+
+.PHONY : refresh_cpp/oops/calculating_area.obj
+
+# target to build an object file
+refresh_cpp/oops/calculating_area.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculating_area.dir\build.make CMakeFiles/calculating_area.dir/refresh_cpp/oops/calculating_area.cpp.obj
+.PHONY : refresh_cpp/oops/calculating_area.cpp.obj
+
+refresh_cpp/oops/calculating_area.i: refresh_cpp/oops/calculating_area.cpp.i
+
+.PHONY : refresh_cpp/oops/calculating_area.i
+
+# target to preprocess a source file
+refresh_cpp/oops/calculating_area.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculating_area.dir\build.make CMakeFiles/calculating_area.dir/refresh_cpp/oops/calculating_area.cpp.i
+.PHONY : refresh_cpp/oops/calculating_area.cpp.i
+
+refresh_cpp/oops/calculating_area.s: refresh_cpp/oops/calculating_area.cpp.s
+
+.PHONY : refresh_cpp/oops/calculating_area.s
+
+# target to generate assembly for a file
+refresh_cpp/oops/calculating_area.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculating_area.dir\build.make CMakeFiles/calculating_area.dir/refresh_cpp/oops/calculating_area.cpp.s
+.PHONY : refresh_cpp/oops/calculating_area.cpp.s
+
+refresh_cpp/oops/find_the_output.obj: refresh_cpp/oops/find_the_output.cpp.obj
+
+.PHONY : refresh_cpp/oops/find_the_output.obj
+
+# target to build an object file
+refresh_cpp/oops/find_the_output.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output.dir\build.make CMakeFiles/find_the_output.dir/refresh_cpp/oops/find_the_output.cpp.obj
+.PHONY : refresh_cpp/oops/find_the_output.cpp.obj
+
+refresh_cpp/oops/find_the_output.i: refresh_cpp/oops/find_the_output.cpp.i
+
+.PHONY : refresh_cpp/oops/find_the_output.i
+
+# target to preprocess a source file
+refresh_cpp/oops/find_the_output.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output.dir\build.make CMakeFiles/find_the_output.dir/refresh_cpp/oops/find_the_output.cpp.i
+.PHONY : refresh_cpp/oops/find_the_output.cpp.i
+
+refresh_cpp/oops/find_the_output.s: refresh_cpp/oops/find_the_output.cpp.s
+
+.PHONY : refresh_cpp/oops/find_the_output.s
+
+# target to generate assembly for a file
+refresh_cpp/oops/find_the_output.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output.dir\build.make CMakeFiles/find_the_output.dir/refresh_cpp/oops/find_the_output.cpp.s
+.PHONY : refresh_cpp/oops/find_the_output.cpp.s
+
+refresh_cpp/oops/find_the_output2.obj: refresh_cpp/oops/find_the_output2.cpp.obj
+
+.PHONY : refresh_cpp/oops/find_the_output2.obj
+
+# target to build an object file
+refresh_cpp/oops/find_the_output2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output2.dir\build.make CMakeFiles/find_the_output2.dir/refresh_cpp/oops/find_the_output2.cpp.obj
+.PHONY : refresh_cpp/oops/find_the_output2.cpp.obj
+
+refresh_cpp/oops/find_the_output2.i: refresh_cpp/oops/find_the_output2.cpp.i
+
+.PHONY : refresh_cpp/oops/find_the_output2.i
+
+# target to preprocess a source file
+refresh_cpp/oops/find_the_output2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output2.dir\build.make CMakeFiles/find_the_output2.dir/refresh_cpp/oops/find_the_output2.cpp.i
+.PHONY : refresh_cpp/oops/find_the_output2.cpp.i
+
+refresh_cpp/oops/find_the_output2.s: refresh_cpp/oops/find_the_output2.cpp.s
+
+.PHONY : refresh_cpp/oops/find_the_output2.s
+
+# target to generate assembly for a file
+refresh_cpp/oops/find_the_output2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output2.dir\build.make CMakeFiles/find_the_output2.dir/refresh_cpp/oops/find_the_output2.cpp.s
+.PHONY : refresh_cpp/oops/find_the_output2.cpp.s
+
 refresh_cpp/oops/sizeof_class.obj: refresh_cpp/oops/sizeof_class.cpp.obj
 
 .PHONY : refresh_cpp/oops/sizeof_class.obj
@@ -1819,6 +1965,60 @@ refresh_cpp/vectors/vector_erase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/refresh_cpp/vectors/vector_erase.cpp.s
 .PHONY : refresh_cpp/vectors/vector_erase.cpp.s
 
+templates/example_generic.obj: templates/example_generic.cpp.obj
+
+.PHONY : templates/example_generic.obj
+
+# target to build an object file
+templates/example_generic.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_generic.dir\build.make CMakeFiles/example_generic.dir/templates/example_generic.cpp.obj
+.PHONY : templates/example_generic.cpp.obj
+
+templates/example_generic.i: templates/example_generic.cpp.i
+
+.PHONY : templates/example_generic.i
+
+# target to preprocess a source file
+templates/example_generic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_generic.dir\build.make CMakeFiles/example_generic.dir/templates/example_generic.cpp.i
+.PHONY : templates/example_generic.cpp.i
+
+templates/example_generic.s: templates/example_generic.cpp.s
+
+.PHONY : templates/example_generic.s
+
+# target to generate assembly for a file
+templates/example_generic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_generic.dir\build.make CMakeFiles/example_generic.dir/templates/example_generic.cpp.s
+.PHONY : templates/example_generic.cpp.s
+
+templates/example_with_templates.obj: templates/example_with_templates.cpp.obj
+
+.PHONY : templates/example_with_templates.obj
+
+# target to build an object file
+templates/example_with_templates.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_with_templates.dir\build.make CMakeFiles/example_with_templates.dir/templates/example_with_templates.cpp.obj
+.PHONY : templates/example_with_templates.cpp.obj
+
+templates/example_with_templates.i: templates/example_with_templates.cpp.i
+
+.PHONY : templates/example_with_templates.i
+
+# target to preprocess a source file
+templates/example_with_templates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_with_templates.dir\build.make CMakeFiles/example_with_templates.dir/templates/example_with_templates.cpp.i
+.PHONY : templates/example_with_templates.cpp.i
+
+templates/example_with_templates.s: templates/example_with_templates.cpp.s
+
+.PHONY : templates/example_with_templates.s
+
+# target to generate assembly for a file
+templates/example_with_templates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_with_templates.dir\build.make CMakeFiles/example_with_templates.dir/templates/example_with_templates.cpp.s
+.PHONY : templates/example_with_templates.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1847,9 +2047,14 @@ help:
 	@echo ... about_taking_inputs
 	@echo ... about_taking_inputs2
 	@echo ... about_ternary
+	@echo ... calculating_area
 	@echo ... cppmaster
+	@echo ... example_generic
+	@echo ... example_with_templates
 	@echo ... fibonacci
 	@echo ... fill_array
+	@echo ... find_the_output
+	@echo ... find_the_output2
 	@echo ... find_where_the_element
 	@echo ... powers
 	@echo ... sizeof_class
@@ -1951,6 +2156,15 @@ help:
 	@echo ... refresh_cpp/oops/about_polymorphism_virtual_functions.obj
 	@echo ... refresh_cpp/oops/about_polymorphism_virtual_functions.i
 	@echo ... refresh_cpp/oops/about_polymorphism_virtual_functions.s
+	@echo ... refresh_cpp/oops/calculating_area.obj
+	@echo ... refresh_cpp/oops/calculating_area.i
+	@echo ... refresh_cpp/oops/calculating_area.s
+	@echo ... refresh_cpp/oops/find_the_output.obj
+	@echo ... refresh_cpp/oops/find_the_output.i
+	@echo ... refresh_cpp/oops/find_the_output.s
+	@echo ... refresh_cpp/oops/find_the_output2.obj
+	@echo ... refresh_cpp/oops/find_the_output2.i
+	@echo ... refresh_cpp/oops/find_the_output2.s
 	@echo ... refresh_cpp/oops/sizeof_class.obj
 	@echo ... refresh_cpp/oops/sizeof_class.i
 	@echo ... refresh_cpp/oops/sizeof_class.s
@@ -2002,6 +2216,12 @@ help:
 	@echo ... refresh_cpp/vectors/vector_erase.obj
 	@echo ... refresh_cpp/vectors/vector_erase.i
 	@echo ... refresh_cpp/vectors/vector_erase.s
+	@echo ... templates/example_generic.obj
+	@echo ... templates/example_generic.i
+	@echo ... templates/example_generic.s
+	@echo ... templates/example_with_templates.obj
+	@echo ... templates/example_with_templates.i
+	@echo ... templates/example_with_templates.s
 .PHONY : help
 
 

@@ -3,9 +3,7 @@ using namespace std;
 
 class Temporary {};
 
-int main()
-{
+int main() {
     cout << sizeof(Temporary);
     return 0;
 }
-

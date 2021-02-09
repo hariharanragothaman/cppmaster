@@ -72,6 +72,7 @@ CMAKE_BINARY_DIR = C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cm
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/find_the_output2.dir/all
 all: CMakeFiles/cppmaster.dir/all
 all: CMakeFiles/about_double.dir/all
 all: CMakeFiles/about_polymorphism_virtual_functions.dir/all
@@ -96,10 +97,14 @@ all: CMakeFiles/about_referencing_variables.dir/all
 all: CMakeFiles/about_pointers_to_arrays.dir/all
 all: CMakeFiles/about_class_member_functions.dir/all
 all: CMakeFiles/about_pointer_to_pointer.dir/all
+all: CMakeFiles/example_generic.dir/all
 all: CMakeFiles/fibonacci.dir/all
 all: CMakeFiles/about_classes.dir/all
 all: CMakeFiles/about_inheritance.dir/all
 all: CMakeFiles/sizeof_class.dir/all
+all: CMakeFiles/find_the_output.dir/all
+all: CMakeFiles/calculating_area.dir/all
+all: CMakeFiles/example_with_templates.dir/all
 
 .PHONY : all
 
@@ -109,6 +114,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/find_the_output2.dir/clean
 clean: CMakeFiles/cppmaster.dir/clean
 clean: CMakeFiles/about_double.dir/clean
 clean: CMakeFiles/about_polymorphism_virtual_functions.dir/clean
@@ -133,12 +139,43 @@ clean: CMakeFiles/about_referencing_variables.dir/clean
 clean: CMakeFiles/about_pointers_to_arrays.dir/clean
 clean: CMakeFiles/about_class_member_functions.dir/clean
 clean: CMakeFiles/about_pointer_to_pointer.dir/clean
+clean: CMakeFiles/example_generic.dir/clean
 clean: CMakeFiles/fibonacci.dir/clean
 clean: CMakeFiles/about_classes.dir/clean
 clean: CMakeFiles/about_inheritance.dir/clean
 clean: CMakeFiles/sizeof_class.dir/clean
+clean: CMakeFiles/find_the_output.dir/clean
+clean: CMakeFiles/calculating_area.dir/clean
+clean: CMakeFiles/example_with_templates.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/find_the_output2.dir
+
+# All Build rule for target.
+CMakeFiles/find_the_output2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output2.dir\build.make CMakeFiles/find_the_output2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output2.dir\build.make CMakeFiles/find_the_output2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target find_the_output2"
+.PHONY : CMakeFiles/find_the_output2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/find_the_output2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/find_the_output2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/find_the_output2.dir/rule
+
+# Convenience name for target.
+find_the_output2: CMakeFiles/find_the_output2.dir/rule
+
+.PHONY : find_the_output2
+
+# clean rule for target.
+CMakeFiles/find_the_output2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output2.dir\build.make CMakeFiles/find_the_output2.dir/clean
+.PHONY : CMakeFiles/find_the_output2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/cppmaster.dir
@@ -147,7 +184,7 @@ clean: CMakeFiles/sizeof_class.dir/clean
 CMakeFiles/cppmaster.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppmaster.dir\build.make CMakeFiles/cppmaster.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64 "Built target cppmaster"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Built target cppmaster"
 .PHONY : CMakeFiles/cppmaster.dir/all
 
 # Build rule for subdir invocation for target.
@@ -255,7 +292,7 @@ CMakeFiles/about_constructors.dir/clean:
 CMakeFiles/fill_array.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fill_array.dir\build.make CMakeFiles/fill_array.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fill_array.dir\build.make CMakeFiles/fill_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target fill_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target fill_array"
 .PHONY : CMakeFiles/fill_array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -282,7 +319,7 @@ CMakeFiles/fill_array.dir/clean:
 CMakeFiles/find_where_the_element.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_where_the_element.dir\build.make CMakeFiles/find_where_the_element.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target find_where_the_element"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target find_where_the_element"
 .PHONY : CMakeFiles/find_where_the_element.dir/all
 
 # Build rule for subdir invocation for target.
@@ -444,7 +481,7 @@ CMakeFiles/about_taking_inputs.dir/clean:
 CMakeFiles/squareroot.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\squareroot.dir\build.make CMakeFiles/squareroot.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\squareroot.dir\build.make CMakeFiles/squareroot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target squareroot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target squareroot"
 .PHONY : CMakeFiles/squareroot.dir/all
 
 # Build rule for subdir invocation for target.
@@ -498,7 +535,7 @@ CMakeFiles/about_call_by_reference.dir/clean:
 CMakeFiles/powers.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\powers.dir\build.make CMakeFiles/powers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\powers.dir\build.make CMakeFiles/powers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target powers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target powers"
 .PHONY : CMakeFiles/powers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -525,7 +562,7 @@ CMakeFiles/powers.dir/clean:
 CMakeFiles/trigo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trigo.dir\build.make CMakeFiles/trigo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trigo.dir\build.make CMakeFiles/trigo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target trigo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target trigo"
 .PHONY : CMakeFiles/trigo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -789,13 +826,40 @@ CMakeFiles/about_pointer_to_pointer.dir/clean:
 .PHONY : CMakeFiles/about_pointer_to_pointer.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/example_generic.dir
+
+# All Build rule for target.
+CMakeFiles/example_generic.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_generic.dir\build.make CMakeFiles/example_generic.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_generic.dir\build.make CMakeFiles/example_generic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target example_generic"
+.PHONY : CMakeFiles/example_generic.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/example_generic.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/example_generic.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/example_generic.dir/rule
+
+# Convenience name for target.
+example_generic: CMakeFiles/example_generic.dir/rule
+
+.PHONY : example_generic
+
+# clean rule for target.
+CMakeFiles/example_generic.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_generic.dir\build.make CMakeFiles/example_generic.dir/clean
+.PHONY : CMakeFiles/example_generic.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/fibonacci.dir
 
 # All Build rule for target.
 CMakeFiles/fibonacci.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target fibonacci"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target fibonacci"
 .PHONY : CMakeFiles/fibonacci.dir/all
 
 # Build rule for subdir invocation for target.
@@ -876,7 +940,7 @@ CMakeFiles/about_inheritance.dir/clean:
 CMakeFiles/sizeof_class.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sizeof_class.dir\build.make CMakeFiles/sizeof_class.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sizeof_class.dir\build.make CMakeFiles/sizeof_class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target sizeof_class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target sizeof_class"
 .PHONY : CMakeFiles/sizeof_class.dir/all
 
 # Build rule for subdir invocation for target.
@@ -895,6 +959,87 @@ sizeof_class: CMakeFiles/sizeof_class.dir/rule
 CMakeFiles/sizeof_class.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sizeof_class.dir\build.make CMakeFiles/sizeof_class.dir/clean
 .PHONY : CMakeFiles/sizeof_class.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/find_the_output.dir
+
+# All Build rule for target.
+CMakeFiles/find_the_output.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output.dir\build.make CMakeFiles/find_the_output.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output.dir\build.make CMakeFiles/find_the_output.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target find_the_output"
+.PHONY : CMakeFiles/find_the_output.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/find_the_output.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/find_the_output.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/find_the_output.dir/rule
+
+# Convenience name for target.
+find_the_output: CMakeFiles/find_the_output.dir/rule
+
+.PHONY : find_the_output
+
+# clean rule for target.
+CMakeFiles/find_the_output.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\find_the_output.dir\build.make CMakeFiles/find_the_output.dir/clean
+.PHONY : CMakeFiles/find_the_output.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/calculating_area.dir
+
+# All Build rule for target.
+CMakeFiles/calculating_area.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculating_area.dir\build.make CMakeFiles/calculating_area.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculating_area.dir\build.make CMakeFiles/calculating_area.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target calculating_area"
+.PHONY : CMakeFiles/calculating_area.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/calculating_area.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/calculating_area.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/calculating_area.dir/rule
+
+# Convenience name for target.
+calculating_area: CMakeFiles/calculating_area.dir/rule
+
+.PHONY : calculating_area
+
+# clean rule for target.
+CMakeFiles/calculating_area.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculating_area.dir\build.make CMakeFiles/calculating_area.dir/clean
+.PHONY : CMakeFiles/calculating_area.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/example_with_templates.dir
+
+# All Build rule for target.
+CMakeFiles/example_with_templates.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_with_templates.dir\build.make CMakeFiles/example_with_templates.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_with_templates.dir\build.make CMakeFiles/example_with_templates.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target example_with_templates"
+.PHONY : CMakeFiles/example_with_templates.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/example_with_templates.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/example_with_templates.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\cygwin64\home\harih\interview_templates_repos\cppmaster\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/example_with_templates.dir/rule
+
+# Convenience name for target.
+example_with_templates: CMakeFiles/example_with_templates.dir/rule
+
+.PHONY : example_with_templates
+
+# clean rule for target.
+CMakeFiles/example_with_templates.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\example_with_templates.dir\build.make CMakeFiles/example_with_templates.dir/clean
+.PHONY : CMakeFiles/example_with_templates.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
