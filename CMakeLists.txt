@@ -1,32 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
 project(cppmaster)
 
-set(CMAKE_CXX_STANDARD 14)
-
-add_executable(cppmaster
-        cpp_questions/best_time_to_buy_sell_stock_1.cpp
-        cpp_questions/for_loop_challene.cpp
-        cpp_questions/getting_input.cpp
-        cpp_questions/longest_palindromic_substring.cpp
-        cpp_questions/reverse_array.cpp
-        cpp_questions/string_stream_split_comma_string.cpp
-        cpp_questions/two_sum.cpp
-        cpp_questions/two_sum_better_style.cpp
-        cpp_questions/valid_parantheses.cpp
-        cpp_questions/variable_array.cpp
-        refresh_cpp/vectors/fill_array.cpp
-        refresh_cpp/vectors/find_max_element.cpp
-        refresh_cpp/vectors/itertools_accumulate.cpp
-        refresh_cpp/vectors/vector_erase.cpp
-        refresh_cpp/hashmaps/hash_map.cpp
-        refresh_cpp/general/general_hacks.cpp
-        refresh_cpp/strings/learning_stringstream.cpp
-        refresh_cpp/linkedlist/linkedlists.cpp
-        refresh_cpp/general/lower_bound.cpp
-        refresh_cpp/number_guessing_game.cpp
-        refresh_cpp/vectors/removing_element_from_vector.cpp
-        refresh_cpp/sets.cpp
-        refresh_cpp/strings/string.cpp)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(fill_array refresh_cpp/vectors/fill_array.cpp)
 add_executable(find_where_the_element refresh_cpp/vectors/find_where_the_element.cpp)
@@ -58,8 +33,8 @@ add_executable(sizeof_class refresh_cpp/oops/sizeof_class.cpp)
 add_executable(find_the_output refresh_cpp/oops/find_the_output.cpp)
 add_executable(find_the_output2 refresh_cpp/oops/find_the_output2.cpp)
 add_executable(calculating_area refresh_cpp/oops/calculating_area.cpp)
-add_executable(example_generic templates/example_generic.cpp)
-add_executable(example_with_templates templates/example_with_templates.cpp)
+add_executable(example_generic refresh_cpp/templates/example_generic.cpp)
+add_executable(example_with_templates refresh_cpp/templates/example_with_templates.cpp)
 add_executable(sets refresh_cpp/sets.cpp)
 
 add_executable(reverse_array cpp_questions/reverse_array.cpp)
@@ -67,3 +42,4 @@ add_executable(for_loop_challene cpp_questions/for_loop_challene.cpp)
 add_executable(itertools_accumulate refresh_cpp/vectors/itertools_accumulate.cpp)
 add_executable(two_sum_better_style cpp_questions/two_sum_better_style.cpp)
 add_executable(hash_map refresh_cpp/hashmaps/hash_map.cpp)
+add_executable(best_time_to_buy_sell_stock_1 cpp_questions/best_time_to_buy_sell_stock_1.cpp)

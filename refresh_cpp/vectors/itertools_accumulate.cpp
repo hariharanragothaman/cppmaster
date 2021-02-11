@@ -18,3 +18,8 @@ vector<int> runningProduct(vector<int>& nums)
     partial_sum(nums.begin(), nums.end(),nums.begin(), std::multiplies<int>() );
     return nums;
 }
+
+int main()
+{
+    return 0;
+}

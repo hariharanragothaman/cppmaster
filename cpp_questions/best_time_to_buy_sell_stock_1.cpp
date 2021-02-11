@@ -15,10 +15,10 @@ int main()
         if (elem < min_price)
             min_price = elem;
         
-        if (max_profit < elem-min_price)
+        if (max_profit < (elem - min_price))
             max_profit = elem - min_price;
     }
     cout <<"The maximum profit is: " << max_profit << endl;
 
-
+    return 0;
 }

@@ -1,6 +1,9 @@
 #include <iostream>
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include <vector>
 #include <unordered_map>
+#include <map>
+#include <algorithm>
 using namespace std;
 
 /*
@@ -59,11 +62,12 @@ int main()
     */
 
    cout<<"Sorting the hashmap by value \n";
-   vector<pair<char, int>> vec; 
+   vector<pair<char, int>> vec;
    for(auto& elem: ordered)
    {
        vec.push_back(make_pair(elem.first, elem.second));
    }
+
    sort(vec.begin(), vec.end(), sort_by_value);
 
    for(int i = 0; i < vec.size(); i++)

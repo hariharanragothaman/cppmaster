@@ -42,6 +42,6 @@ int main()
     string s = "([{}])";
     bool result; 
     result = isValid(s);
-    cout << "The string is: " << result; 
-
+    cout << "The string is: " << result;
+    return 0;
 }

@@ -27,3 +27,8 @@ float test(float lengt, float hei)
     answer = tri.area();
     return answer;
 }
+
+int main()
+{
+    return 0;
+}

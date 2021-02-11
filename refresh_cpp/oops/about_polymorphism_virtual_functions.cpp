@@ -31,6 +31,7 @@ public:
     virtual int get_Area()
     {
         cout << "This is call to parent class area" << endl;
+        return 0;
     }
 };
 
@@ -56,6 +57,7 @@ public:
     int get_Area()
     {
         cout << "Rectangle are: " << length * width << endl;
+        return 0;
     }
 };
 
