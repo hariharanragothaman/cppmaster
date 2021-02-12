@@ -1,5 +1,8 @@
 #include "../../headers.h"
 
+/*Remember unordered_map faster than map since it doesn't care about order
+ */
+
 int main()
 {
     unordered_map<char, int> hmap;
@@ -18,7 +21,6 @@ int main()
     {
         cnt_map[elem] += 1;
     }
-
 
     return 0;
 }

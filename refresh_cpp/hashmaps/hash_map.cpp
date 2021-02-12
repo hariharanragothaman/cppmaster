@@ -1,9 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
-#include <algorithm>
-using namespace std;
+#include "../../headers.h"
 
 /*
 Key Points to remember:
@@ -24,7 +19,6 @@ bool sort_by_value(const pair<char, int> &a, const pair<char, int> &b)
 {
     return (a.second < b.second);
 }
-
 
 int main()
 {
