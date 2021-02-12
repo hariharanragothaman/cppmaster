@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-using namespace std;
+#include "../../headers.h"
 
 void display(vector<int>& nums)
 {
