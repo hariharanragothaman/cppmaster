@@ -1,5 +1,4 @@
-#include <iostream>
-using namespace std;
+#include "../../headers.h"
 
 int main()
 {
@@ -8,7 +7,6 @@ int main()
     for(auto it: array)
         cout << it;
     cout << endl;
-
     // Calculate the size of the array
     cout << "The size of the array is " << sizeof(array) / sizeof(array[0]) << endl;
 }

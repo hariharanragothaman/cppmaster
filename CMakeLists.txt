@@ -43,3 +43,4 @@ add_executable(itertools_accumulate refresh_cpp/vectors/itertools_accumulate.cpp
 add_executable(two_sum_better_style cpp_questions/two_sum_better_style.cpp)
 add_executable(hash_map refresh_cpp/hashmaps/hash_map.cpp)
 add_executable(best_time_to_buy_sell_stock_1 cpp_questions/best_time_to_buy_sell_stock_1.cpp)
+add_executable(testing_headers refresh_cpp/vectors/testing_headers.cpp)
