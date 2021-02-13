@@ -61,3 +61,4 @@ add_executable(for_each_or_list_comprehension refresh_cpp/lambdas/for_each_or_li
 add_executable(quick_print_vector refresh_cpp/vectors/vector_quick_print.cpp)
 add_executable(vector_comprehension refresh_cpp/vectors/vector_comprehension.cpp)
 add_executable(find_max_element refresh_cpp/vectors/vector_find_max_element.cpp)
+add_executable(vector_find_first_item refresh_cpp/vectors/vector_find_first_item.cpp)
