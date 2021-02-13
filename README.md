@@ -18,4 +18,19 @@ Some key things to remember when starting off:
 5. iterator to index  -> it - v.begin() instead of std::distance()  
    https://stackoverflow.com/questions/2152986/what-is-the-most-effective-way-to-get-the-index-of-an-iterator-of-an-stdvector
    
-6. 
+6. Rememeber these 2 styles
+Parsing through a vector and comparing each element
+
+Case1 : Here you go with the iterator approach - and this is how you compare.
+```
+for (auto it = words.begin(); it != words.end(); ++it){
+            if ((*it).compare(word1) == 0)
+               pos = it - words.begin()
+```
+
+Case 2: You go with the routine approach:
+```
+    for(int i = 0; i < words.size(); i++) {
+        if (words[i] == word1)
+```
+
