@@ -34,3 +34,4 @@ Case 2: You go with the routine approach:
         if (words[i] == word1)
 ```
 
+7. There are 25 prime numbers from 1 to 100.
