@@ -35,3 +35,13 @@ Case 2: You go with the routine approach:
 ```
 
 7. There are 25 prime numbers from 1 to 100.
+8.  Something to remember here is that:   
+    all these functions - take iterators as I/P's.   
+    But iterators are more like pointers and they
+    can be incremented or decremented
+    
+9. So this concept called ptr is being used here, 
+   so that it can be re-used everywhere else.
+   Guess that's this has been implemented in C++
+   example is: count() - for compile time polymorphism
+   Like templates
