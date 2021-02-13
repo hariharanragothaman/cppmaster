@@ -1,7 +1,4 @@
-#include <iostream>
-#include <bits/stdc++.h>
-#include <unordered_map>
-using namespace std;
+#include "../../headers.h"
 
 // Basically this the equivalent of a str.split('delim') in python.
 
@@ -11,6 +8,7 @@ int countwords(string str)
     string word;
 
     int count = 0;
+    // Line below this #12 is the key part
     while(s >> word)
     {
         count++;

@@ -1,1 +1,0 @@
-/* Split a string with a help of a delimiter */

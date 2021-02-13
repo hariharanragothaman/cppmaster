@@ -1,11 +1,5 @@
-// Convert vector into a string - similar to join in python
+#include "../../headers.h"
 
-#include <vector>
-#include <string>
-#include <algorithm>
-#include <sstream>
-#include <iostream>
-using namespace std;
 /* Remember this - begin() and end() are used for iterators
    front() and back() are used for - looking up
 */
