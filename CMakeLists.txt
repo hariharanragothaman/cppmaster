@@ -84,3 +84,5 @@ add_executable(vector_replace_element refresh_cpp/vectors/vector_replace_element
 add_executable(string_replace_element refresh_cpp/strings/string_replace_element.cpp)
 add_executable(swap_elements refresh_cpp/general/swap_elements.cpp)
 add_executable(swap_ranges refresh_cpp/general/swap_ranges.cpp)
+add_executable(vector_remove_duplicates refresh_cpp/vectors/vector_remove_duplicates.cpp)
+add_executable(understanding_ternary refresh_cpp/general/understanding_ternary.cpp)
