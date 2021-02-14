@@ -73,3 +73,8 @@ add_executable(find_first_off refresh_cpp/strings/string_find_first_off_occurren
 add_executable(string_adjacent_find refresh_cpp/strings/string_adjacent_find.cpp)
 add_executable(string_count refresh_cpp/strings/string_count.cpp)
 add_executable(vector_count refresh_cpp/vectors/vector_count.cpp)
+add_executable(vector_count_on_condition refresh_cpp/vectors/vector_count_on_condition.cpp)
+add_executable(count refresh_cpp/lambdas/count.cpp)
+add_executable(vector_check_equal refresh_cpp/vectors/vector_check_equal.cpp)
+add_executable(vector_check_permutation refresh_cpp/vectors/vector_check_permutation.cpp)
+add_executable(string_check_permutation refresh_cpp/strings/string_check_permutation.cpp)

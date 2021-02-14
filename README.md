@@ -45,3 +45,13 @@ Case 2: You go with the routine approach:
    Guess that's this has been implemented in C++
    example is: count() - for compile time polymorphism
    Like templates
+   
+Useful References:
+
+1. https://medium.com/logicalbee/c-stl-algorithms-cheat-sheet-d92f986abe14
+2. https://www.cs.mun.ca/~dchurchill/pc/pdf/algorithms_1.pdf
+3. https://medium.com/@13dipty/bfs-implementation-in-c-495931323710
+4. https://medium.com/cheat-sheets/cheat-sheet-for-competitive-programming-with-c-f2e8156d5aa9
+5. https://rohanrajpal.com/competitive%20programming/2020/06/20/cpp-cheat-sheet.html
+6. https://www.geeksforgeeks.org/c-tricks-competitive-programming-c-11/
+7. https://www.codementor.io/@satwikkansal/stl-cheatsheet-for-competitive-programming-arrlk3rqn
