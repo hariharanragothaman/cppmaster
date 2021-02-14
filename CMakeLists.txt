@@ -80,3 +80,7 @@ add_executable(vector_check_permutation refresh_cpp/vectors/vector_check_permuta
 add_executable(string_check_permutation refresh_cpp/strings/string_check_permutation.cpp)
 add_executable(vector_search_is_in_this refresh_cpp/vectors/vector_search_is_in_this.cpp)
 add_executable(string_check_for_substring refresh_cpp/strings/string_check_for_substring.cpp)
+add_executable(vector_replace_element refresh_cpp/vectors/vector_replace_element.cpp)
+add_executable(string_replace_element refresh_cpp/strings/string_replace_element.cpp)
+add_executable(swap_elements refresh_cpp/general/swap_elements.cpp)
+add_executable(swap_ranges refresh_cpp/general/swap_ranges.cpp)
