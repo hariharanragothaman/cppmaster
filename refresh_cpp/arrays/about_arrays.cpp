@@ -1,5 +1,6 @@
 #include "../../headers.h"
 
+
 int main()
 {
     int arr[5]; // Declaration of static array of 5 elements
