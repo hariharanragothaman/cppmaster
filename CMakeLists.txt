@@ -94,3 +94,5 @@ add_executable(vector_prev_permutation refresh_cpp/vectors/vector_prev_permutati
 add_executable(bfs refresh_cpp/bfs/bfs.cpp)
 add_executable(class_templates refresh_cpp/templates/class_templates.cpp)
 add_executable(find_max_in_array_using_templates refresh_cpp/templates/find_max_in_array_using_templates.cpp)
+
+add_executable(string_equality cpp_questions/1451C-string_equality.cpp)
