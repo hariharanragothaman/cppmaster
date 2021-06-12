@@ -1,4 +1,3 @@
-#include <iostream>
 
 /*
  *  Literals are explicit values in the program
@@ -8,6 +7,7 @@
  *  They are not just restricted to simple values
  *  lambda function [](int a, int b){ return a+b; }
  */
+#include "../../headers.h"
 
 int main()
 {
@@ -18,5 +18,6 @@ int main()
 
     std::string raw_path = R"(C:\tmp\newFile.txt)";
     std::cout << raw_path << std::endl;
+    return 0;
 
 }
