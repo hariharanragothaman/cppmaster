@@ -25,7 +25,7 @@ add_executable(about_pointer_to_pointer cppfundae/pointers/about_pointer_to_poin
 add_executable(about_pointer_to_a_function cppfundae/pointers/about_pointer_to_a_function.cpp)
 add_executable(fibonacci algorithms/math/fibonacci.cpp)
 add_executable(about_classes cppfundae/oops/about_classes.cpp)
-add_executable(about_class_member_functions cppfundae/oops/about_class_member_functions.cpp cppfundae/oops/general_class_example.cpp)
+add_executable(about_class_member_functions cppfundae/oops/about_class_member_functions.cpp)
 add_executable(about_constructors cppfundae/oops/about_constructors.cpp)
 add_executable(about_inheritance cppfundae/oops/about_inheritance.cpp)
 add_executable(about_polymorphism_virtual_functions cppfundae/oops/about_polymorphism_virtual_functions.cpp)
@@ -94,7 +94,7 @@ add_executable(vector_prev_permutation cppfundae/vectors/vector_prev_permutation
 add_executable(bfs algorithms/bfs/bfs.cpp)
 add_executable(class_templates cppfundae/templates/class_templates.cpp)
 add_executable(find_max_in_array_using_templates cppfundae/templates/find_max_in_array_using_templates.cpp)
-
+add_executable(general_class_example cppfundae/oops/general_class_example.cpp)
 add_executable(string_equality cpp_questions/1451C-string_equality.cpp)
 add_executable(literals cppfundae/literals/literals.cpp)
 add_executable(enumClassic cppfundae/types/enumClassic.cpp)
