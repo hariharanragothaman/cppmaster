@@ -102,3 +102,6 @@ add_executable(literals cppfundae/literals/literals.cpp)
 add_executable(userDefinedLiterals cppfundae/literals/user_defined_literals.cpp)
 add_executable(autoIntro cppfundae/auto/auto_intro.cpp)
 add_executable(dynamicCast cppfundae/casts/dynamic_cast.cpp)
+add_executable(staticCast cppfundae/casts/static_cast.cpp)
+
+add_executable(virtualDestuctorIntro cppfundae/oops/virtual_destructors_intro.cpp)
