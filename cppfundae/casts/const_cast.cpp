@@ -13,7 +13,7 @@
 
 #include <typeinfo>
 
-int main {
+int main (){
     std::cout << std::endl;
     int i{2011};
     const int* constI = const_cast<const int*>(&i); // A const int pointer for an int
@@ -31,5 +31,5 @@ int main {
 
 
     return 0;
-};
+}
 
