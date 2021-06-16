@@ -15,8 +15,8 @@ public:
 
 class BankAccount: virtual public Account{};
 class WireAccount: virtual public Account{};
-class CheckingAccount: public BankAccount, public WireAccount;
-class SavingAccount: public BankAccount, public WireAccount;
+class CheckingAccount: public BankAccount, public WireAccount{};
+class SavingAccount: public BankAccount, public WireAccount{};
 
 int main()
 {
