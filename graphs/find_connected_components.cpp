@@ -13,7 +13,7 @@ void get_connected_components(vector<vi>& g, int n)
 	}
 
 	vector<set<int>> result;
-	std::vector<int> visited(n, false);
+	std::vector<bool> visited(n, false);
 	int components = 0;
 
 	for(int i=0; i<n; i++)
