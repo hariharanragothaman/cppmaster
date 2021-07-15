@@ -29,6 +29,11 @@ vector<int> rabin_karp(string const& s, string const& t) {
 int main()
 {
 	string  s = "Hello";
-	string  t = "HelloWorld";
+	string  t = "HelloWorldHello";
+    vector<int> result = rabin_karp(s, t);
+    cout << "The occurances are in the following places: " ;
+    for(auto c: result)
+        cout << c << " ";
+    cout << endl;
 	return 0;
 }

@@ -9,14 +9,7 @@ void basicGraph(vector<vi> &g)
 
 	for(auto c: g)
 	{
-		if(graph.find(c[0]) == graph.end())
-		{
-			graph[c[0]] = {c[1]};
-		}
-		else
-		{
-			graph[c[0]].push_back(c[1]);
-		}
+		graph[c[0]].emplace_back(c[1]);
 	}
 
 	/* Printing the graph  keys*/
