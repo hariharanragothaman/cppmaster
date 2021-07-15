@@ -14,6 +14,7 @@ int count_unique_substrings(string const& s) {
     for (int i = 0; i < n; i++)
         h[i+1] = (h[i] + (s[i] - 'a' + 1) * p_pow[i]) % m;
 
+
     int cnt = 0;
     for (int l = 1; l <= n; l++) {
         set<long long> hs;

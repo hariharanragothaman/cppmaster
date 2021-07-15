@@ -28,7 +28,7 @@ vector<int> rabin_karp(string const& s, string const& t) {
 
 int main()
 {
-	string  s = "Hello"
-	string  t = "HelloWorld"
+	string  s = "Hello";
+	string  t = "HelloWorld";
 	return 0;
 }
