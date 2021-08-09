@@ -1,5 +1,4 @@
 #include "../headers.h"
-
 /* Get connected components in a graph */
 
 void get_connected_components(vector<vi>& g, int n)
@@ -14,8 +13,7 @@ void get_connected_components(vector<vi>& g, int n)
 
 	vector<set<int>> result;
 	std::vector<bool> visited(n, false);
-	int components = 0;
-
+	
 	for(int i=0; i<n; i++)
 	{
 		set<int> path = {};
@@ -59,6 +57,8 @@ void get_connected_components(vector<vi>& g, int n)
 
 int main()
 {
+	ios::sync_with_stdio(false);
+  	cin.tie(0);
 	std::vector<std::vector<int>> g = {{0, 1}, {1, 2}, {3, 4}};
 	int n = 5;
 	get_connected_components(g, n);
