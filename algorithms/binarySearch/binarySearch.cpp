@@ -76,7 +76,8 @@ vector<int> sieve(int n)
         if (arr[i] == 0)
         {
             vect.push_back(i);
-            for (int j = 2 * i; j <= n; j += i)arr[j] = 1;
+            for (int j = 2 * i; j <= n; j += i)
+                arr[j] = 1;
         }
     return vect;
 }
@@ -171,14 +172,23 @@ int main()
     if(binary_search(arr1.begin(), arr1.end(), target))
         cout << target << " exists!" << endl;
 
+    /* LOWER BOUND EXAMPLES */
     // Getting the position of 20 using lower_bound - where in arr1 20 exists
     cout << "The position of 20 in arr1 is: (single occurs) " << lower_bound(arr1.begin(), arr1.end(), target) - arr1.begin() << endl;
 
     // Getting the position of 20 using lower_bound - where in arr1 20 exists multiple times
     cout << "The position of 20 in arr2 is: (multiple time occurs) " << lower_bound(arr2.begin(), arr2.end(), target) - arr2.begin() << endl;
 
-    // Getting the position of 20 using lower_bound - where in arr1 20 does not exists
+    // Getting the position of 20 using lower_bound - where in arr1 20 does not exists - similar to bisect_left
     cout << "The position of 20 in arr3 if inserted: (does not exists) " << lower_bound(arr3.begin(), arr3.end(), target) - arr3.begin() << endl;
 
 
+    /* UPPER BOUND EXAMPLES */
+    cout << "Upper Bound Examples..." << endl;
+    // Returns index+1 if index exists - in single occurance
+    cout << "The position of 20 in arr1 is: (single occurs) " << upper_bound(arr1.begin(), arr1.end(), target) - arr1.begin() << endl;
+    // Returns last index+1 if multiple occurances
+    cout << "The position of 20 in arr2 is: (multiple time occurs) " << upper_bound(arr2.begin(), arr2.end(), target) - arr2.begin() << endl;
+    // If it doesn't exists - then returns similar to bisect_left it it doesn't exists
+    cout << "The position of 20 in arr3 if inserted: (does not exists) " << upper_bound(arr3.begin(), arr3.end(), target) - arr3.begin() << endl;
 }
