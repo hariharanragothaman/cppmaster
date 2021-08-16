@@ -16,5 +16,7 @@ int main()
     str.insert(8, tag + ' ');
     debug(str);
 
+    str[0].
+
     return 0;
 }

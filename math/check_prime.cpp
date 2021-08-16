@@ -1,28 +1,26 @@
+
 #include "../headers.h"
 
-bool check_prime(int n)
+bool prime(int n)
 {
-    if (n == 1)
-    {
+    if (n < 2 )
         return false;
-    }
+    if (n <= 3)
+        return true;
+    if ( !(n % 2 ) or !( n % 3))
+        return false;
 
-    int i = 2;
-    while (i*i <= n)
-    {
-        if (n % i == 0)
-        {
+    for (int i=5; i*i <= n; i+=6)
+        if ( !(n%i) or !(n%(i+2)))
             return false;
-        }
-        i += 1;
-    }
+
     return true;
 }
 
-
 int main()
 {
-    int n = 5;
-    check_prime(n);
+    int n = 7;
+    bool res = prime(n);
+    cout << res;
     return 0;
 }

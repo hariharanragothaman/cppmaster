@@ -12,6 +12,7 @@
 #include <chrono>
 #include <cstring>
 #include <iomanip>
+#include <cstdlib>
 
 #include <iostream>
 #include <sstream>
@@ -54,7 +55,7 @@ typedef pair<ll, ll> pll;
 // Binary Search comforts
 #define lb lower_bound
 #define ub upper_bound
-
+#define debug(x) cout << #x << " is " << x << endl
 
 // begin deepsigh
 #define min(x,y) ({ __typeof__(x) __var0 = x; __typeof__(y) __var1 = y; __var0 < __var1 ? __var0 : __var1; })

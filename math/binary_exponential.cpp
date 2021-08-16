@@ -1,4 +1,4 @@
-#include "../../headers.h"
+#include "../headers.h"
 
 int binpow( int a, int n)
 {
