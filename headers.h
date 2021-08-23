@@ -151,3 +151,12 @@ ll combination(ll n, ll r, ll m, ll* fact) {
 #define all(x) x.begin(), x.end()
 #define sz(x) (int)(x).size()
 // END NO SAD
+
+// Templates
+template < typename T1, typename T2 > struct pair {
+    T1 first;
+    T2 second;
+};
+
+#define present(container, element) (container.find(element) != container.end())
+#define cpresent(container, element) (find(all(container), element) != container.end())
