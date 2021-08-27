@@ -1,0 +1,28 @@
+Safety Critical Systems
+    Unified Initialization
+    Strongly typed enums
+    User-defined literals
+
+High Performance
+    User-defined literals
+    Type Traits
+    constexpr
+    Associative Containers
+
+Reduced Resources & CPU Power
+    Move Semantic
+    Memory Management
+    Smart Pointers
+
+Parallel Execution
+    Memory Model
+    Thread Primitives, Threads and Locks
+    Tasks
+
+C++ is a multi-paradigm language
+    It can be
+        OOPS
+        Structured
+        Functional
+        generic
+        generative
