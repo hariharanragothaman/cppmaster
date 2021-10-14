@@ -8,6 +8,13 @@
  * This is also one of the fundae of secure coding.
  */
 
+/*
+ *  Some other general thoughts
+ *  Guideline #4: A base class destructor should be either public and virtual, or protected and nonvirtual
+ *  if you delete polymorphically without a virtual destructor, you summon the dreaded specter of "undefined behavior,"
+ *  a specter I personally would rather not meet in even a moderately well-lit alley, thank you very much
+ */
+
 #include "bits/stdc++.h"
 using namespace std;
 
@@ -30,6 +37,6 @@ int main()
 {
     Derived *d = new Derived();
     Base *b = d;
-    delete b;
+    delete b; // Here's the problem!
     return 0;
 }
