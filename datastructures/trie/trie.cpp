@@ -78,5 +78,7 @@ int main()
     Trie* obj = new Trie();
     string s = "Hello";
     obj->insert(s);
+    bool result = obj->search("Hello");
+    cout << "The result is:" << result << endl;
     return 0;
 }
