@@ -1,7 +1,7 @@
 #include "bits/stdc++.h"
 using namespace std;
 
-void getDiameter(map<int, vector<int>>&g, int& nodes)
+void getDiameter(unordered_map<int, vector<int>>&g, int& nodes)
 {
     /* We need to do DFS twice */
 
@@ -31,9 +31,6 @@ void getDiameter(map<int, vector<int>>&g, int& nodes)
         }
     }
 
-    cout << "The arbitrary node is: " << arbitrary_node << endl;
-    cout << "The max_length is: " << current_max_length << endl;
-
     /* Doing DFS the second time */
 
     deque<pair<int, int>> q2;
@@ -48,9 +45,6 @@ void getDiameter(map<int, vector<int>>&g, int& nodes)
         q2.pop_back();
         visited2.insert(node_and_length2.first);
 
-        cout << "The node is:" << node_and_length2.first << endl;
-        cout << "The length is:" << node_and_length2.second << endl;
-
         if(node_and_length2.second >= diameter_of_tree)
             diameter_of_tree = node_and_length2.second;
 
@@ -59,8 +53,8 @@ void getDiameter(map<int, vector<int>>&g, int& nodes)
             if(visited2.find(child) == visited2.end())
                 q2.emplace_back(make_pair(child, node_and_length2.second + 1));
         }
-        cout << "The diameter is:" << diameter_of_tree << endl ;
     }
+    cout << diameter_of_tree << endl;
 }
 
 int main()
@@ -69,7 +63,7 @@ int main()
     cin >> nodes;
     int edges = nodes - 1;
     int u, v;
-    map<int, vector<int>> g;
+    unordered_map<int, vector<int>> g;
     while(edges)
     {
         cin >> u >> v;
