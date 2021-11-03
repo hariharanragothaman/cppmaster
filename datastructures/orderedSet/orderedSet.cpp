@@ -19,6 +19,9 @@ int main()
     p.insert(2);
     p.insert(6);
     p.insert(4);
+    for(auto c: p)
+        cout << c;
+    cout << endl;
     cout << "The value at 3rd index :: " << *p.find_by_order(3) << endl;
     cout << "The index of number 6:: " << p.order_of_key(6) << endl;
     cout << "The index of number seven :: " << p.order_of_key(7) << endl;
