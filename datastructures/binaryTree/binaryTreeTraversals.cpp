@@ -47,3 +47,35 @@ vector<int> postorderTraversal(TreeNode* root)
     }
     return post_order;
 }
+
+vector<int> preorderTraversal(TreeNode* root)
+{
+    vector<int> pre_order;
+
+    deque<TreeNode*> q;
+    q.emplace_back(root);
+
+    TreeNode* node;
+
+    if(root == nullptr)
+        return pre_order;
+
+    while(q.size() > 0)
+    {
+        node = q.back();
+        q.pop_back();
+        /* This line can be replaced to just add node value as well */
+        if(node != nullptr)
+        {
+            pre_order.emplace_back(node->val);
+            if(node->right)
+                q.emplace_back(node->right);
+            if(node->left)
+                q.emplace_back(node->left);
+        }
+    }
+
+
+    return pre_order;
+
+}
