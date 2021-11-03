@@ -8,9 +8,7 @@ void basicGraph(vector<vi> &g)
 	int n = g.size();
 
 	for(auto c: g)
-	{
 		graph[c[0]].emplace_back(c[1]);
-	}
 
 	/* Printing the graph  keys*/
 	for(auto it = graph.begin(); it != graph.end(); ++it)
