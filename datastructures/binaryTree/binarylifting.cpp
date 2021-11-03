@@ -2,7 +2,7 @@
  * Concept: Binary Lifting
  * Side Concept: Any number can be represented as a power of 2 (Applying DP here)
  * References:
- * https://cses.fi/problemset/task/1687/
+ * Company Queries, kth level boss: https://cses.fi/problemset/task/1687/
  * https://usaco.guide/plat/binary-jump
  * https://www.youtube.com/watch?v=MOy4UDjN8DM
  * https://aryansh.gitbook.io/informatics-notes/binary-lifting/binary-lifting-gold-part-1
