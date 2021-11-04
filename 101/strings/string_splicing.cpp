@@ -9,7 +9,7 @@ int main()
     cout << "Cool things with string\n";
     string s = "Leetcode for life";
 
-    // Method to cut a string
+    // Method to cut a string [a, b)
     string cut = s.substr(1,10);
     cout <<"The cut string is:  " << cut << endl;
 

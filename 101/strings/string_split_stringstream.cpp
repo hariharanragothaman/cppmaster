@@ -11,9 +11,9 @@ int countwords(string str)
     // Line below this #12 is the key part
     while(s >> word)
     {
+        cout << "The word is:" << word << endl;
         count++;
     }
-
     return count;
 }
 
