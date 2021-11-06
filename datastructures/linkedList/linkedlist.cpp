@@ -42,7 +42,15 @@ void push_at_specific_position(Node* head, int pos, int value)
     }
     tmp->data = value;
     prev->next = tmp;
-    tmp.next = current;
+    tmp->next = current;
+}
+
+void delete_first(Node* head)
+{
+    Node* tmp = new Node();
+    tmp = head;
+    head = head->next;
+    delete tmp;
 }
 
 int main()
