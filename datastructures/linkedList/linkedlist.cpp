@@ -53,6 +53,20 @@ void delete_first(Node* head)
     delete tmp;
 }
 
+void delete_position(Node* head, int pos)
+{
+    Node* current = new Node();
+    Node* previous = new Node();
+    current = head;
+
+    for(int i=1; i<pos; i++)
+    {
+        previous = current;
+        current = current->next;
+    }
+    previous->next = current->next;
+}
+
 int main()
 {
     Node* head = new Node();
