@@ -39,6 +39,16 @@ vector<int> topological_sort(vector<vector<int>>& graph, int& nodes)
     }
 
     // Add a cycle check here...
+    for(auto c: result)
+    {
+        for (auto d: graph[c])
+        {
+            if (visited[d])
+                return {}
+            visited[c] = 0;
+        }
+    }
+
     reverse(result.begin(), result.end());
     return result;
 }
