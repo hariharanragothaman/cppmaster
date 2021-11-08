@@ -67,6 +67,18 @@ void delete_position(Node* head, int pos)
     previous->next = current->next;
 }
 
+Node* middlenode(Node* head)
+{
+    Node* slow = head;
+    Node* fast = head;
+    while(fast!=nullptr && fast->next !=nullptr)
+    {
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+    return slow;
+}
+
 int main()
 {
     Node* head = new Node();
