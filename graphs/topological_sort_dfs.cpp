@@ -44,7 +44,7 @@ vector<int> topological_sort(vector<vector<int>>& graph, int& nodes)
         for (auto d: graph[c])
         {
             if (visited[d])
-                return {}
+                return {};
             visited[c] = 0;
         }
     }
