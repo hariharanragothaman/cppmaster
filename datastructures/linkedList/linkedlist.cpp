@@ -45,6 +45,40 @@ void push_at_specific_position(Node* head, int pos, int value)
     tmp->next = current;
 }
 
+Node* removeNthFromEnd(Node* head, int n)
+{
+    int length = 0;
+    Node* current = head;
+    if(current->next == nullptr)
+        length = 1;
+    else
+    {
+        length = 0;
+        while(current != nullptr)
+        {
+            current = current->next;
+            length++;
+        }
+    }
+    int candidate = length - n;
+    /* Actual logic to delete */
+    Node* prev;
+    Node* current2 = head;
+
+    if(candidate == 0)
+    {
+        head=head->next;
+        return head;
+    }
+    for(int i=0; i<candidate; i++)
+    {
+        prev = current2;
+        current2 = current2->next;
+    }
+    prev->next = current2->next;
+    return head;
+}
+
 void delete_first(Node* head)
 {
     Node* tmp = new Node();
