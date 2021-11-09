@@ -167,6 +167,13 @@ int main()
     vi arr2 = {10, 15, 20, 20, 25, 30, 35};
     vi arr3 = {10, 15, 25, 30, 35};
 
+    /* Quick binary search template
+     * We need to account for overflow's as well
+     * */
+    int left = 1;
+    int right = 100;
+    int pivot = ((unsigned int)left + (unsigned int)right) >> 1;
+
     int target = 20;
     // Use Binary search to check if 20 exists
     if(binary_search(arr1.begin(), arr1.end(), target))

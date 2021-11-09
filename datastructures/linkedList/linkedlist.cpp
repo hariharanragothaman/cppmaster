@@ -67,7 +67,7 @@ void delete_position(Node* head, int pos)
     previous->next = current->next;
 }
 
-Node* middlenode(Node* head)
+Node* middle_node(Node* head)
 {
     Node* slow = head;
     Node* fast = head;
