@@ -25,6 +25,11 @@ public:
         for(int i=n-1; i>0; i--)
             // The operation here should be replaced by the function of intent
             segment_tree[i] = segment_tree[i*2] + segment_tree[i*2+1];
+
+        cout <<"Printing the built segment Tree" << endl;
+        for(auto c: segment_tree)
+            cout << c << " ";
+        cout << endl;
     }
 
     void update(int position, int value)
@@ -76,10 +81,11 @@ public:
 
 int main()
 {
-    vector<int> arr {5, 8, 6, 3, 2, 7, 2, 10};
+    vector<int> arr {0, 1, 1, 0, 0, 1, 1, 0};
     SegmentTree seg_obj;
     seg_obj.build_tree(arr);
-    int ans = seg_obj.query(2, 5);
+    seg_obj.update(4, 7);
+    int ans = seg_obj.query(0, 4);
     cout << "The answer is: " << ans << endl;
     return 0;
 }
