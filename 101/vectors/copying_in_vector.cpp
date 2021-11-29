@@ -1,6 +1,5 @@
 #include "../../headers.h"
 
-
 int main()
 {
     vector<int> v;
