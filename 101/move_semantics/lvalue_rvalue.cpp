@@ -1,7 +1,3 @@
-//
-// Created by Hariharan Ragothaman on 11/30/21.
-//
-
 #include "bits/stdc++.h"
 using namespace std;
 
@@ -12,9 +8,18 @@ using namespace std;
  *  It is just a call to the default constructor of the struct MyData.
  *  std::move(myData) creates an rvalue reference as well since we can neither determine the destination address of myData,
  *  nor the destination variable’s name.
- *
- *
+
  */
+
+int lValue = 1998; // 1998 is an rvalue
+lvalue = 2011;
+const int lValue2 = 2011;
+lvalue2 = 2011; // ERROR
+
+int defInt = int{};
+int res = 2000 + 11;
+auto func = []{std::cout << "2011" << std::endl;};
+
 struct MyData {};
 
 std::string function( const MyData & ) {
