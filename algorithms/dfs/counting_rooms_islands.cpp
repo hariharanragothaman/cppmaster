@@ -1,25 +1,8 @@
-//
-// Created by Hariharan Ragothaman on 11/28/21.
-// Problem: https://cses.fi/problemset/task/1192
-
-// Rememeber function calls are not FREEEEE......
-
 #include "bits/stdc++.h"
 using namespace std;
 #define ENABLEFASTIO() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 
-vector<vector<int>> get_neighbours(int r, int c, int R, int C)
-{
-    vector<vector<int>> directions = {{r+1, c}, {r, c+1}, {r-1, c}, {r, c-1}};
-    vector<vector<int>> nei;
-    for(auto d: directions)
-    {
-        if(0 <= d[0] && d[0]< R && d[1] >= 0 && d[1] < C)
-            nei.push_back({d[0], d[1]});
-    }
-    return nei;
-}
-
+const std::pair<int, int> moves[] = {{-1, 0}, {0, -1}, {0, 1}, {1, 0}};
 
 void dfs(vector<vector<char>>& A, int& r, int& c, int& R, int& C)
 {
@@ -37,16 +20,19 @@ void dfs(vector<vector<char>>& A, int& r, int& c, int& R, int& C)
 
         nr = node.first;
         nc = node.second;
-        vector<vector<int>> directions = {{nr+1, nc}, {nr, nc+1}, {nr-1, nc}, {nr, nc-1}};
 
-        for(auto d: directions)
-            if(0 <= d[0] && d[0]< R && d[1] >= 0 && d[1] < C)
-                if(A[d[0]][d[1]] == '.')
-                    Q.push_back(make_pair(d[0], d[1]));
+        for(auto [dx, dy]: moves)
+        {
+            dx += nr;
+            dy += nc;
+            if (0 <= dx && dx < R && dy >= 0 && dy < C)
+                if (A[dx][dy] == '.')
+                    Q.push_back(make_pair(dx, dy));
+        }
     }
 }
 
-#define LOCAL
+//#define LOCAL
 #ifdef LOCAL
 ifstream  i_data("../io/data.in");
 ofstream  o_data("../io/data.out");

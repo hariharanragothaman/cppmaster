@@ -89,6 +89,7 @@ vector<int> sieve(int n)
         }
     return vect;
 }
+
 ll gcd(ll a, ll b) {
     if (b > a) {
         return gcd(b, a);
