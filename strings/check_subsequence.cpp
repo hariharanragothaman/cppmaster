@@ -1,4 +1,5 @@
-#include "../headers.h"
+#include "bits/stdc++.h"
+using namespace std;
 
 // Check if s is a subsequence of t
 bool isSubsequence(string s, string t)
