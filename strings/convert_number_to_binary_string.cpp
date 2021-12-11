@@ -2,12 +2,13 @@
 // Created by Hariharan Ragothaman on 12/11/21.
 //
 
-#include "bits/stdc++.h"
+#include <iostream>
 using namespace std;
 
 int main()
 {
     int n = 7;
-    string str = bitset<8>(n).to_string();
-    cout << str;
+    // Here 32 denotes the total bits
+    string str = bitset<32>(n).to_string();
+    str.erase(0, str.find_first_not_of('0'));
 }
