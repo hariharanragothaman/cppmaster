@@ -142,8 +142,8 @@ ll combination(ll n, ll r, ll m, ll* fact) {
 }
 
 
-#define min(x,y) ({ __typeof__(x) __var0 = x; __typeof__(y) __var1 = y; __var0 < __var1 ? __var0 : __var1; })
-#define max(x,y) ({ __typeof__(x) __var0 = x; __typeof__(y) __var1 = y; __var0 < __var1 ? __var1 : __var0; })
+//#define min(x,y) ({ __typeof__(x) __var0 = x; __typeof__(y) __var1 = y; __var0 < __var1 ? __var0 : __var1; })
+//#define max(x,y) ({ __typeof__(x) __var0 = x; __typeof__(y) __var1 = y; __var0 < __var1 ? __var1 : __var0; })
 
 // BEGIN NO SAD
 #define rep(i, a, b) for(int i = a; i < (b); ++i)
@@ -157,6 +157,30 @@ template < typename T1, typename T2 > struct pair {
     T1 first;
     T2 second;
 };
+
+bool sortBySecond(const std::pair<int,int> &a, const std::pair<int,int> &b)
+{
+    return (a.second < b.second);
+}
+
+template<typename T>
+void print(std::vector<T> const &v)
+{
+    for (auto i: v)
+    {
+        std::cout << i << ' ';
+    }
+    std::cout << std::endl;
+}
+
+template<typename T>
+std::vector<T> slices(std::vector<T> const &v, int m, int n)
+{
+    auto first = v.cbegin() + m;
+    auto last = v.cbegin() + n + 1;
+    std::vector<T> vec(first, last);
+    return vec;
+}
 
 #define present(container, element) (container.find(element) != container.end())
 #define cpresent(container, element) (find(all(container), element) != container.end())
