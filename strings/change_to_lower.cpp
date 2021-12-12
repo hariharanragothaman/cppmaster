@@ -1,8 +1,4 @@
-//
-// Created by Hariharan Ragothaman on 11/30/21.
-//
-
-#include "bits/stdc++.h"
+#include "../headers.h"
 using namespace std;
 
 int main()
