@@ -3,7 +3,7 @@
  * Refer: Stanford's list of linkedlist problems
  */
 
-#include "bits/stdc++.h"
+#include <iostream>
 using namespace std;
 
 class Node {
@@ -25,7 +25,7 @@ void push(Node* head, int value)
 {
     Node* tmp = new Node();
     tmp->data = value;
-    tmp->data = head;
+    tmp->next = head;
     head = tmp;
 }
 
