@@ -1,4 +1,5 @@
-#include "../headers.h"
+#include "bits/stdc++.h"
+using namespace std; 
 
 int binpow( int a, int n)
 {
