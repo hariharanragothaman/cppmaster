@@ -1,7 +1,8 @@
-#include "bits/stdc++.h"
+#include <iostream>
+#include <vector>
 using namespace std;
 
-void dijkstra(int start, vector<pair<int, ll>>* edges, ll *arr, int n, bool* visited, int* parent)
+void dijkstra(int start, vector<pair<int, long long>>* edges, long long *arr, int n, bool* visited, int* parent)
 {
     set<pair<ll, int>> s;
     s.insert({ll(0), 0});
@@ -35,22 +36,22 @@ void solve()
 
     int n, m;
     cin >> n >> m;
-    vector<pair<int, ll>> *edges = new vector<pair<int, ll>>[n];
+    vector<pair<int, long long>> *edges = new vector<pair<int, long long>>[n];
     int* parent = new int[n];
     for (int i = 0; i < n; i++)
         parent[i] = i;
     for (int i = 0; i < m; i++)
     {
         int a, b;
-        ll c;
+        long long c;
         cin >> a >> b >> c;
         a--;
         b--; 	//considering bidirectional edges
-        edges[a].pb({b, c});
-        edges[b].pb({a, c});
+        edges[a].push_back({b, c});
+        edges[b].push_back({a, c});
     }
 
-    ll* shortest_paths = new ll[n]; // from the vertex 0
+    long long* shortest_paths = new long long[n]; // from the vertex 0
     for (int i = 0; i < n; i++)
         shortest_paths[i] = 1e18;
     shortest_paths[0] = 0;
@@ -66,19 +67,15 @@ void solve()
         vector<int> v1;
         while (parent[i] != i)
         {
-            v1.pb(parent[i] + 1);
+            v1.push_back(parent[i] + 1);
             i = parent[i];
         }
-        for (int i = v1.size() - 1; i >= 0; i--)
-            cout << v1[i] << " ";
-        cout << n << " ";
-        cout << endl;
     }
     else
         cout << -1 << endl;
 }
 
-int main()
+int32_t main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
