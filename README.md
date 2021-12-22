@@ -33,6 +33,25 @@ Quick Recipes for Problem Solving
 </details>
 
 <details>
+  <summary>Basics</summary>
+
+- [auto](https://github.com/hariharanragothaman/cppmaster/blob/master/101/auto/auto_intro.cpp)
+- [casts](https://github.com/hariharanragothaman/cppmaster/tree/master/101/casts)
+- [constructDestruct](https://github.com/hariharanragothaman/cppmaster/tree/master/101/constructDestruct)
+- [lambdas](https://github.com/hariharanragothaman/cppmaster/tree/master/101/lambdas)
+- [move_semantics](https://github.com/hariharanragothaman/cppmaster/tree/master/101/move_semantics)
+- [multithreading](https://github.com/hariharanragothaman/cppmaster/tree/master/101/multithreading)
+- [smart pointers](https://github.com/hariharanragothaman/cppmaster/tree/master/101/smartpointers)
+- [Templates](https://github.com/hariharanragothaman/cppmaster/tree/master/101/templates)
+- [Vector Hacks](https://github.com/hariharanragothaman/cppmaster/tree/master/101/vectors)
+- [String Hacks](https://github.com/hariharanragothaman/cppmaster/tree/master/101/strings)
+</details>
+
+
+
+
+
+<details>
   <summary>Graphs</summary>
 
   - [Check Bi-Partite](https://github.com/hariharanragothaman/pymaster/blob/master/graphs/check_bipartite.py)
