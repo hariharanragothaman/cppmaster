@@ -57,7 +57,7 @@ Quick Recipes for Problem Solving
   - [Hashing (Rolling Hash)](https://github.com/hariharanragothaman/pymaster/blob/master/strings/hashing.py)
   - [KMP](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/kmp.cpp)
   - [Longest Common Substring (LCS)](https://github.com/hariharanragothaman/pymaster/blob/master/strings/longest_common_substring.py)
-  - [Longest Increasing Subsequence (LIS)](https://github.com/hariharanragothaman/pymaster/blob/master/strings/longest_increasing_subsequence.py)
+  - [Longest Increasing Subsequence (LIS)](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/longest_increasing_subsequence.cpp)
   - [Rabin Karp](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/rabin_karp.cpp)
   - [Rolling Hash - Find duplicates in a list of strings](https://github.com/hariharanragothaman/pymaster/blob/master/strings/hashing_find_duplicates_in_an_array_of_strings.py)
   - [Rolling Hash - Count distinct substrings in a string](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/count_distinct_substrings.cpp)
