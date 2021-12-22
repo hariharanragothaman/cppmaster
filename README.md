@@ -72,6 +72,7 @@ Quick Recipes for Problem Solving
   <summary>Strings</summary>
 
   - [Check Palindrome](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/check_palindrome.cpp)
+  - [Change to Lower](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/change_to_lower.cpp)
   - [Check if s is subsequence of t](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/check_subsequence.cpp)
   - [Generate all substrings O(n^2)](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/generate_all_substrings.cpp)
   - [Hashing (Rolling Hash)](https://github.com/hariharanragothaman/pymaster/blob/master/strings/hashing.py)
