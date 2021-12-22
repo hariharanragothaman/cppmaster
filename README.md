@@ -10,10 +10,38 @@ Quick Recipes for Problem Solving
   
 </details>
 
+<details>
+  <summary>Graphs</summary>
+  
+</details>
 
+<details>
+  <summary>Strings</summary>
+  
+</details>
 
-#### General thoughts
+<details>
+  <summary>Math</summary>
+  
+</details>
 
+<details>
+  <summary>Algorithms</summary>
+  
+</details>
+
+</details>
+
+<details>
+  <summary>Basics</summary>
+  
+</details>
+
+</details>
+
+<details>
+  <summary>General Thoughts</summary>
+  
 Something to remember is many STL functions can be applied
 for several containers. Remember this. 
 Eg: count() can be used for vector and strings like Counter() in python.   
@@ -55,17 +83,19 @@ Case 2: You go with the routine approach:
    Guess that's this has been implemented in C++
    example is: count() - for compile time polymorphism
    Like templates
-   
-Useful References:
+  
+ 
+</details>
 
-1. https://medium.com/logicalbee/c-stl-algorithms-cheat-sheet-d92f986abe14
+<details>
+  <summary>Useful References</summary>
+  1. https://medium.com/logicalbee/c-stl-algorithms-cheat-sheet-d92f986abe14
 2. https://www.cs.mun.ca/~dchurchill/pc/pdf/algorithms_1.pdf
 3. https://medium.com/@13dipty/bfs-implementation-in-c-495931323710
 4. https://medium.com/cheat-sheets/cheat-sheet-for-competitive-programming-with-c-f2e8156d5aa9
 5. https://rohanrajpal.com/competitive%20programming/2020/06/20/cpp-cheat-sheet.html
 6. https://www.geeksforgeeks.org/c-tricks-competitive-programming-c-11/
-7. https://www.codementor.io/@satwikkansal/stl-cheatsheet-for-competitive-programming-arrlk3rqn
-
-
-Stackoverflow Links:   
-1. https://stackoverflow.com/questions/1041620/whats-the-most-efficient-way-to-erase-duplicates-and-sort-a-vector   
+7. https://www.codementor.io/@satwikkansal/stl-cheatsheet-for-competitive-programming-arrlk3rqn  
+8. https://stackoverflow.com/questions/1041620/whats-the-most-efficient-way-to-erase-duplicates-and-sort-a-vector
+</details>
+      
