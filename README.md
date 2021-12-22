@@ -1,6 +1,16 @@
 Quick Recipes for Problem Solving
 --------------------------------------
 
+#### CONTENTS
+### Snippets
+<details>
+  <summary>Data Structures</summary>
+
+  - [LinkedList](https://github.com/hariharanragothaman/cppmaster/blob/master/datastructures/linkedList/linkedlist.cpp)
+  
+</details>
+
+
 
 #### General thoughts
 
