@@ -45,6 +45,7 @@ Quick Recipes for Problem Solving
 - [Templates](https://github.com/hariharanragothaman/cppmaster/tree/master/101/templates)
 - [Vector Hacks](https://github.com/hariharanragothaman/cppmaster/tree/master/101/vectors)
 - [String Hacks](https://github.com/hariharanragothaman/cppmaster/tree/master/101/strings)
+- [Generic OOPS](https://github.com/hariharanragothaman/cppmaster/tree/master/101/oops)
 </details>
 
 
