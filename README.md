@@ -51,16 +51,16 @@ Quick Recipes for Problem Solving
 <details>
   <summary>Strings</summary>
 
-  - [Check for palindrome without reverse](https://github.com/hariharanragothaman/pymaster/blob/master/strings/check_palindrome.py)
-  - [Check if s is subsequence of t](https://github.com/hariharanragothaman/pymaster/blob/master/strings/is_subsequence.py)
-  - [Generate all substrings O(n^2)](https://github.com/hariharanragothaman/pymaster/blob/master/strings/generate_all_substrings.py)
+  - [Check Palindrome](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/check_palindrome.cpp)
+  - [Check if s is subsequence of t](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/check_subsequence.cpp)
+  - [Generate all substrings O(n^2)](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/generate_all_substrings.cpp)
   - [Hashing (Rolling Hash)](https://github.com/hariharanragothaman/pymaster/blob/master/strings/hashing.py)
-  - [KMP](https://github.com/hariharanragothaman/pymaster/blob/master/strings/kmp.py)
+  - [KMP](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/kmp.cpp)
   - [Longest Common Substring (LCS)](https://github.com/hariharanragothaman/pymaster/blob/master/strings/longest_common_substring.py)
   - [Longest Increasing Subsequence (LIS)](https://github.com/hariharanragothaman/pymaster/blob/master/strings/longest_increasing_subsequence.py)
-  - [Rabin Karp](https://github.com/hariharanragothaman/pymaster/blob/master/strings/rabin_karp.py)
+  - [Rabin Karp](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/rabin_karp.cpp)
   - [Rolling Hash - Find duplicates in a list of strings](https://github.com/hariharanragothaman/pymaster/blob/master/strings/hashing_find_duplicates_in_an_array_of_strings.py)
-  - [Rolling Hash - Count distinct substrings in a string](https://github.com/hariharanragothaman/pymaster/blob/master/strings/hashing_count_distinct_substrings.py)
+  - [Rolling Hash - Count distinct substrings in a string](https://github.com/hariharanragothaman/cppmaster/blob/master/strings/count_distinct_substrings.cpp)
 </details>
 
 <details>
