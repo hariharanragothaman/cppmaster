@@ -1,7 +1,3 @@
-//
-// Created by Hariharan Ragothaman on 11/30/21.
-//
-
 #include "bits/stdc++.h"
 
 vector<int> get_subsegment_count(string s)

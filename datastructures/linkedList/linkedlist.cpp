@@ -113,6 +113,27 @@ Node* middle_node(Node* head)
     return slow;
 }
 
+Node* reverseList(ListNode* head) 
+{
+    Node* prev = nullptr; 
+    Node* current = head; 
+    
+    while(current != nullptr)
+    {
+        // Preserving the remaining list
+        Node* tmp = current->next; 
+        
+        // Switching the pointers
+        current->next = prev; 
+        prev = current;
+        
+        // Moving to the next one.
+        current = tmp; 
+    }
+    
+    return prev; 
+}
+
 int main()
 {
     Node* head = new Node();
