@@ -117,6 +117,25 @@ ListNode* detectCycle(ListNode* head)
     return slow;
 }
 
+int DistanceToCycle(ListNode* head)
+{
+   ListNode* current = head; 
+   ListNode* result = detectCycle(current);
+   ListNode* tmp = head;
+   int res = 0;
+   if(result != NULL)
+   {
+      while(tmp != result)
+      {
+         res++;
+         tmp = tmp->next;
+      }
+      return res;
+   }
+   return -1;
+}
+
+
 ListNode *intersection(ListNode *headA, ListNode *headB)
 {
     ListNode *pA = headA;
@@ -196,6 +215,69 @@ ListNode* DeleteFirstElement(ListNode* head, int element)
     if(current != NULL)
     	previous->next = current->next;
     return head;
+}
+
+int CycleLength(ListNode* head)
+{
+        if(head == NULL)
+           return 0;
+        ListNode* slow=head,*fast=head;
+    while(slow && fast && fast->next)
+        {
+        slow=slow->next; //slow pointer moves slowly
+        fast=fast->next->next; //fast pointer moves fast
+        if(fast==slow)
+            {
+                 //there is loop - count loop length
+        ListNode* temp=slow;
+        temp=temp->next;
+        int count = 1;
+        while(temp!=slow)
+                {
+           count++;
+           temp=temp->next;
+        }
+        
+                return count; //return loop length
+        }
+    }
+    return 0;//if there is no loop
+}
+
+ListNode* removeCycle(ListNode* head)
+{
+      ListNode* point = NULL;
+      ListNode* fast = head;
+      ListNode* slow = head;
+      
+      while(fast != NULL && fast->next != NULL)
+      {
+            fast = fast->next->next;
+            slow =slow->next;
+            if(fast == slow)
+            {
+                point = fast;
+                break;
+            }
+      }        
+         
+      if(point != NULL)
+      {            
+          slow = head;
+          while(slow != fast)
+          {
+              fast = fast->next;
+              slow = slow->next;                
+           }
+             
+          while(fast->next != slow)
+          {
+              fast = fast->next;
+          }
+            fast->next = NULL;
+        }
+
+     return head;
 }
 
 
