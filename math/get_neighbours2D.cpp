@@ -1,4 +1,18 @@
-#include "../headers.h"
+#include "bits/stdc++.h"
+using namespace std; 
+
+const std::pair<int, int> moves[] = {{-1, 0}, {0, -1}, {0, 1}, {1, 0}};
+
+/*
+
+for(auto [dx, dy]: moves)
+{
+    // Here nr and nc are what comes into the queue - i & j
+    dx += nr;
+    dy += nc;
+}
+
+*/
 
 vector<vector<int>> getNeighbours(int r, int c, int R, int C)
 {

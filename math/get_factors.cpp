@@ -1,4 +1,5 @@
-#include "../headers.h"
+#include "bits/stdc++.h"
+using namespace std; 
 
 set<int> find_all_divisors(int n)
 {

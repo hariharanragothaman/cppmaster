@@ -1,7 +1,3 @@
-//
-// Created by Hariharan Ragothaman on 8/30/21.
-//
-
 #include "bits/stdc++.h"
 using namespace std;
 

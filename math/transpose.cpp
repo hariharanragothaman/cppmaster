@@ -1,4 +1,6 @@
-#include "../headers.h"
+#include "bits/stdc++.h"
+using namespace std; 
+
 
 vector<vector<int>> getTranspose(vector<vector<int>> A)
 {
