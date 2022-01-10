@@ -4,7 +4,8 @@
 * @Last Modified by:   Hariharan Ragothaman
 * @Last Modified time: 2022-01-08 13:56:44
 */
-#include "../headers.h"
+
+#include "bits/stdc++.h"
 using namespace std;
 
 int main()
