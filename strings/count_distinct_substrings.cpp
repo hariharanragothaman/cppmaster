@@ -1,4 +1,5 @@
-#include "../headers.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 int count_unique_substrings(string const& s) {
     int n = s.size();
@@ -28,14 +29,12 @@ int count_unique_substrings(string const& s) {
     return cnt;
 }
 
-int main(int argc, char const *argv[])
+int main()
 {
     /* code */
-    string s;
-    cin >> s;
-
+    string s = "Hello";
     int result = 0;
     result = count_unique_substrings(s);
-    cout << result;
+    cout << result << endl;
     return 0;
 }

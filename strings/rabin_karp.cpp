@@ -1,5 +1,7 @@
 #include "../headers.h"
 
+// occurances of s in t
+
 vector<int> rabin_karp(string const& s, string const& t)
 {
     const int p = 31; 

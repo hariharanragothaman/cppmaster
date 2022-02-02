@@ -184,3 +184,32 @@ std::vector<T> slices(std::vector<T> const &v, int m, int n)
 
 #define present(container, element) (container.find(element) != container.end())
 #define cpresent(container, element) (find(all(container), element) != container.end())
+
+
+
+/********************************************END OF CUSTOMIZATIONS*****************************************************/
+/**********************************************************************************************************************/
+
+#define ONLINE_JUDGE   /* IF not ONLINE_JUDGE Comment this line*/
+
+#ifndef ONLINE_JUDGE
+ifstream  i_data("../io/data.in");
+ofstream  o_data("../io/data.out");
+#define cin  i_data
+#define cout o_data
+#else
+#endif
+
+// void solve()
+// {
+
+// }
+
+// int main()
+// {
+//     ENABLEFASTIO();
+//     int T;
+//     cin>>T;
+//     while(T--) solve();
+//     return 0;
+// }
