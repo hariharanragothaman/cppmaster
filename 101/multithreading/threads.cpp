@@ -1,3 +1,10 @@
+/**
+ * File              : threads.cpp
+ * Author            : cppygod
+ * Date              : 13.02.2022
+ * Last Modified Date: 22.02.2022
+ * Last Modified By  : cppygod
+ */
 #include <bits/stdc++.h>
 #include <thread>
 using namespace std;
