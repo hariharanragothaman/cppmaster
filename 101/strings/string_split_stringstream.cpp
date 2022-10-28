@@ -2,19 +2,24 @@
 
 // Basically this the equivalent of a str.split('delim') in python.
 
-int countwords(string str)
+int countwords(string name)
 {
-    stringstream s(str);
+    // Getting the I/P string
+    // string name;
+    // getline(cin, name);
+
+    // Setting a stream, and adding the I/P to the stream
+    stringstream ss(name);
     string word;
 
-    int count = 0;
-    // Line below this #12 is the key part
-    while(s >> word)
+    debug(name);
+    int cnt = 0;
+
+    while(getline(ss, word, ' '))
     {
-        cout << "The word is:" << word << endl;
-        count++;
+       cnt++;
     }
-    return count;
+    cout << cnt << endl;
 }
 
 // Now this is the equivalent of a counter in python
