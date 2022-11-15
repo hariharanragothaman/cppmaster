@@ -1,10 +1,3 @@
-/**
- * File              : none_of.cpp
- * Author            : cppygod
- * Date              : 15.11.2022
- * Last Modified Date: 15.11.2022
- * Last Modified By  : cppygod
- */
 #include "../debug.h"
 
 // Check if none_of() the sastisfies the condition

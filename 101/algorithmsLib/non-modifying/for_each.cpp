@@ -1,16 +1,15 @@
-/**
- * File              : for_each.cpp
- * Author            : cppygod
- * Date              : 15.11.2022
- * Last Modified Date: 15.11.2022
- * Last Modified By  : cppygod
- */
-
 #include <iostream>
 #include <algorithm>
 #include <vector>
 
 using namespace std; 
+
+struct Sum
+{
+    void operator()(int n) {sum += n;}
+    int sum{0};
+};
+
 
 int main()
 {
@@ -24,9 +23,16 @@ int main()
     // This is very similar to list-comprehension in python
     for_each(A.begin(), A.end(), [](int &n) {n++;});
 
-    cout << "Printing the vector after list comprehension" << endl;
+    cout << "Printing the vector after update" << endl;
     for_each(A.begin(), A.end(), print);
     cout << endl;
 
+    Sum s = for_each(A.begin(), A.end(), Sum());
+
+    cout << "Printing after applying predicate" << endl;
+    for_each(A.begin(), A.end(), print);
+    cout << endl;
+
+    cout << s.sum << endl;
     return 0;
 }

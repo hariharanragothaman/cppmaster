@@ -1,10 +1,10 @@
-#include "../../headers.h"
+#include "../debug.h"
 
 int main()
 {
-    vector<int> temp = {1, 2 ,3 ,4 ,5};
+    vector<int> A = {1, 2 ,3 ,4 ,5};
     auto lambda = [] (int i) { return i > 4; };
-    int count = count_if(temp.begin(), temp.end(), lambda);
+    int count = count_if(A.begin(), A.end(), lambda);
     cout << "The count is: " << count << endl;
     return 0;
 }
