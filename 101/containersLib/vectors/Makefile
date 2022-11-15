@@ -33,3 +33,7 @@ build:
 .PHONY: run
 run: build
 	./${pname}
+
+.PHONY: clean
+clean:
+	rm -rf ${pname}

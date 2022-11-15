@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <map>
-#include <bitset>
 using namespace std;
 
 int main()
@@ -11,15 +10,12 @@ int main()
     M["World"] = 2;
 
     for(auto& c: M)
-    {
         cout << c.first << " " << c.second << endl;
-    }
 
-    vector < pair < string, int > > V(M.begin(), M.end());
+    vector< pair<string, int> > V(M.begin(), M.end());
+
     for(auto&c : V)
-    {
         cout << c.first << " " << c.second << endl;
-    }
 
     return 0;
 }
