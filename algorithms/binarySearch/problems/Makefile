@@ -28,11 +28,11 @@ default: build
 .PHONY: build
 build:
 	@ mkdir -p "output"
-	${CXX} ${CXXFLAGS}  ${PROBLEM_NAME}.cpp -o output/${PROBLEM_NAME}
+	${CXX} ${CXXFLAGS}  ${pname}.cpp -o output/${pname}
 
 .PHONY: run
 run: build
-	./output/${PROBLEM_NAME}
+	./output/${pname}
 
 .PHONY: clean
 clean:
