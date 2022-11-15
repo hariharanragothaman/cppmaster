@@ -20,7 +20,11 @@ int main()
     for_each(A.begin(), A.end(), print);
     cout << endl;
 
-    // This is very similar to list-comprehension in python
+    /*
+     *  This is similar to list-comprehension
+     *  Note - Here, in the lambda we are passing by reference, so it modifies it in-place
+     *  If we pass by value this will not happen
+     */
     for_each(A.begin(), A.end(), [](int &n) {n++;});
 
     cout << "Printing the vector after update" << endl;
