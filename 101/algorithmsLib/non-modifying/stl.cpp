@@ -1,10 +1,3 @@
-/*
-* @Author: Hariharan Ragothaman
-* @Date:   2022-04-30 20:58:03
-* @Last Modified by:   Hariharan Ragothaman
-* @Last Modified time: 2022-04-30 21:40:08
-*/
-
 #include "bits/stdc++.h"
 using namespace std;
 

@@ -1,4 +1,5 @@
 #include "../debug.h"
+#include <algorithm>
 
 int main()
 {
