@@ -1,4 +1,15 @@
-#include "../../headers.h"
+/**
+ * File              : all_of.cpp
+ * Author            : cppygod
+ * Date              : 15.11.2022
+ * Last Modified Date: 15.11.2022
+ * Last Modified By  : cppygod
+ */
+#include <iostream>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
 
 // Check if all_of() the sastisfies the condition
 /* any_of takes 3 arguments, 2 iterators and a predicate
@@ -6,8 +17,8 @@
 
 int main()
 {
-    vector<int> boxes = {5, 3, 7, 9, 4};
+    vector<int> A = {5, 3, 7, 9, 4};
     auto lambda = [](int i) { return i > 1;};
-    bool greaterThanOne = all_of(boxes.begin(), boxes.end(), lambda);
+    bool greaterThanOne = all_of(A.begin(), A.end(), lambda);
     cout << "The value of the flag is:" << greaterThanOne;
 }
