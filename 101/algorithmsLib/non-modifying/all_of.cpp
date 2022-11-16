@@ -1,10 +1,3 @@
-/**
- * File              : all_of.cpp
- * Author            : cppygod
- * Date              : 15.11.2022
- * Last Modified Date: 15.11.2022
- * Last Modified By  : cppygod
- */
 #include <iostream>
 #include <algorithm>
 #include <vector>

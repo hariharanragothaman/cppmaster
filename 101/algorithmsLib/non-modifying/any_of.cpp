@@ -1,10 +1,3 @@
-/**
- * File              : any_of.cpp
- * Author            : cppygod
- * Date              : 15.11.2022
- * Last Modified Date: 15.11.2022
- * Last Modified By  : cppygod
- */
 #include "../debug.h"
 #include <algorithm>
 // Check if any_of() the sastisfies the condition

@@ -3,6 +3,7 @@
 /*
  * Note: map and set are almost always stored as red-black trees.
  * map and set are sorted by default.
+ * maps key's cannot be updated.
 */
 
 

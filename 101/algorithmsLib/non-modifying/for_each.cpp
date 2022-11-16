@@ -1,3 +1,7 @@
+/*
+ *  Note: if yu pass-by reference for_each, is modifying
+ */
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -52,6 +56,10 @@ int main()
         To maintain these invariants, the containers std::map and std::set need to keep some control about the relative positions of their values inside of the collection.
         If you just go about and modify a value by using an iterator, like in the example above, the container won’t be notified. This will make its structure inconsistent and break the invariants.
     */
+
+    /*
+     *  This offers insights into why most C++ ppl in CF, simply stick to vectors
+     */
     map<int, int> H;
     for(int i=0; i<5; i++)
     {
@@ -65,9 +73,10 @@ int main()
     }
 
     cout << "Modifying the map using lambda" << endl;
-    for_each(H.begin(), H.end(), [](pair<int, int> c)
+    for_each(H.begin(), H.end(), [](pair<const int, int> &c)
     {
-        c.first++;
+        // here you cannot modify c.first  - since it's const
+        c.second += 1;
     });
 
     cout << "Printing the map after update" << endl;
