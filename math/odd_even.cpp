@@ -1,9 +1,19 @@
-#include <iostream>
+#include "bits/stdc++.h"
 using namespace std; 
+
 
 int main()
 {
-    int num = 3;
-    (num & 1) ? cout << "ODD" : cout << "EVEN" << endl;
+    int number = 3;
+
+    if(number & 1)
+    {
+        cout << "The number is odd" << endl;
+    }
+    else
+    {
+        cout << "The number is even" << endl;
+    }
+
     return 0;
 }
