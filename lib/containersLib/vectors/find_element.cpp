@@ -1,5 +1,7 @@
-#include "debug.h"
-
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
 /*
  *  If the value doesn't exist --> iterator points to temp.end()
  */
